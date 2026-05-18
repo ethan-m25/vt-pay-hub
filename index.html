@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>WA Pay Hub — Pay Intelligence & Salary Insights 2026</title>
+<meta name="description" content="What WA employers are actually disclosing: pay range patterns, employer benchmarks, and skill salary signals under the WA WA RCW 49.58.110.">
+<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+<link rel="shortcut icon" href="/favicon.ico?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ===== DESIGN TOKENS ===== */
+:root {
+  --radius:12px; --radius-sm:8px; --radius-xs:6px; --radius-lg:16px;
+  --transition:.18s ease; --shadow:0 1px 4px rgba(0,0,0,.06); --shadow-lg:0 4px 16px rgba(0,0,0,.10);
+  --font-display:'Sora',system-ui,sans-serif; --font-sans:'Sora',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono','SF Mono',monospace;
+  --fs-xs:.625rem; --fs-sm:.75rem; --fs-md:.8125rem; --fs-base:.875rem;
+  --fs-lg:1rem; --fs-xl:1.125rem; --fs-2xl:1.25rem; --fs-3xl:1.5rem;
+  --fs-4xl:1.75rem; --fs-5xl:2rem; --fs-6xl:2.5rem; --fs-7xl:3.25rem;
+}
+[data-theme="light"] {
+  --bg:#EEF1F4; --bg2:#E4E8ED; --surface:#F8FAFC; --surface2:#EEF2F6;
+  --border:#D5DCE5; --border2:#B8C4D1; --text:#14202B; --text2:#445364; --text3:#748294;
+  --accent:#006994; --accent-dim:rgba(0,105,148,.06); --accent-border:rgba(0,105,148,.18);
+  --green:#1D6C49; --green-dim:rgba(29,108,73,.08); --green-mid:rgba(29,108,73,.18);
+  --amber:#9A6A14; --amber-dim:rgba(154,106,20,.10); --amber-mid:rgba(154,106,20,.20);
+  --red:#006994; --red-dim:rgba(0,105,148,.08); --red-mid:rgba(0,105,148,.16);
+  --nav-bg:#F8FAFC; --masthead-bg:#18222D; --masthead-text:#F5F7FA;
+  --chart-grid:rgba(213,220,229,.9); --rule:#D5DCE5; --scatter-ok:#2B6CB0;
+}
+[data-theme="dark"] {
+  --bg:#0D1117; --bg2:#161B22; --surface:#1C2128; --surface2:#22272E;
+  --border:#30363D; --border2:#484F58; --text:#E6EDF3; --text2:#8D96A0; --text3:#545D68;
+  --accent:#E8445A; --accent-dim:rgba(232,68,90,.10); --accent-border:rgba(232,68,90,.28);
+  --green:#3FB950; --green-dim:rgba(63,185,80,.10); --green-mid:rgba(63,185,80,.22);
+  --amber:#D29922; --amber-dim:rgba(210,153,34,.10); --amber-mid:rgba(210,153,34,.22);
+  --red:#E8445A; --red-dim:rgba(232,68,90,.10); --red-mid:rgba(232,68,90,.22);
+  --nav-bg:#0D1117; --masthead-bg:#E6EDF3; --masthead-text:#0D1117;
+  --chart-grid:rgba(48,54,61,.9); --rule:#30363D; --scatter-ok:#5B9BF8;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-height:100vh;line-height:1.55;transition:background var(--transition),color var(--transition);}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
+
+/* ===== NAV ===== */
+nav{position:sticky;top:0;z-index:200;background:var(--nav-bg);border-bottom:1px solid var(--border2);padding:0 28px;height:56px;display:flex;align-items:center;gap:12px;}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;}
+.logo-icon{width:34px;height:34px;background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform var(--transition);}
+.logo:hover .logo-icon{transform:scale(1.06);}
+[data-theme="dark"] .logo-icon{background:#1a2f42;box-shadow:0 0 0 1px rgba(255,255,255,.07);}
+.logo-name{font-family:var(--font-display);font-size:var(--fs-lg);font-weight:800;color:var(--text);letter-spacing:-.02em;line-height:1;}
+.logo-badge{font-family:var(--font-mono);font-size:var(--fs-xs);background:var(--accent);color:var(--bg);padding:2px 6px;font-weight:600;letter-spacing:.05em;}
+@media(max-width:540px){.logo-badge{display:none;}.logo-name{font-size:var(--fs-base);}}
+@media(max-width:600px){nav{padding:0 12px;gap:8px;}}
+.nav-spacer{flex:1;}
+.nav-pill{font-size:var(--fs-sm);font-weight:600;color:var(--text2);background:var(--surface2);border:1px solid var(--border);border-radius:20px;padding:5px 14px;text-decoration:none;transition:all var(--transition);white-space:nowrap;}
+.nav-pill:hover{color:var(--text);border-color:var(--border2);}
+.nav-pill.active{background:var(--accent);color:#fff;border-color:transparent;}
+.nav-pill.jobs-pill{background:var(--surface);border-color:var(--border2);color:var(--text);}
+.nav-pill.jobs-pill:hover{background:var(--text);color:var(--bg);border-color:transparent;}
+.btn-icon-nav{width:34px;height:34px;border:none;background:transparent;border-radius:8px;cursor:pointer;color:var(--text2);display:flex;align-items:center;justify-content:center;font-size:16px;transition:background var(--transition),color var(--transition);}
+.btn-icon-nav:hover{background:var(--surface2);color:var(--text);}
+
+/* ===== MASTHEAD ===== */
+.masthead{background:var(--masthead-bg);color:var(--masthead-text);padding:56px 0 48px;position:relative;overflow:hidden;}
+.masthead::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent calc(100%/12 - 1px),rgba(255,255,255,.03) calc(100%/12 - 1px),rgba(255,255,255,.03) calc(100%/12));pointer-events:none;}
+[data-theme="dark"] .masthead::before{background:repeating-linear-gradient(90deg,transparent,transparent calc(100%/12 - 1px),rgba(255,255,255,.02) calc(100%/12 - 1px),rgba(255,255,255,.02) calc(100%/12));}
+.masthead-inner{max-width:1200px;margin:0 auto;padding:0 28px;position:relative;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:start;}
+@media(max-width:760px){.masthead-inner{grid-template-columns:1fr;gap:28px;}}
+@media(max-width:600px){.masthead-inner{padding:0 16px;}}
+.masthead-kicker{font-size:var(--fs-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.5;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.masthead-kicker::before{content:'';display:block;width:24px;height:1px;background:currentColor;opacity:.6;}
+.masthead h1{font-family:var(--font-display);font-size:clamp(1.9rem,4.5vw,3.25rem);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-bottom:14px;max-width:580px;}
+.masthead h1 em{font-style:normal;color:var(--accent);}
+[data-theme="dark"] .masthead h1 em{color:#E8445A;}
+.masthead-sub{font-size:var(--fs-base);opacity:.65;max-width:520px;line-height:1.65;margin-bottom:24px;}
+.masthead-meta{display:flex;gap:10px;flex-wrap:wrap;}
+.meta-chip{font-family:var(--font-mono);font-size:var(--fs-xs);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:4px 10px;white-space:nowrap;}
+
+/* Browse Jobs CTA card (right side of masthead) */
+.masthead-cta{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius-lg);padding:28px 28px 24px;min-width:260px;max-width:320px;display:flex;flex-direction:column;gap:12px;}
+@media(max-width:760px){.masthead-cta{max-width:100%;flex-direction:row;align-items:center;gap:20px;padding:20px 24px;}}
+@media(max-width:500px){.masthead-cta{flex-direction:column;align-items:flex-start;}}
+.masthead-cta-label{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.1em;opacity:.45;margin-bottom:2px;}
+.masthead-cta-headline{font-size:var(--fs-lg);font-weight:700;line-height:1.35;opacity:.9;}
+.masthead-cta-sub{font-size:var(--fs-sm);opacity:.5;line-height:1.5;}
+.masthead-cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-size:var(--fs-sm);font-weight:700;padding:10px 18px;border-radius:20px;text-decoration:none;transition:all .15s;white-space:nowrap;align-self:flex-start;margin-top:4px;}
+.masthead-cta-btn:hover{background:#a50d24;transform:translateY(-1px);}
+.masthead-cta-btn svg{flex-shrink:0;}
+@media(max-width:760px){.masthead-cta-label,.masthead-cta-sub{display:none;}.masthead-cta{flex:1;}}
+
+/* ===== TAB BAR ===== */
+.tab-bar{position:sticky;top:56px;z-index:100;background:var(--nav-bg);border-bottom:1px solid var(--border);height:44px;}
+.tab-bar-inner{max-width:1200px;margin:0 auto;padding:0 28px;height:100%;display:flex;align-items:center;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+.tab-bar-inner::-webkit-scrollbar{display:none;}
+@media(max-width:600px){.tab-bar-inner{padding:0 12px;}}
+.tab-btn{font-size:var(--fs-sm);font-weight:600;color:var(--text3);background:transparent;border:none;border-radius:20px;padding:5px 14px;cursor:pointer;white-space:nowrap;transition:all var(--transition);font-family:var(--font-sans);}
+.tab-btn:hover{color:var(--text);background:var(--surface2);}
+.tab-btn.active{background:var(--accent);color:#fff;}
+
+/* ===== PAGE ===== */
+.page{max-width:1200px;margin:0 auto;padding:40px 28px 80px;}
+@media(max-width:600px){.page{padding:32px 16px 60px;}}
+.tab-section{display:none;}
+.tab-section.visible{display:block;}
+
+/* ===== SECTION ===== */
+.insight-section{margin-top:52px;padding-top:48px;border-top:1px solid var(--rule);}
+.insight-section:first-child{margin-top:0;border-top:none;padding-top:0;}
+.section-header{margin-bottom:28px;}
+.section-kicker{font-size:var(--fs-xs);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;display:flex;align-items:center;gap:8px;}
+.section-kicker::before{content:'';width:16px;height:2px;background:var(--accent);}
+.section-title{font-size:var(--fs-4xl);font-weight:800;letter-spacing:-.025em;line-height:1.15;margin-bottom:8px;}
+.section-desc{font-size:var(--fs-base);color:var(--text2);max-width:620px;line-height:1.65;}
+
+/* ===== COMPLIANCE VIZ ===== */
+.compliance-viz{margin-bottom:8px;}
+.cbar-track{height:22px;border-radius:11px;overflow:hidden;display:flex;background:var(--bg2);margin-bottom:20px;gap:2px;}
+.cbar-seg{height:100%;transition:width .7s cubic-bezier(.4,0,.2,1);flex-shrink:0;}
+.cbar-seg:first-child{border-radius:11px 0 0 11px;}
+.cbar-seg:last-child{border-radius:0 11px 11px 0;}
+.cbar-seg.cb-compliant{background:var(--green);}
+.cbar-seg.cb-nc{background:var(--amber);}
+.cbar-seg.cb-exempt{background:var(--text3);opacity:.45;}
+.cbar-seg.cb-federal{background:var(--text3);opacity:.22;}
+.cbar-legend{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+@media(max-width:760px){.cbar-legend{grid-template-columns:1fr 1fr;}}
+@media(max-width:440px){.cbar-legend{grid-template-columns:1fr;}}
+.cbl-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;position:relative;overflow:hidden;}
+.cbl-item::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;}
+.cbl-item.cbl-compliant::before{background:var(--green);}
+.cbl-item.cbl-nc::before{background:var(--amber);}
+.cbl-item.cbl-exempt::before{background:var(--text3);opacity:.45;}
+.cbl-item.cbl-federal::before{background:var(--text3);opacity:.25;}
+.cbl-item.cbl-muted{opacity:.72;}
+.cbl-label{font-size:var(--fs-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text3);margin-bottom:8px;}
+.cbl-num{font-family:var(--font-mono);font-size:var(--fs-5xl);font-weight:600;letter-spacing:-.02em;line-height:1;margin-bottom:8px;}
+.cbl-item.cbl-compliant .cbl-num{color:var(--green);}
+.cbl-item.cbl-nc .cbl-num{color:var(--amber);}
+.cbl-item.cbl-exempt .cbl-num,.cbl-item.cbl-federal .cbl-num{color:var(--text2);}
+.cbl-desc{font-size:var(--fs-xs);color:var(--text3);line-height:1.55;}
+
+/* ===== LAW EXPLAINER ===== */
+.law-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:start;margin-top:24px;}
+@media(max-width:860px){.law-grid{grid-template-columns:1fr;}}
+.law-panel{background:
+  linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,255,255,.46)),
+  var(--surface);
+  border:1px solid rgba(20,32,43,.10);
+  border-radius:20px;
+  padding:26px 26px 24px;
+  box-shadow:0 10px 30px rgba(20,32,43,.05);
+  position:relative;
+  overflow:hidden;
+}
+.law-panel:nth-child(2){background:
+  linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.56)),
+  var(--surface);}
+[data-theme="dark"] .law-panel{
+  background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015)), var(--surface);
+  border-color:rgba(255,255,255,.08);
+  box-shadow:0 10px 30px rgba(0,0,0,.22);
+}
+.law-panel::before{
+  content:'';
+  position:absolute;
+  top:0; left:0; right:0;
+  height:3px;
+  background:linear-gradient(90deg,var(--accent),transparent 55%);
+}
+.law-panel-title{font-size:1.24rem;font-weight:800;letter-spacing:-.03em;margin-bottom:10px;}
+.law-panel-sub{font-size:var(--fs-sm);color:var(--text2);line-height:1.72;margin-bottom:18px;max-width:60ch;}
+.law-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 16px;}
+@media(max-width:760px){.law-flow{grid-template-columns:1fr 1fr;}}
+@media(max-width:520px){.law-flow{grid-template-columns:1fr;}}
+.law-flow-card{
+  background:transparent;
+  border:1px solid rgba(20,32,43,.08);
+  border-radius:14px;
+  padding:15px 15px 16px;
+  position:relative;
+  min-height:116px;
+  box-shadow:none;
+}
+[data-theme="dark"] .law-flow-card{border-color:rgba(255,255,255,.08);}
+.law-flow-card::after{
+  content:'→';
+  position:absolute;
+  right:-10px;
+  top:50%;
+  transform:translateY(-50%);
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--text3);
+  background:var(--surface);
+  border:1px solid rgba(20,32,43,.08);
+  width:18px;height:18px;border-radius:999px;
+  display:flex;align-items:center;justify-content:center;
+}
+[data-theme="dark"] .law-flow-card::after{background:var(--surface2);border-color:rgba(255,255,255,.08);}
+.law-flow-card:last-child::after{display:none;}
+@media(max-width:760px){.law-flow-card::after{display:none;}}
+.law-flow-eyebrow{
+  display:block;
+  font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text3);
+  margin-bottom:12px;
+}
+.law-flow-head{font-size:var(--fs-base);font-weight:800;letter-spacing:-.02em;line-height:1.28;margin-bottom:7px;}
+.law-flow-body{font-size:var(--fs-sm);color:var(--text2);line-height:1.62;}
+.law-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+@media(max-width:640px){.law-steps{grid-template-columns:1fr;}}
+.law-step{
+  background:rgba(255,255,255,.26);
+  border:1px solid rgba(20,32,43,.08);
+  border-radius:14px;
+  padding:16px 16px 17px;
+  box-shadow:none;
+}
+[data-theme="dark"] .law-step{background:rgba(255,255,255,.02);border-color:rgba(255,255,255,.08);}
+.law-step-num{font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;}
+.law-step-head{font-size:var(--fs-base);font-weight:700;line-height:1.35;margin-bottom:6px;}
+.law-step-body{font-size:var(--fs-sm);color:var(--text2);line-height:1.68;}
+.law-badge-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+.law-badge{font-family:var(--font-mono);font-size:10px;font-weight:700;padding:7px 12px;border-radius:999px;border:1px solid rgba(20,32,43,.10);box-shadow:none;letter-spacing:.06em;text-transform:uppercase;}
+.law-badge.mandatory{background:rgba(0,105,148,.06);border-color:rgba(0,105,148,.12);color:var(--accent);}
+.law-badge.voluntary{background:transparent;color:var(--text3);}
+[data-theme="dark"] .law-badge{border-color:rgba(255,255,255,.10);}
+.law-rulelist{display:grid;gap:12px;}
+.law-rule{
+  display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;
+  background:transparent;
+  border:1px solid rgba(20,32,43,.08);
+  border-radius:14px;
+  padding:14px 15px;
+  box-shadow:none;
+}
+[data-theme="dark"] .law-rule{border-color:rgba(255,255,255,.08);}
+.law-rule-icon{
+  width:34px;height:34px;border-radius:999px;
+  background:rgba(0,105,148,.05);
+  border:1px solid rgba(0,105,148,.12);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0;
+  box-shadow:none;
+}
+.law-rule strong{display:block;font-size:var(--fs-sm);letter-spacing:-.01em;margin-bottom:4px;}
+.law-rule span{display:block;font-size:var(--fs-sm);color:var(--text2);line-height:1.62;}
+.law-caption{font-size:var(--fs-xs);color:var(--text3);line-height:1.7;margin-top:15px;padding-left:2px;}
+.law-note{
+  margin-top:14px;
+  padding:15px 16px 16px;
+  border-radius:14px;
+  background:rgba(0,105,148,.03);
+  border:1px dashed rgba(0,105,148,.18);
+  font-size:var(--fs-sm);
+  color:var(--text2);
+  line-height:1.7;
+}
+.law-note strong{color:var(--text);}
+
+/* ===== LAYOUT ===== */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+@media(max-width:800px){.two-col{grid-template-columns:1fr;}}
+
+/* ===== CHART CARD ===== */
+.chart-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow);}
+.chart-card-title{font-size:var(--fs-md);font-weight:700;letter-spacing:.01em;margin-bottom:4px;}
+.chart-card-sub{font-size:var(--fs-sm);color:var(--text3);margin-bottom:16px;line-height:1.5;}
+
+/* ===== HISTOGRAMS ===== */
+.histogram-svg{width:100%;display:block;}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px;}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:var(--fs-xs);color:var(--text2);font-weight:500;}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+
+/* ===== CALLOUTS ===== */
+.callout{background:var(--accent-dim);border:1px solid var(--accent-border);border-radius:var(--radius-sm);padding:14px 18px;margin-top:16px;}
+.callout-label{font-size:var(--fs-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:4px;}
+.callout p{font-size:var(--fs-sm);color:var(--text2);line-height:1.6;}
+.callout p strong{color:var(--text);font-weight:600;}
+.callout-neutral{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px 18px;margin-top:16px;}
+.callout-neutral p{font-size:var(--fs-sm);color:var(--text2);line-height:1.6;}
+.callout-neutral p strong{color:var(--text);font-weight:600;}
+.finding-box{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--amber);border-radius:0 var(--radius) var(--radius) 0;padding:18px 22px;margin-top:16px;}
+.finding-box-label{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--amber);margin-bottom:6px;}
+.finding-box p{font-size:var(--fs-sm);color:var(--text2);line-height:1.7;}
+.finding-box p strong{color:var(--text);}
+
+/* ===== LOLLIPOP ===== */
+.lollipop-wrap{overflow-x:auto;}
+svg.lollipop{display:block;width:100%;}
+
+/* ===== SCATTER TOOLTIP ===== */
+#ctt{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;box-shadow:var(--shadow-lg);min-width:200px;max-width:260px;}
+.ctt-name{font-weight:700;font-size:var(--fs-sm);margin-bottom:4px;color:var(--text);}
+.ctt-cls{font-size:var(--fs-xs);font-weight:600;margin-bottom:10px;}
+.ctt-grid{display:grid;grid-template-columns:1fr auto;gap:3px 12px;}
+.ctt-lbl{font-size:var(--fs-xs);color:var(--text3);}
+.ctt-val{font-size:var(--fs-xs);font-weight:600;font-family:var(--font-mono);text-align:right;color:var(--text);}
+
+/* ===== PLATFORM TILES (sector bars) ===== */
+.platform-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+@media(max-width:500px){.platform-grid{grid-template-columns:1fr;}}
+.platform-tile{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px;}
+.platform-name{font-size:var(--fs-sm);font-weight:700;margin-bottom:4px;}
+.platform-num{font-family:var(--font-mono);font-size:var(--fs-4xl);font-weight:600;margin-bottom:6px;line-height:1;}
+.platform-bar-track{height:4px;background:var(--border);border-radius:2px;margin-bottom:8px;overflow:hidden;}
+.platform-bar-fill{height:100%;border-radius:2px;}
+.platform-meta{font-size:var(--fs-xs);color:var(--text3);}
+
+/* ===== RANGE TYPE CHIPS ===== */
+.range-chips{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;}
+.range-chip{flex:1;min-width:160px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;}
+.range-chip-label{font-size:var(--fs-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text3);margin-bottom:8px;}
+.range-chip-num{font-family:var(--font-mono);font-size:var(--fs-5xl);font-weight:600;line-height:1;margin-bottom:6px;}
+.range-chip-detail{font-size:var(--fs-xs);color:var(--text2);line-height:1.5;}
+
+/* ===== SKILL CHART SECTION ===== */
+.cat-tabs-wrap{margin-bottom:0;}
+.cat-tabs-label{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text3);margin-bottom:10px;}
+.cat-tabs{display:flex;gap:6px;flex-wrap:wrap;}
+.cat-tab{font-size:var(--fs-sm);font-weight:600;padding:5px 14px;border-radius:20px;border:1.5px solid var(--border);background:var(--surface);color:var(--text2);cursor:pointer;transition:all var(--transition);white-space:nowrap;font-family:var(--font-sans);}
+.cat-tab:hover{border-color:var(--border2);color:var(--text);}
+.cat-tab.active{background:var(--accent);border-color:transparent;color:#fff;}
+.skill-section{margin-top:28px;}
+.skill-section-header{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:20px;flex-wrap:wrap;}
+.skill-section-title{font-size:var(--fs-2xl);font-weight:800;letter-spacing:-.02em;color:var(--text);}
+.skill-section-sub{font-size:var(--fs-base);color:var(--text2);margin-top:4px;}
+.stat-chips{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start;}
+.stat-chip{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;text-align:center;}
+.stat-chip-num{font-family:var(--font-mono);font-size:var(--fs-xl);font-weight:600;color:var(--text);}
+.stat-chip-label{font-size:var(--fs-xs);color:var(--text3);text-transform:uppercase;letter-spacing:.08em;margin-top:2px;}
+
+/* ===== SKILL BARS ===== */
+.skill-bars{display:flex;flex-direction:column;gap:6px;}
+.skill-row{display:grid;grid-template-columns:180px 1fr 80px;align-items:center;gap:12px;min-height:34px;}
+@media(max-width:640px){.skill-row{grid-template-columns:140px 1fr 64px;gap:8px;}}
+.skill-name{font-size:var(--fs-sm);font-weight:500;color:var(--text2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.skill-bar-wrap{position:relative;height:28px;display:flex;align-items:center;}
+.bar-zero{position:absolute;top:0;bottom:0;width:1.5px;background:var(--border2);}
+.bar-fill{position:absolute;top:4px;bottom:4px;border-radius:3px;transition:width .4s cubic-bezier(.4,0,.2,1);}
+.bar-fill.premium{background:var(--green);opacity:.85;}
+.bar-fill.discount{background:var(--accent);opacity:.80;}
+.skill-dev{font-family:var(--font-mono);font-size:var(--fs-sm);font-weight:600;white-space:nowrap;}
+.skill-dev.premium{color:var(--green);}
+.skill-dev.discount{color:var(--accent);}
+.skill-n{font-size:var(--fs-xs);color:var(--text3);}
+
+/* ===== SKILL SPLIT CARDS ===== */
+.split-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px;}
+@media(max-width:680px){.split-grid{grid-template-columns:1fr;}}
+.split-card{border-radius:var(--radius);padding:20px;border:1px solid;}
+.split-card.premium-card{background:var(--green-dim);border-color:var(--green-mid);}
+.split-card.discount-card{background:var(--accent-dim);border-color:var(--accent-border);}
+.split-card-header{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+.split-badge{font-size:var(--fs-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:4px;}
+.split-badge.premium{background:var(--green);color:#fff;}
+.split-badge.discount{background:var(--accent);color:#fff;}
+.split-card-title{font-size:var(--fs-base);font-weight:700;color:var(--text);}
+.skill-pill-list{display:flex;flex-direction:column;gap:8px;}
+.skill-pill{display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.skill-pill-name{font-size:var(--fs-sm);font-weight:600;color:var(--text);}
+.skill-pill-meta{font-family:var(--font-mono);font-size:var(--fs-xs);color:var(--text3);white-space:nowrap;}
+.skill-pill-dev{font-family:var(--font-mono);font-size:var(--fs-sm);font-weight:700;}
+.skill-pill-dev.premium{color:var(--green);}
+.skill-pill-dev.discount{color:var(--accent);}
+.method-callout{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;margin-top:20px;font-size:var(--fs-sm);color:var(--text2);line-height:1.7;}
+.method-callout strong{color:var(--text);}
+
+/* ===== KEY FINDINGS (skills) ===== */
+.findings-section{margin-top:44px;padding-top:36px;border-top:2px solid var(--border);}
+.findings-header{margin-bottom:24px;}
+.findings-kicker{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--text3);margin-bottom:8px;display:flex;align-items:center;gap:8px;}
+.findings-kicker::before{content:'';width:18px;height:2px;background:var(--accent);}
+.findings-title{font-size:var(--fs-3xl);font-weight:800;letter-spacing:-.025em;color:var(--text);line-height:1.15;}
+.findings-sub{font-size:var(--fs-base);color:var(--text2);margin-top:8px;max-width:640px;line-height:1.65;}
+.insight-callout{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px 28px;margin-bottom:20px;box-shadow:var(--shadow);}
+.ic-tag{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:10px;}
+.ic-tag.pattern{background:var(--amber-dim);color:var(--amber);border:1px solid var(--amber-mid);}
+.ic-tag.finding{background:var(--accent-dim);color:var(--accent);border:1px solid var(--accent-border);}
+.ic-tag.premium-tag{background:var(--green-dim);color:var(--green);border:1px solid var(--green-mid);}
+.ic-headline{font-size:var(--fs-xl);font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.3;}
+.ic-body{font-size:var(--fs-sm);color:var(--text2);line-height:1.7;}
+.ic-body strong{color:var(--text);}
+.cross-cat-chart{margin-top:14px;display:flex;flex-direction:column;gap:4px;}
+.cc-row{display:grid;grid-template-columns:160px 1fr 64px;align-items:center;gap:10px;padding:4px 0;}
+@media(max-width:560px){.cc-row{grid-template-columns:120px 1fr 56px;gap:6px;}}
+.cc-skill{font-size:var(--fs-sm);font-weight:600;color:var(--text);}
+.cc-cat-tag{font-size:var(--fs-xs);color:var(--text3);margin-top:1px;}
+.cc-bar-wrap{position:relative;height:24px;display:flex;align-items:center;}
+.cc-bar-zero{position:absolute;top:0;bottom:0;width:1.5px;background:var(--border2);left:50%;}
+.cc-bar{position:absolute;top:4px;bottom:4px;border-radius:3px;}
+.cc-dev{font-family:var(--font-mono);font-size:var(--fs-sm);font-weight:700;text-align:right;}
+.findings-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+@media(max-width:700px){.findings-grid{grid-template-columns:1fr;}}
+.caveats{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;margin-top:20px;font-size:var(--fs-sm);color:var(--text2);line-height:1.7;}
+.caveats strong{color:var(--text);}
+.caveats ul{margin:8px 0 0 16px;display:flex;flex-direction:column;gap:4px;}
+details summary{cursor:pointer;font-weight:600;color:var(--text2);font-size:var(--fs-sm);list-style:none;display:flex;align-items:center;gap:6px;}
+details summary::-webkit-details-marker{display:none;}
+details summary::before{content:'▶';font-size:.7em;transition:transform .2s;}
+details[open] summary::before{transform:rotate(90deg);}
+details .caveats{margin-top:12px;}
+
+/* ===== FOOTER ===== */
+footer{border-top:1px solid var(--rule);padding:32px 28px;max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:8px;}
+.footer-note{font-size:var(--fs-sm);color:var(--text3);line-height:1.6;}
+.footer-note a{color:var(--text2);text-decoration:none;border-bottom:1px solid var(--border2);}
+.footer-note a:hover{color:var(--text);}
+
+/* ===== LOADING ===== */
+#loadingOverlay{position:fixed;inset:0;background:var(--bg);z-index:9999;display:flex;align-items:center;justify-content:center;font-size:var(--fs-sm);color:var(--text3);font-family:var(--font-mono);letter-spacing:.04em;transition:opacity .3s;}
+#loadingOverlay.hidden{opacity:0;}
+
+.network-back{font-size:var(--fs-xs);color:var(--text3);font-family:var(--font-mono);}
+.network-back a{color:var(--text2);text-decoration:none;border-bottom:1px dotted var(--border2);transition:color .2s;}
+.network-back a:hover{color:var(--text);}
+</style>
+</head>
+<body>
+<div id="loadingOverlay">Loading salary data…</div>
+
+<!-- ===== NAV ===== -->
+<nav>
+  <a class="logo" href="/">
+    <div class="logo-icon">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="6" height="6" fill="white" opacity=".9"/><rect x="10" y="2" width="6" height="6" fill="white" opacity=".55"/><rect x="2" y="10" width="6" height="6" fill="white" opacity=".55"/><rect x="10" y="10" width="6" height="6" fill="white" opacity=".9"/></svg>
+    </div>
+    <span class="logo-name">WA<strong>Pay</strong></span>
+    <span class="logo-badge">HUB</span>
+  </a>
+  <span class="nav-spacer"></span>
+  <a class="nav-pill active" href="/">Insights</a>
+  <a class="nav-pill jobs-pill" href="/jobs.html">Browse Jobs</a>
+  <button class="btn-icon-nav" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">◐</button>
+</nav>
+
+<!-- ===== MASTHEAD ===== -->
+<div class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <div class="masthead-kicker">Pay Intelligence · WA RCW 49.58.110</div>
+      <h1>What WA employers are actually <em>disclosing.</em></h1>
+      <p class="masthead-sub">Analysis of <span id="mastheadCount">3,400+</span> salary disclosures from WA job postings under the Washington Equal Pay and Opportunities Act, effective January 1, 2023.</p>
+      <div class="masthead-meta">
+        <span class="meta-chip"><strong id="metaTotal">—</strong> job postings</span>
+        <span class="meta-chip"><strong id="metaCompanies">—</strong> employers</span>
+        <span class="meta-chip">Updated daily</span>
+        <span class="meta-chip">Washington State</span>
+      </div>
+    </div>
+    <div class="masthead-cta">
+      <div class="masthead-cta-label">For job seekers</div>
+      <div class="masthead-cta-headline">Find jobs with real disclosed pay</div>
+      <div class="masthead-cta-sub">Search <span id="ctaJobCount">130+</span> WA postings, filter by salary, category, and work mode.</div>
+      <a class="masthead-cta-btn" href="/jobs.html">
+        Browse Jobs
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TAB BAR ===== -->
+<div class="tab-bar" role="tablist">
+  <div class="tab-bar-inner">
+    <button class="tab-btn active" data-tab="overview" onclick="showTab('overview')" role="tab">Overview</button>
+    <button class="tab-btn" data-tab="employers" onclick="showTab('employers')" role="tab">Employers</button>
+    <button class="tab-btn" data-tab="bands" onclick="showTab('bands')" role="tab">Salary Bands</button>
+    <button class="tab-btn" data-tab="skills" onclick="showTab('skills')" role="tab">Skill Signal</button>
+  </div>
+</div>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="page">
+
+  <!-- ═══ TAB 1: OVERVIEW ═══ -->
+  <div id="tab-overview" class="tab-section visible" role="tabpanel">
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Pay Range Transparency</div>
+        <div class="section-title">How precisely are WA employers disclosing pay?</div>
+        <div class="section-desc">Washington State's Pay Transparency Law requires salary disclosure on every public job posting, with <strong>no cap on range width</strong>. The width of the range itself tells you how confidently an employer has defined the role's compensation.</div>
+      </div>
+      <div class="compliance-viz">
+        <div class="cbar-track" aria-hidden="true">
+          <div class="cbar-seg cb-compliant" id="barCompliant"    style="width:0%"></div>
+          <div class="cbar-seg cb-nc"        id="barNonCompliant" style="width:0%"></div>
+          <div class="cbar-seg cb-federal"   id="barFederal"      style="width:0%"></div>
+          <div class="cbar-seg cb-exempt"    id="barExempt"       style="width:0%"></div>
+        </div>
+        <div class="cbar-legend" style="grid-template-columns:repeat(3,1fr)">
+          <div class="cbl-item cbl-compliant">
+            <div class="cbl-label">Precise range</div>
+            <div class="cbl-num" id="pctCompliant">—</div>
+            <div class="cbl-desc">Range width ≤ $50k — employer has a well-defined compensation band for this role.</div>
+          </div>
+          <div class="cbl-item cbl-nc">
+            <div class="cbl-label">Broad range</div>
+            <div class="cbl-num" id="pctNonCompliant">—</div>
+            <div class="cbl-desc">Range width &gt; $50k — may reflect multiple seniority levels or unsettled pay planning.</div>
+          </div>
+          <div class="cbl-item cbl-federal cbl-muted">
+            <div class="cbl-label">Federal employers</div>
+            <div class="cbl-num" id="pctFederal">—</div>
+            <div class="cbl-desc">Banks &amp; telecoms — governed by federal employment law (FLSA), not Washington State's Pay Transparency Law. Disclosures are voluntary.</div>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:var(--fs-xs);color:var(--text3);margin-top:16px;line-height:1.6;max-width:720px">
+        <strong>Note:</strong> All three groups add to 100% of current postings. "Precise" and "Broad" reflect how wide the disclosed salary range is — not a legal compliance judgement, since WA sets no range-width cap. Federal employers (banks, telecoms) disclose voluntarily and are shown separately.
+      </p>
+
+      <div class="law-grid">
+        <div class="law-panel">
+          <div class="law-panel-title">What Washington's Pay Transparency Law requires</div>
+          <div class="law-panel-sub">Washington's Equal Pay and Opportunities Act (RCW 49.58.110) took full effect January 1, 2023. It requires salary ranges AND a general benefits description — the most comprehensive disclosure law in the country.</div>
+          <div class="law-flow">
+            <div class="law-flow-card">
+              <div class="law-flow-eyebrow">Who</div>
+              <div class="law-flow-head">Employers with 15+ employees</div>
+              <div class="law-flow-body">Employers with 15 or more employees must disclose salary range, benefits, and other compensation in job postings — the most complete disclosure requirement of any U.S. state.</div>
+            </div>
+            <div class="law-flow-card">
+              <div class="law-flow-eyebrow">Where</div>
+              <div class="law-flow-head">Public external job ad</div>
+              <div class="law-flow-body">The rule is about public postings ordinary applicants can actually see.</div>
+            </div>
+            <div class="law-flow-card">
+              <div class="law-flow-eyebrow">Pay rule</div>
+              <div class="law-flow-head">Salary range + benefits required</div>
+              <div class="law-flow-body">Washington is unique: employers must disclose both the salary range AND a general description of benefits (health, retirement, PTO). No other U.S. state mandates benefits in the posting itself.</div>
+            </div>
+            <div class="law-flow-card">
+              <div class="law-flow-eyebrow">Exception</div>
+              <div class="law-flow-head">Remote jobs included</div>
+              <div class="law-flow-body">Any job that can be performed in Washington State — including remote roles — must include full compensation disclosure. Seattle's tech sector has driven high compliance rates.</div>
+            </div>
+          </div>
+          <div class="law-steps">
+            <div class="law-step">
+              <div class="law-step-num">Step 1</div>
+              <div class="law-step-head">Applies to every WA employer</div>
+              <div class="law-step-body">WA RCW 49.58.110 covers employers with <strong>15 or more employees</strong> — plus required benefits disclosure, a step beyond most state laws.</div>
+            </div>
+            <div class="law-step">
+              <div class="law-step-num">Step 2</div>
+              <div class="law-step-head">The posting has to be public</div>
+              <div class="law-step-body">The rule is aimed at <strong>publicly advertised job postings</strong> — in practice, the external job ads ordinary applicants can see.</div>
+            </div>
+            <div class="law-step">
+              <div class="law-step-num">Step 3</div>
+              <div class="law-step-head">Disclose a number or a range</div>
+              <div class="law-step-body">Employers may post a <strong>specific salary</strong> or a <strong>salary range</strong>. Vague terms like "competitive" or "up to $X" are not allowed — a real number is required.</div>
+            </div>
+            <div class="law-step">
+              <div class="law-step-num">Step 4</div>
+              <div class="law-step-head">Pay history is off-limits</div>
+              <div class="law-step-body">WA employers <strong>cannot ask candidates</strong> about their salary history — prohibited under the Equal Pay and Opportunities Act (RCW 49.58.020) since 2019.</div>
+            </div>
+          </div>
+          <div class="law-badge-row">
+            <span class="law-badge mandatory">WA RCW 49.58.110: mandatory disclosure</span>
+            <span class="law-badge voluntary">Federal contractors: often voluntary disclosure</span>
+          </div>
+        </div>
+
+        <div class="law-panel">
+          <div class="law-panel-title">What else Washington employers must disclose</div>
+          <div class="law-rulelist">
+            <div class="law-rule">
+              <div class="law-rule-icon">AI</div>
+              <div>
+                <strong>No salary history questions</strong>
+                <span>Employers may not ask candidates about current or past pay at any point in the hiring process — Washington law since 2019.</span>
+              </div>
+            </div>
+            <div class="law-rule">
+              <div class="law-rule-icon">✓</div>
+              <div>
+                <strong>Benefits disclosure required</strong>
+                <span>Washington uniquely requires employers to include a general description of benefits and other compensation in job postings — not just the salary range.</span>
+              </div>
+            </div>
+            <div class="law-rule">
+              <div class="law-rule-icon">45</div>
+              <div>
+                <strong>Internal posting parity</strong>
+                <span>Washington requires employers to post internal transfer and promotion opportunities to all qualified employees — helping prevent quiet pay advancement gaps.</span>
+              </div>
+            </div>
+          </div>
+          <div class="law-note"><strong>Important context:</strong> federally regulated employers (banks, telecoms, airlines) are <strong>not covered by Washington State's Pay Transparency Law</strong> — they may operate under federal employment law (FLSA). Salary disclosures from large national employers in our dataset are voluntary and not tracked as WA compliance data.</div>
+          <div class="law-caption">This site focuses mainly on the salary-range part of the rule, because that is the piece that can be measured consistently across thousands of postings.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB 2: EMPLOYERS ═══ -->
+  <div id="tab-employers" class="tab-section" role="tabpanel">
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Employer Ranking</div>
+        <div class="section-title">Who's posting the widest ranges?</div>
+        <div class="section-desc">Washington employers ranked by number of postings with salary ranges wider than $50,000. Note: this is <strong>not a compliance violation</strong> in WA — there is no width cap. Wide ranges may signal vague pay planning. Federally regulated employers (banks, telecoms) are excluded — their disclosures are voluntary.</div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-title">Wide-range postings by employer (>$50k span)</div>
+        <div class="chart-card-sub">Postings with salary range span exceeding $50k. Not a WA Act violation — shown as a pay-planning signal only. Employers with only 1 such posting omitted.</div>
+        <div class="lollipop-wrap">
+          <svg id="lollipopSvg" class="lollipop" viewBox="0 0 640 320" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="callout-label">Key finding</div>
+        <p>Washington data is still growing. As more postings are scraped, employer patterns — which companies post tight ranges vs. vague bands — will become clearer.</p>
+      </div>
+      <div class="finding-box">
+        <div class="finding-box-label">How to read WA range data</div>
+        <p>In Washington, range width is a signal about pay philosophy — the law requires disclosure but sets no width limit. A narrow range ($5k–$15k wide) suggests the employer knows exactly what they'll pay. A wide range ($100k+) often means the role spans multiple seniority levels, or the employer hasn't finalized compensation for this hire.</p>
+      </div>
+    </section>
+
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Employer Profiles</div>
+        <div class="section-title">Employers by salary range width</div>
+        <div class="section-desc">Each bubble is one employer (≥3 postings). Horizontal position = median salary range width as a % of midpoint salary. Vertical position = % postings with range ≤$50k wide. Bubble size = number of postings. Federally regulated employers appear in the chart but their disclosures are voluntary.</div>
+      </div>
+      <div class="chart-card" style="padding:20px 20px 16px">
+        <div id="companyBars"></div>
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:var(--fs-xs);color:var(--text3)">
+        <span style="display:flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--scatter-ok);opacity:.8"></span>Mostly precise ranges</span>
+        <span style="display:flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--amber);opacity:.8"></span>Wide-range postings present</span>
+        <span style="display:flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--text3);opacity:.6"></span>Mostly exempt (&gt;$200k)</span>
+      </div>
+      <div class="callout-neutral">
+        <p><strong>Bubbles in the top-left</strong> (narrow ranges) represent employers with precise, confident pay bands. <strong>Bubbles in the bottom-right</strong> post wide, vague ranges — this is not a WA law violation but may indicate multi-level postings or unsettled compensation planning. Very narrow ranges (&lt;10%) often indicate a fixed pay point rather than a true band.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB 3: SALARY BANDS ═══ -->
+  <div id="tab-bands" class="tab-section" role="tabpanel">
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Range Quality Analysis</div>
+        <div class="section-title">Range or just a number?</div>
+        <div class="section-desc">Not every "salary range" is a real compensation band. A <strong>range spread ratio</strong> (width ÷ midpoint) below 15% is more likely a fixed pay rate disclosed as a range — semantically different from a structured band. This matters when comparing employers or deciding whether to negotiate.</div>
+      </div>
+
+      <div class="range-chips" id="rangeTypeSummary"></div>
+
+      <div class="two-col">
+        <div class="chart-card">
+          <div class="chart-card-title">Absolute width distribution</div>
+          <div class="chart-card-sub">All WA postings. Dashed line = $50k mark (boundary between precise and broad ranges).</div>
+          <div class="legend" id="histLegend1">
+            <div class="legend-item"><div class="legend-dot" style="background:var(--green);opacity:.7"></div>Tight range (≤$50k)</div>
+            <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Wide range (&gt;$50k)</div>
+          </div>
+          <svg id="histSvg1" class="histogram-svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title">Range spread ratio</div>
+          <div class="chart-card-sub">Width as % of midpoint salary. Industry standard: 25–55% is a typical salary band.</div>
+          <div class="legend" id="histLegend2">
+            <div class="legend-item"><div class="legend-dot" style="background:var(--text3);opacity:.6"></div>Pay point (&lt;15%)</div>
+            <div class="legend-item"><div class="legend-dot" style="background:var(--green);opacity:.8"></div>Structured band (15–65%)</div>
+            <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Wide (&gt;65%)</div>
+          </div>
+          <svg id="histSvg2" class="histogram-svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+      </div>
+
+      <div class="chart-card" style="margin-top:20px">
+        <div class="chart-card-title">Median spread ratio by sector</div>
+        <div class="chart-card-sub">Median range spread ratio across job categories. Regulated postings only. Green = within typical band; grey = pay-point heavy; amber = wide.</div>
+        <div class="platform-grid" id="sectorBars" style="margin-top:12px"></div>
+      </div>
+
+      <div class="callout-neutral" style="margin-top:20px">
+        <p><strong>Pay point vs. salary range:</strong> A spread ratio below 15% (e.g. $144k–$148k) reflects a fixed compensation rate — the employer knows exactly what they'll pay and the "range" is nominal. This is common at firms with rigid job-level pricing. It is not inherently worse, just less informative for negotiation.</p>
+        <p style="margin-top:10px"><strong>What's a standard band?</strong> Compensation research places a typical salary band at ±15–25% of midpoint (30–50% spread ratio). Washington's dataset is still growing — these patterns will sharpen as more postings are added.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB 4: SKILL SIGNAL ═══ -->
+  <div id="tab-skills" class="tab-section" role="tabpanel">
+
+    <!-- Key findings FIRST — before the chart -->
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Cross-Category Patterns</div>
+        <div class="section-title">What a job's skill list actually signals</div>
+        <div class="section-desc">Before exploring the charts: two structural patterns appear consistently across every job category in this dataset — understanding them changes how you read any job posting.</div>
+      </div>
+
+      <div class="findings-grid">
+        <div class="insight-callout">
+          <div class="ic-tag finding">Consistent discount signal</div>
+          <div class="ic-headline">Generic skills mark entry-level roles — not skill value</div>
+          <div class="ic-body">
+            <strong>Customer Service, Communication, Problem Solving</strong> consistently appear 27–41% below the median salary in every category where they show up with enough data. This isn't because these skills are worthless — it's because they're listed by employers filling <strong>frontline and junior positions</strong>, regardless of industry.<br><br>
+            A Finance job listing "Customer Service" is likely a bank teller role ($59k), not an analyst ($100k+). The skill is a proxy for the role tier, not the skill itself.
+          </div>
+          <div class="cross-cat-chart" id="discountCrossChart"></div>
+        </div>
+
+        <div class="insight-callout">
+          <div class="ic-tag premium-tag">Consistent premium signal</div>
+          <div class="ic-headline">Specific and cross-functional skills signal senior roles</div>
+          <div class="ic-body">
+            <strong>Technical Leadership, Cross-Functional Collaboration, Product/Project Management</strong> command 24–39% above median across every category they appear in. These skills require domain expertise and are harder to fake in a job description — employers can only list them when the role genuinely demands them.<br><br>
+            "Technical Leadership" in IT pays 39% above IT median. In Engineering, 27% above. The signal is consistent because <strong>the specialization is real</strong>.
+          </div>
+          <div class="cross-cat-chart" id="premiumCrossChart"></div>
+        </div>
+      </div>
+
+      <div class="insight-callout">
+        <div class="ic-tag pattern">How to read a job posting</div>
+        <div class="ic-headline">A job's skill list is a seniority signal in disguise</div>
+        <div class="ic-body">
+          The data suggests a simple heuristic: <strong>count the generic skills vs. specific skills</strong> in any job description.<br><br>
+          If the "required skills" section is dominated by <em>Communication, Customer Service, Problem Solving, Teamwork</em> — the employer is likely filling a commodity role. Salary will reflect that.<br><br>
+          If the required skills include <em>Technical Leadership, Cross-Functional Collaboration, specific tools or methodologies</em> — the employer is describing something harder to find, and the salary follows.<br><br>
+          This pattern holds across Finance, Engineering, IT, Operations, Sales, and Product — it isn't a category quirk.
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive chart -->
+    <section class="insight-section">
+      <div class="section-header">
+        <div class="section-kicker">Skill × Salary Analysis</div>
+        <div class="section-title">Which skills actually pay more?</div>
+        <div class="section-desc">Comparing median salaries for jobs that list each skill against the category median — sourced from Washington's legally-required salary disclosures under the Pay Transparency Law. Select a category to explore.</div>
+      </div>
+      <div class="masthead-meta" style="margin-bottom:20px">
+        <span class="meta-chip" id="metaTotalJobs" style="background:var(--surface2);border-color:var(--border);color:var(--text3)">— postings with skill data</span>
+        <span class="meta-chip" id="metaCategories" style="background:var(--surface2);border-color:var(--border);color:var(--text3)">— categories</span>
+        <span class="meta-chip" id="metaGenerated" style="background:var(--surface2);border-color:var(--border);color:var(--text3)">—</span>
+      </div>
+      <div class="cat-tabs-wrap">
+        <div class="cat-tabs-label">Select category</div>
+        <div class="cat-tabs" id="catTabs"></div>
+      </div>
+      <div class="skill-section" id="skillSection"></div>
+    </section>
+
+    <!-- Caveats collapsed -->
+    <section class="insight-section">
+      <details>
+        <summary>Methodology &amp; caveats</summary>
+        <div class="caveats">
+          <ul>
+            <li><strong>Correlation, not causation.</strong> These skills co-occur with seniority — we can't isolate the skill's independent effect without controlling for job level and firm size.</li>
+            <li><strong>Extraction quality varies.</strong> Skills were extracted from raw job descriptions. Generic phrases like "problem solving" may be extracted inconsistently across postings.</li>
+            <li><strong>Minimum 15 jobs per skill.</strong> Low-sample findings are excluded, but sample sizes still vary widely — higher-n findings carry more weight.</li>
+            <li><strong>Washington State only.</strong> WA RCW 49.58.110 salary disclosures. Results may not generalize to other labour markets.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+  </div><!-- /tab-skills -->
+
+</div><!-- /page -->
+
+<footer>
+  <div class="footer-note">
+    Data sourced from publicly advertised WA job postings under the <em>Pay Transparency Law</em>, WA RCW 49.58.110 (effective January 1, 2023).
+    Analysis covers <span id="footerTotal">—</span> postings from <span id="footerCompanies">—</span> employers. All salary figures in USD. Updated daily.
+    · <a href="/jobs.html">Browse all jobs →</a>
+  </div>
+  <div class="network-back">wa.payhub.fyi &middot; Part of <a href="https://payhub.fyi">PayHub</a> &mdash; 5 jurisdictions</div>
+</footer>
+
+<script>
+/* ===== THEME ===== */
+function toggleTheme(){
+  const t=document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme',t==='dark'?'light':'dark');
+  localStorage.setItem('oph-theme',document.documentElement.getAttribute('data-theme'));
+}
+(function(){const s=localStorage.getItem('oph-theme');if(s)document.documentElement.setAttribute('data-theme',s);})();
+
+const $=id=>document.getElementById(id);
+const getCSSVar=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmtK=n=>'$'+Math.round(n/1000)+'k';
+
+/* ===== TAB SYSTEM ===== */
+const TABS=['overview','employers','bands','skills'];
+const rendered={};
+
+function showTab(tabId){
+  TABS.forEach(t=>{
+    const btn=document.querySelector(`.tab-btn[data-tab="${t}"]`);
+    const sec=document.getElementById(`tab-${t}`);
+    if(btn) btn.classList.toggle('active',t===tabId);
+    if(sec){ sec.classList.toggle('visible',t===tabId); sec.style.display=t===tabId?'':'none'; }
+  });
+  // Fix: ensure visible tab has display:block (class alone isn't enough on initial load)
+  const active=document.getElementById(`tab-${tabId}`);
+  if(active) active.style.display='block';
+  if(!rendered[tabId]&&window._jobsData){
+    renderTab(tabId,window._jobsData);
+    rendered[tabId]=true;
+  }
+}
+
+function renderTab(tabId,jobs){
+  if(tabId==='employers') renderEmployers(jobs);
+  else if(tabId==='bands') renderBands(jobs);
+  else if(tabId==='skills') renderSkills();
+}
+
+/* ===== SHARED DATA HELPERS ===== */
+const FEDERAL_EMPLOYERS=new Set([
+  'bank of montreal','bmo','rbc','royal bank of canada','td bank','td','cibc',
+  'scotiabank','bank of nova scotia','national bank','national bank of canada',
+  'telus','rogers','rogers communications','bell','bell canada','canada post',
+  'cbc','canadian broadcasting corporation','air canada','via rail'
+]);
+
+function normCompany(name){
+  if(!name)return'Unknown';
+  let n=name.trim()
+    .replace(/^\S*\d\S*\s+/,'')
+    .replace(/\s*\([^)]+\)\s*$/,'')
+    .replace(/\s+(Inc\.?|Ltd\.?|Corp\.?|Co\.?|LLP|ULC|Canada)(?=\s|$)/gi,'')
+    .replace(/\s+/g,' ').trim();
+  const aliases={
+    'The Toronto-Dominion Bank':'TD Bank','TD General':'TD Bank',
+    'BMO Bank N.A.':'Bank of Montreal','BMO Nesbitt Burns':'Bank of Montreal',
+    'CIBC World Markets':'CIBC','PricewaterhouseCoopers':'PwC',
+    'PwC Management Services LP':'PwC',
+    'OMERS Administration Corporation':'OMERS','OMERS Private Equity':'OMERS',
+    "Ontario Teachers' Pension Plan Board":"Ontario Teachers'",
+    'Enbridge Gas Distribution':'Enbridge','Enbridge Employee Services CAN':'Enbridge',
+    'The Royal Trust Company':'RBC','RBC Direct Investing':'RBC',
+    'RBC Dominion Securities':'RBC','RBC Insurance Services':'RBC',
+    'Benchsci':'BenchSci','Pointclickcare':'PointClickCare',
+    'The City of Toronto':'City of Toronto'
+  };
+  return aliases[n]||n;
+}
+
+function percentile(sortedArr,p){
+  if(!sortedArr.length)return 0;
+  const i=(p/100)*(sortedArr.length-1);
+  const lo=Math.floor(i),hi=Math.ceil(i);
+  return sortedArr[lo]+(sortedArr[hi]-sortedArr[lo])*(i-lo);
+}
+
+function groupMedian(arr,keyFn,valFn){
+  const groups={};
+  arr.forEach(item=>{const k=keyFn(item);if(!groups[k])groups[k]=[];groups[k].push(valFn(item));});
+  const result={};
+  Object.entries(groups).forEach(([k,v])=>{if(v.length>=5)result[k]=percentile(v.slice().sort((a,b)=>a-b),50);});
+  return result;
+}
+
+/* ===== MAIN DATA LOAD ===== */
+async function main(){
+  let jobs=[];
+  try{
+    const r=await fetch('./data/jobs.json');
+    const raw=await r.json();
+    jobs=Array.isArray(raw)?raw:(raw.jobs||raw.data||Object.values(raw)[0]||[]);
+  }catch(e){
+    $('loadingOverlay').innerHTML='<div style="color:var(--text3)">Could not load jobs.json</div>';
+    return;
+  }
+
+  // Exclude jobs where scraper picked up USD range instead of CAD
+  const excludedIds=new Set();
+  try{
+    const or=await fetch('./data/manual-status-overrides.json');
+    const oj=await or.json();
+    (oj.jobs||[]).forEach(o=>{ if(o.status==='excluded_usd'||o.status==='archived') excludedIds.add(String(o.id)); });
+  }catch(e){}
+
+  const valid=jobs.filter(j=>j.min>0&&j.max>0&&j.max>=j.min&&!excludedIds.has(String(j.id)));
+  const N=valid.length;
+  const companies=new Set(valid.map(j=>j.company)).size;
+
+  valid.forEach(j=>{
+    j._width=j.max-j.min;
+    j._mid=(j.max+j.min)/2;
+    j._widthPct=j._mid>0?(j._width/j._mid)*100:0;
+    j._spread=j._widthPct;
+    const co=normCompany(j.company);
+    j._co=co;
+    j._federal=FEDERAL_EMPLOYERS.has(co.toLowerCase());
+    j._compliant=!j._federal&&j._width<=50000;
+    j._nonCompliant=!j._federal&&j._width>50000;
+    j._exempt=false;
+    j._rangeType=j._spread<15?'pay_point':j._spread<=65?'structured':'wide';
+  });
+
+  const nRounded=N>=1000?(Math.floor(N/100)*100).toLocaleString()+'+':N.toLocaleString();
+  if($('metaTotal'))$('metaTotal').textContent=N.toLocaleString();
+  if($('metaCompanies'))$('metaCompanies').textContent=companies.toLocaleString();
+  if($('mastheadCount'))$('mastheadCount').textContent=nRounded;
+  if($('ctaJobCount'))$('ctaJobCount').textContent=nRounded;
+  if($('footerTotal'))$('footerTotal').textContent=N.toLocaleString();
+  if($('footerCompanies'))$('footerCompanies').textContent=companies.toLocaleString();
+
+  window._jobsData=valid;
+  rendered['overview']=true;
+
+  // Render overview immediately
+  renderOverview(valid);
+
+  const ov=$('loadingOverlay');
+  ov.classList.add('hidden');
+  setTimeout(()=>ov.style.display='none',300);
+}
+
+/* ===== RENDER: OVERVIEW ===== */
+function renderOverview(valid){
+  const N=valid.length;
+  const tight=valid.filter(j=>j._compliant);
+  const wide=valid.filter(j=>j._nonCompliant);
+  const federal=valid.filter(j=>j._federal);
+  const pTight=Math.round(tight.length/N*100);
+  const pWide=Math.round(wide.length/N*100);
+  const pFed=100-pTight-pWide;
+  if($('pctCompliant'))$('pctCompliant').textContent=pTight+'%';
+  if($('pctNonCompliant'))$('pctNonCompliant').textContent=pWide+'%';
+  if($('pctFederal'))$('pctFederal').textContent=pFed+'%';
+  requestAnimationFrame(()=>{
+    if($('barCompliant'))$('barCompliant').style.width=pTight+'%';
+    if($('barNonCompliant'))$('barNonCompliant').style.width=pWide+'%';
+    if($('barFederal'))$('barFederal').style.width=pFed+'%';
+    if($('barExempt'))$('barExempt').style.width='0%';
+  });
+}
+
+/* ===== RENDER: EMPLOYERS ===== */
+function renderEmployers(valid){
+  const nc=valid.filter(j=>j._nonCompliant);
+
+  // Lollipop: by employer
+  const byEmp={};
+  nc.forEach(j=>{
+    if(!byEmp[j._co])byEmp[j._co]={count:0,widths:[]};
+    byEmp[j._co].count++;
+    byEmp[j._co].widths.push(j._width);
+  });
+  const empEntries=Object.entries(byEmp).filter(([,v])=>v.count>=2).sort((a,b)=>b[1].count-a[1].count);
+  const top2=empEntries.slice(0,2).reduce((s,[,v])=>s+v.count,0);
+  if($('top2pct'))$('top2pct').textContent=Math.round(top2/nc.length*100);
+  drawLollipop(empEntries.slice(0,12));
+
+  // Scatter: by company
+  const byCompany={};
+  valid.forEach(j=>{
+    if(!byCompany[j._co])byCompany[j._co]={widths:[],nonCompliantCount:0,exemptCount:0,total:0};
+    byCompany[j._co].widths.push(j._widthPct);
+    byCompany[j._co].total++;
+    if(j._nonCompliant)byCompany[j._co].nonCompliantCount++;
+    if(j._exempt)byCompany[j._co].exemptCount++;
+  });
+  const coEntries=Object.entries(byCompany)
+    .filter(([,v])=>v.total>=5)
+    .map(([k,v])=>{
+      const sorted=v.widths.slice().sort((a,b)=>a-b);
+      const med=percentile(sorted,50);
+      const exemptPct=v.exemptCount/v.total;
+      const cls=exemptPct>0.5?'exempt':(v.nonCompliantCount>0?'noncompliant':'compliant');
+      const regulatedCount=v.total-v.exemptCount;
+      const complianceRate=regulatedCount>0?((regulatedCount-v.nonCompliantCount)/regulatedCount*100):null;
+      return{name:k,med,total:v.total,cls,nonCompliantCount:v.nonCompliantCount,exemptCount:v.exemptCount,complianceRate};
+    })
+    .sort((a,b)=>a.med-b.med);
+  window._coEntries=coEntries;
+  drawCompanyScatter(coEntries);
+}
+
+/* ===== RENDER: BANDS ===== */
+function renderBands(valid){
+  const regulated=valid.filter(j=>!j._exempt);
+  const regNoFed=regulated.filter(j=>!j._federal);
+
+  // Range type summary chips
+  const payPoints=regNoFed.filter(j=>j._rangeType==='pay_point');
+  const structured=regNoFed.filter(j=>j._rangeType==='structured');
+  const wide=regNoFed.filter(j=>j._rangeType==='wide'||j._nonCompliant);
+  const rtn=regNoFed.length||1;
+  if($('rangeTypeSummary')){
+    $('rangeTypeSummary').innerHTML=[
+      ['Pay points',payPoints.length,Math.round(payPoints.length/rtn*100),'var(--text3)','spread <15% — likely a fixed rate'],
+      ['Structured bands',structured.length,Math.round(structured.length/rtn*100),'var(--green)','spread 15–65% — real compensation band'],
+      ['Wide ranges',wide.length,Math.round(wide.length/rtn*100),'var(--amber)','spread >65% or absolute >$50k'],
+    ].map(([label,count,pct,color,hint])=>`
+      <div class="range-chip">
+        <div class="range-chip-label">${label}</div>
+        <div class="range-chip-num" style="color:${color}">${pct}%</div>
+        <div class="range-chip-detail">${count.toLocaleString()} postings · ${hint}</div>
+      </div>`).join('');
+  }
+
+  // Histograms
+  const bins1=buildBins(regulated,0,120000,12000);
+  drawHistogram('histSvg1',bins1,120000,50000,'$k',v=>'$'+Math.round(v/1000)+'k');
+  const bins2=buildBinsPct(regulated.map(j=>({val:j._spread,compliant:j._spread>=15&&j._spread<=65})),0,100,10);
+  drawHistogramSpread('histSvg2',bins2,100,15,65,'%',v=>Math.round(v)+'%');
+
+  // Sector bars
+  const catSpreadMedians=groupMedian(regNoFed,j=>j.category||'Other',j=>j._spread);
+  const catCounts={};
+  regNoFed.forEach(j=>{const k=j.category||'Other';catCounts[k]=(catCounts[k]||0)+1;});
+  const catEntries=Object.entries(catSpreadMedians).filter(([k])=>k&&k!=='Other').sort((a,b)=>b[1]-a[1]).slice(0,8);
+  const maxCat=catEntries.length?Math.max(...catEntries.map(e=>e[1])):1;
+  if($('sectorBars')){
+    $('sectorBars').innerHTML=catEntries.map(([k,v])=>{
+      const pct=(v/maxCat*100).toFixed(1);
+      const color=v>=15&&v<=65?'var(--green)':v<15?'var(--text3)':'var(--amber)';
+      const count=catCounts[k]||0;
+      return`<div class="platform-tile">
+        <div class="platform-name">${k}</div>
+        <div class="platform-num" style="color:${color}">${v.toFixed(0)}%</div>
+        <div class="platform-bar-track"><div class="platform-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+        <div class="platform-meta">${count} postings · median spread ratio</div>
+      </div>`;
+    }).join('');
+  }
+}
+
+/* ===== RENDER: SKILLS ===== */
+async function renderSkills(){
+  let data;
+  try{
+    const r=await fetch('./data/skill_salary_data.json');
+    data=await r.json();
+  }catch(e){
+    if($('skillSection'))$('skillSection').innerHTML='<div style="color:var(--text3);font-size:var(--fs-sm);font-family:var(--font-mono);padding:20px">Could not load skill data.</div>';
+    return;
+  }
+  const cats=Object.keys(data.categories);
+  const totalJobs=cats.reduce((sum,c)=>sum+data.categories[c].n_jobs,0);
+  if($('metaTotalJobs'))$('metaTotalJobs').textContent=totalJobs.toLocaleString()+' postings with skill data';
+  if($('metaCategories'))$('metaCategories').textContent=cats.length+' categories';
+  if($('metaGenerated'))$('metaGenerated').textContent='Updated '+data.generated;
+
+  const sortedCats=cats.sort((a,b)=>data.categories[b].n_jobs-data.categories[a].n_jobs);
+  if($('catTabs')){
+    $('catTabs').innerHTML=sortedCats.map((cat,i)=>
+      `<button class="cat-tab${i===0?' active':''}" data-cat="${cat}" onclick="selectCat(this,'${cat}')">${cat}</button>`
+    ).join('');
+  }
+  renderSkillSection(sortedCats[0],data.categories[sortedCats[0]]);
+  window._skillData=data;
+  renderCrossCatChart(data);
+}
+
+function selectCat(btn,catName){
+  document.querySelectorAll('.cat-tab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSkillSection(catName,window._skillData.categories[catName]);
+  if($('skillSection'))$('skillSection').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function renderSkillSection(catName,catData){
+  const skills=catData.skills;
+  const catMedian=catData.cat_median;
+  const maxAbs=Math.max(...skills.map(s=>Math.abs(s.dev)),1);
+  const sorted=[...skills].sort((a,b)=>b.dev-a.dev);
+  const half=Math.min(8,Math.floor(sorted.length/2));
+  const premium=sorted.slice(0,half);
+  const discountRaw=sorted.slice(sorted.length-half);
+  const premiumSet=new Set(premium.map(s=>s.skill));
+  const discount=discountRaw.filter(s=>!premiumSet.has(s.skill));
+  const chartSkills=[...premium,...[...discount].reverse()];
+  const fmt=n=>'$'+n.toLocaleString('en-US',{maximumFractionDigits:0});
+  const cap=s=>s.split(' ').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ');
+
+  const html=`
+    <div class="skill-section-header">
+      <div>
+        <div class="skill-section-title">${catName}</div>
+        <div class="skill-section-sub">Category median: <strong>${fmt(catMedian)}</strong> · ${catData.n_jobs.toLocaleString()} jobs · ${skills.length} skills with 15+ sample</div>
+      </div>
+      <div class="stat-chips">
+        <div class="stat-chip">
+          <div class="stat-chip-num" style="color:var(--green)">${premium.length>0?'+'+premium[0].dev.toFixed(0)+'%':'—'}</div>
+          <div class="stat-chip-label">Top Premium</div>
+        </div>
+        <div class="stat-chip">
+          <div class="stat-chip-num" style="color:var(--accent)">${discount.length>0?discount[0].dev.toFixed(0)+'%':'—'}</div>
+          <div class="stat-chip-label">Biggest Discount</div>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-header" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:12px">
+        <div style="font-size:var(--fs-md);font-weight:700">Skill salary deviation from ${catName} median</div>
+        <div style="display:flex;gap:14px;font-size:var(--fs-xs);color:var(--text3);align-items:center">
+          <span style="display:flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:6px;border-radius:2px;background:var(--green);opacity:.85"></span>Premium</span>
+          <span style="display:flex;align-items:center;gap:5px"><span style="display:inline-block;width:10px;height:6px;border-radius:2px;background:var(--accent);opacity:.8"></span>Below median</span>
+        </div>
+      </div>
+      <div class="skill-bars">
+        ${chartSkills.map(s=>{
+          const isPremium=s.dev>=0;
+          const barPct=Math.abs(s.dev)/maxAbs*48;
+          const zeroLeft=50;
+          const barLeft=isPremium?zeroLeft:(zeroLeft-barPct);
+          return`<div class="skill-row">
+            <div class="skill-name" title="${cap(s.skill)}">${cap(s.skill)}</div>
+            <div class="skill-bar-wrap">
+              <div class="bar-zero" style="left:${zeroLeft}%"></div>
+              <div class="bar-fill ${isPremium?'premium':'discount'}" style="left:${barLeft.toFixed(1)}%;width:${barPct.toFixed(1)}%"></div>
+            </div>
+            <div>
+              <div class="skill-dev ${isPremium?'premium':'discount'}">${s.dev>=0?'+':''}${s.dev.toFixed(0)}%</div>
+              <div class="skill-n">n=${s.n}</div>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+    <div class="split-grid">
+      <div class="split-card premium-card">
+        <div class="split-card-header">
+          <span class="split-badge premium">Premium</span>
+          <span class="split-card-title">Skills above the median</span>
+        </div>
+        <div class="skill-pill-list">
+          ${premium.slice(0,6).map(s=>`<div class="skill-pill">
+            <span class="skill-pill-name">${cap(s.skill)}</span>
+            <span class="skill-pill-meta">${fmt(s.median)} · n=${s.n}</span>
+            <span class="skill-pill-dev premium">+${s.dev.toFixed(0)}%</span>
+          </div>`).join('')}
+        </div>
+      </div>
+      <div class="split-card discount-card">
+        <div class="split-card-header">
+          <span class="split-badge discount">Below Median</span>
+          <span class="split-card-title">Skills below the median</span>
+        </div>
+        <div class="skill-pill-list">
+          ${discount.slice(-6).reverse().map(s=>`<div class="skill-pill">
+            <span class="skill-pill-name">${cap(s.skill)}</span>
+            <span class="skill-pill-meta">${fmt(s.median)} · n=${s.n}</span>
+            <span class="skill-pill-dev discount">${s.dev.toFixed(0)}%</span>
+          </div>`).join('')}
+        </div>
+      </div>
+    </div>
+    <div class="method-callout">
+      <strong>How to read this:</strong> Each skill's bar shows the % difference between the median salary of jobs listing that skill and the overall ${catName} median (${fmt(catMedian)}).
+      This is a correlation, not a causal claim — premium skills often co-occur with seniority or specialization. Minimum 15 jobs per skill.
+    </div>`;
+  if($('skillSection'))$('skillSection').innerHTML=html;
+}
+
+function renderCrossCatChart(data){
+  const discountFindings=[
+    {skill:'Customer Service',entries:[{cat:'Finance',dev:-41.2,n:47},{cat:'Operations',dev:-35.0,n:65}]},
+    {skill:'Communication',entries:[{cat:'Sales & Mktg',dev:-34.0,n:34},{cat:'Operations',dev:-31.0,n:50}]},
+    {skill:'Problem Solving',entries:[{cat:'Finance',dev:-35.0,n:42},{cat:'Operations',dev:-30.0,n:50}]},
+    {skill:'Team Collaboration',entries:[{cat:'Finance',dev:-27.0,n:55}]},
+  ];
+  const premiumFindings=[
+    {skill:'Technical Leadership',entries:[{cat:'IT & Infra',dev:39.0,n:34},{cat:'Engineering',dev:27.0,n:54}]},
+    {skill:'Cross-Functional Collab.',entries:[{cat:'Engineering',dev:31.0,n:30},{cat:'Product & Project',dev:24.0,n:62}]},
+    {skill:'Product Management',entries:[{cat:'Product & Project',dev:29.0,n:86}]},
+    {skill:'Project Management',entries:[{cat:'Operations',dev:25.0,n:74}]},
+  ];
+  function buildRows(findings){
+    const maxAbs=45;
+    return findings.map(f=>f.entries.map(e=>{
+      const isPremium=e.dev>=0;
+      const pct=Math.abs(e.dev)/maxAbs*46;
+      const zeroLeft=50;
+      const barLeft=isPremium?zeroLeft:(zeroLeft-pct);
+      const color=isPremium?'var(--green)':'var(--accent)';
+      const devStr=(e.dev>=0?'+':'')+e.dev.toFixed(0)+'%';
+      return`<div class="cc-row">
+        <div><div class="cc-skill">${f.skill}</div><div class="cc-cat-tag">${e.cat} · n=${e.n}</div></div>
+        <div class="cc-bar-wrap">
+          <div class="cc-bar-zero"></div>
+          <div class="cc-bar" style="left:${barLeft.toFixed(1)}%;width:${pct.toFixed(1)}%;background:${color};opacity:.85"></div>
+        </div>
+        <div class="cc-dev" style="color:${color}">${devStr}</div>
+      </div>`;
+    }).join('')).join('');
+  }
+  const dc=$('discountCrossChart');
+  const pc=$('premiumCrossChart');
+  if(dc)dc.innerHTML=buildRows(discountFindings);
+  if(pc)pc.innerHTML=buildRows(premiumFindings);
+}
+
+/* ===== CHART: DONUT ===== */
+function drawDonut(id,segments){
+  const svg=$(id);
+  if(!svg)return;
+  const total=segments.reduce((s,x)=>s+x.val,0);
+  const cx=70,cy=70,R=56,r=34;
+  let startAngle=-Math.PI/2,paths='';
+  segments.forEach(seg=>{
+    const angle=(seg.val/total)*2*Math.PI;
+    const x1=cx+R*Math.cos(startAngle),y1=cy+R*Math.sin(startAngle);
+    const x2=cx+R*Math.cos(startAngle+angle),y2=cy+R*Math.sin(startAngle+angle);
+    const x3=cx+r*Math.cos(startAngle+angle),y3=cy+r*Math.sin(startAngle+angle);
+    const x4=cx+r*Math.cos(startAngle),y4=cy+r*Math.sin(startAngle);
+    const lg=angle>Math.PI?1:0;
+    paths+=`<path d="M${x1},${y1} A${R},${R} 0 ${lg},1 ${x2},${y2} L${x3},${y3} A${r},${r} 0 ${lg},0 ${x4},${y4} Z" fill="${seg.color}" opacity=".82"/>`;
+    startAngle+=angle;
+  });
+  const pct=Math.round(segments[1].val/total*100);
+  svg.innerHTML=paths+`<text x="${cx}" y="${cy-4}" text-anchor="middle" font-family="IBM Plex Mono" font-size="18" font-weight="600" fill="currentColor">${pct}%</text><text x="${cx}" y="${cy+14}" text-anchor="middle" font-family="Sora" font-size="9" fill="currentColor" opacity=".5">COMPLIANT</text>`;
+}
+
+/* ===== CHART: LOLLIPOP (simplified — bars only, no dual axis) ===== */
+function drawLollipop(entries){
+  const svg=$('lollipopSvg');
+  if(!svg||!entries.length)return;
+  const rowH=30;
+  const W=640,H=entries.length*rowH+40;
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const padL=130,padR=110,padT=10,padB=24;
+  const plotW=W-padL-padR,plotH=H-padT-padB;
+  const maxCount=entries[0][1].count;
+  const barH=12;
+  const RED=getCSSVar('--accent'),AMBER=getCSSVar('--amber');
+  let out='';
+  // grid lines
+  [0,0.25,0.5,0.75,1].forEach(f=>{
+    const x=padL+f*plotW;
+    if(f>0)out+=`<line x1="${x}" y1="${padT}" x2="${x}" y2="${H-padB}" stroke="var(--chart-grid)" stroke-width="1"/>`;
+  });
+  entries.forEach(([name,v],i)=>{
+    const cy=padT+i*rowH+rowH/2;
+    const barW=(v.count/maxCount)*plotW;
+    const s=v.widths.slice().sort((a,b)=>a-b);
+    const medWidth=s[Math.floor(s.length/2)];
+    const excessK=Math.round((medWidth-50000)/1000);
+    const isTop=(i===0);
+    const col=isTop?RED:AMBER;
+    const shortName=name.length>17?name.slice(0,16)+'…':name;
+    // label (left)
+    out+=`<text x="${padL-8}" y="${cy+4}" text-anchor="end" font-family="Sora" font-size="11" font-weight="${isTop?700:500}" fill="var(--text2)">${shortName}</text>`;
+    // bar
+    out+=`<rect x="${padL}" y="${cy-barH/2}" width="${barW.toFixed(1)}" height="${barH}" rx="3" fill="${col}" opacity="${isTop?'.75':'.5'}"/>`;
+    // count (bold, after bar)
+    out+=`<text x="${padL+barW+6}" y="${cy+1}" font-family="IBM Plex Mono" font-size="12" font-weight="700" fill="${col}" dominant-baseline="middle">${v.count}</text>`;
+    // median excess (smaller, muted)
+    out+=`<text x="${padL+barW+6}" y="${cy+14}" font-family="IBM Plex Mono" font-size="9" fill="var(--text3)">+$${excessK}k median</text>`;
+  });
+  // x axis
+  out+=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="var(--border2)" stroke-width="1"/>`;
+  [0,0.25,0.5,0.75,1].forEach(f=>{
+    const x=padL+f*plotW;
+    out+=`<text x="${x}" y="${H-padB+12}" text-anchor="middle" font-family="IBM Plex Mono" font-size="8" fill="var(--text3)">${Math.round(f*maxCount)}</text>`;
+  });
+  out+=`<text x="${padL+plotW/2}" y="${H-4}" text-anchor="middle" font-family="Sora" font-size="9" fill="var(--text3)">non-compliant postings (count) · muted text = median range width over the $50k cap N/A</text>`;
+  svg.innerHTML=out;
+}
+
+/* ===== CHART: HISTOGRAMS ===== */
+function buildBins(data,min,max,step){
+  const bins=[];
+  for(let v=min;v<max;v+=step){
+    const group=data.filter(j=>j._width>=v&&j._width<v+step);
+    bins.push({low:v,high:v+step,count:group.length,label:'$'+Math.round(v/1000)+'k'});
+  }
+  return bins;
+}
+
+function drawHistogram(svgId,bins,maxX,threshold,unit,labelFn){
+  const svg=$(svgId);
+  if(!svg)return;
+  const W=400,H=180,padL=36,padB=28,padT=10,padR=8;
+  const plotW=W-padL-padR,plotH=H-padB-padT;
+  const maxCount=Math.max(...bins.map(b=>b.count),1);
+  const bw=plotW/bins.length;
+  const threshX=padL+(threshold/maxX)*plotW;
+  let out='<g>';
+  for(let i=0;i<=4;i++){
+    const y=padT+(plotH-plotH*i/4);
+    out+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/>`;
+    if(i>0)out+=`<text x="${padL-4}" y="${y+4}" text-anchor="end" font-family="IBM Plex Mono" font-size="8" fill="var(--text3)">${Math.round(maxCount*i/4)}</text>`;
+  }
+  bins.forEach((b,i)=>{
+    const bh=(b.count/maxCount)*plotH;
+    const x=padL+i*bw+1;
+    const y=padT+plotH-bh;
+    const isOver=b.low>=threshold;
+    const color=isOver?'var(--amber)':'var(--green)';
+    const opacity=isOver?'0.75':'0.65';
+    out+=`<rect x="${x}" y="${y}" width="${bw-2}" height="${bh}" fill="${color}" opacity="${opacity}" rx="1"/>`;
+  });
+  out+=`<line x1="${threshX}" y1="${padT}" x2="${threshX}" y2="${H-padB+4}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3,2"/>`;
+  out+=`<text x="${threshX+3}" y="${padT+9}" font-family="IBM Plex Mono" font-size="8" fill="var(--accent)" font-weight="600">$50k cap N/A</text>`;
+  bins.filter((_,i)=>i%3===0).forEach(b=>{
+    const x=padL+(bins.indexOf(b)+0.5)*bw;
+    out+=`<text x="${x}" y="${H-padB+12}" text-anchor="middle" font-family="IBM Plex Mono" font-size="8" fill="var(--text3)">${b.label}</text>`;
+  });
+  out+=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="var(--border2)" stroke-width="1"/>`;
+  out+='</g>';
+  svg.innerHTML=out;
+}
+
+function buildBinsPct(data,min,max,bins){
+  const step=(max-min)/bins;
+  return Array.from({length:bins},(_,i)=>{
+    const low=min+i*step,high=low+step;
+    const group=data.filter(d=>d.val>=low&&d.val<high);
+    return{low,high,count:group.length,label:Math.round(low)+'%'};
+  });
+}
+
+function drawHistogramSpread(svgId,bins,maxX,threshLow,threshHigh,unit,labelFn){
+  const svg=$(svgId);
+  if(!svg)return;
+  const W=400,H=180,padL=36,padB=28,padT=10,padR=8;
+  const plotW=W-padL-padR,plotH=H-padB-padT;
+  const maxCount=Math.max(...bins.map(b=>b.count),1);
+  const bw=plotW/bins.length;
+  const xLow=padL+(threshLow/maxX)*plotW;
+  const xHigh=padL+(threshHigh/maxX)*plotW;
+  let out='<g>';
+  for(let i=0;i<=4;i++){
+    const y=padT+(plotH-plotH*i/4);
+    out+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/>`;
+    if(i>0)out+=`<text x="${padL-4}" y="${y+4}" text-anchor="end" font-family="IBM Plex Mono" font-size="8" fill="var(--text3)">${Math.round(maxCount*i/4)}</text>`;
+  }
+  out+=`<rect x="${xLow}" y="${padT}" width="${xHigh-xLow}" height="${plotH}" fill="var(--green)" opacity="0.04"/>`;
+  bins.forEach((b,i)=>{
+    const bh=(b.count/maxCount)*plotH;
+    const x=padL+i*bw+1;
+    const y=padT+plotH-bh;
+    let color;
+    if(b.low<threshLow)color='var(--text3)';
+    else if(b.low<=threshHigh)color='var(--green)';
+    else color='var(--amber)';
+    out+=`<rect x="${x}" y="${y}" width="${bw-2}" height="${bh}" fill="${color}" opacity="0.65" rx="1"/>`;
+  });
+  out+=`<line x1="${xLow}" y1="${padT}" x2="${xLow}" y2="${H-padB+4}" stroke="var(--text3)" stroke-width="1.5" stroke-dasharray="3,2"/>`;
+  out+=`<text x="${xLow+3}" y="${padT+9}" font-family="IBM Plex Mono" font-size="7.5" fill="var(--text2)">pay point</text>`;
+  out+=`<line x1="${xHigh}" y1="${padT}" x2="${xHigh}" y2="${H-padB+4}" stroke="var(--amber)" stroke-width="1.5" stroke-dasharray="3,2"/>`;
+  out+=`<text x="${xHigh+3}" y="${padT+9}" font-family="IBM Plex Mono" font-size="7.5" fill="var(--amber)">wide</text>`;
+  bins.filter((_,i)=>i%2===0).forEach(b=>{
+    const x=padL+(bins.indexOf(b)+0.5)*bw;
+    out+=`<text x="${x}" y="${H-padB+12}" text-anchor="middle" font-family="IBM Plex Mono" font-size="8" fill="var(--text3)">${b.label}</text>`;
+  });
+  out+=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="var(--border2)" stroke-width="1"/>`;
+  out+='</g>';
+  svg.innerHTML=out;
+}
+
+/* ===== CHART: COMPANY SCATTER ===== */
+function drawCompanyScatter(entries,opts){
+  const el=(opts&&opts.targetEl)||$('companyBars');
+  if(!el)return;
+  let tt=document.getElementById('ctt');
+  if(!tt){
+    tt=document.createElement('div');
+    tt.id='ctt';
+    tt.style.cssText='position:fixed;pointer-events:none;z-index:9999;display:none';
+    document.body.appendChild(tt);
+  }
+  const cw=(opts&&opts.forceVW)||el.clientWidth||800;
+  const mob=!(opts&&opts.forceVW)&&cw<540;
+  const VW=(opts&&opts.forceVW)||(mob?cw:800);
+  const VH=(opts&&opts.forceVH)||(mob?Math.round(cw*1.05):480);
+  const M=mob?{t:28,r:12,b:44,l:48}:{t:40,r:32,b:60,l:64};
+  const PW=VW-M.l-M.r,PH=VH-M.t-M.b;
+  const xMax=120;
+  const sx=v=>M.l+(Math.min(v,xMax)/xMax)*PW;
+  const sy=v=>M.t+PH-(v/100)*PH;
+  const rad=t=>Math.max(mob?2.5:2,Math.min(mob?7:6,Math.sqrt(t)*(mob?0.72:0.62)));
+  const GREEN=getCSSVar('--scatter-ok'),RED=getCSSVar('--accent'),GRAY=getCSSVar('--text3'),AMBER=getCSSVar('--amber');
+  const TX=40,txPx=sx(TX);
+  const nodes=[...entries].map(e=>{
+    const rawY=e.complianceRate!==null?e.complianceRate:100;
+    const y0=sy(rawY);
+    return{...e,nx:sx(e.med),ny:y0,ty:y0,r:rad(e.total)};
+  });
+  for(let iter=0;iter<180;iter++){
+    const alpha=1-iter/180;
+    nodes.forEach((n,i)=>{
+      let fy=(n.ty-n.ny)*0.10;
+      for(let j=0;j<nodes.length;j++){
+        if(i===j)continue;
+        const m=nodes[j];
+        const dx=n.nx-m.nx,dy=n.ny-m.ny;
+        const dist2=dx*dx+dy*dy;
+        const minD=n.r+m.r+3;
+        if(dist2<minD*minD){const dist=Math.sqrt(dist2)||0.1;fy+=(dy/dist)*(minD-dist)*0.45*alpha;}
+      }
+      n.ny+=fy;
+      n.ny=Math.max(M.t+n.r+2,Math.min(M.t+PH-n.r-2,n.ny));
+    });
+  }
+  const yTicks=mob?[0,50,100]:[0,25,50,75,100];
+  const xTicks=mob?[0,40,80,120]:[0,20,40,60,80,100,120];
+  const gridLines=yTicks.map(v=>{const y=sy(v).toFixed(1);return`<line x1="${M.l}" y1="${y}" x2="${M.l+PW}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/>`;}).join('');
+  const xAxis=xTicks.map(v=>{const x=sx(v).toFixed(1);return`<line x1="${x}" y1="${M.t+PH}" x2="${x}" y2="${M.t+PH+5}" stroke="var(--border2)" stroke-width="1"/><text x="${x}" y="${M.t+PH+17}" text-anchor="middle" class="sc-ax">${v===120?'≥120%':v+'%'}</text>`;}).join('');
+  const yAxis=yTicks.map(v=>{const y=sy(v).toFixed(1);return`<line x1="${M.l-5}" y1="${y}" x2="${M.l}" y2="${y}" stroke="var(--border2)" stroke-width="1"/><text x="${M.l-9}" y="${(+y+4).toFixed(1)}" text-anchor="end" class="sc-ax">${v}%</text>`;}).join('');
+  const sorted=[...nodes].sort((a,b)=>a.total-b.total);
+  let circles='',labels='';
+  sorted.forEach(e=>{
+    const color=e.cls==='compliant'?GREEN:e.cls==='noncompliant'?RED:GRAY;
+    const fop=e.cls==='exempt'?'0.22':'0.60';
+    const sop=e.cls==='exempt'?'0.15':'0.85';
+    const ne=e.name.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+    const rStr=e.complianceRate!==null?Math.round(e.complianceRate)+'%':'—';
+    const cx=e.nx.toFixed(1),cy=e.ny.toFixed(1);
+    circles+=`<circle class="sc-dot" cx="${cx}" cy="${cy}" r="${e.r}" fill="${color}" fill-opacity="${fop}" stroke="${color}" stroke-width="1" stroke-opacity="${sop}" data-n="${ne}" data-m="${Math.round(e.med)}" data-t="${e.total}" data-r="${rStr}" data-c="${e.cls}" data-nc="${e.nonCompliantCount}"/>`;
+    const rawY=e.complianceRate!==null?e.complianceRate:100;
+    const isProblem=e.cls==='noncompliant'&&e.med>TX&&e.total>=(mob?25:12);
+    const isMajor=e.total>=(mob?70:40)&&!(rawY>=95&&e.med<TX);
+    if(isProblem||isMajor){
+      const maxLen=mob?14:22;
+      const short=e.name.length>maxLen?e.name.substring(0,maxLen-2)+'…':e.name;
+      const sne=short.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+      const nearRight=e.nx+e.r+(mob?90:130)>M.l+PW;
+      const lx=nearRight?(e.nx-e.r-4).toFixed(1):(e.nx+e.r+4).toFixed(1);
+      const anchor=nearRight?'end':'start';
+      labels+=`<text x="${lx}" y="${(e.ny+3.5).toFixed(1)}" text-anchor="${anchor}" class="sc-lbl">${sne}</text>`;
+    }
+  });
+  let sizeLegend='';
+  if(!mob){
+    const legX=M.l+PW-4,legY=M.t+14;
+    sizeLegend=`<text x="${legX}" y="${legY}" text-anchor="end" class="sc-ql" opacity=".4">bubble = postings</text>`;
+    let lxOff=legX-20;
+    [[5,'5'],[20,'20'],[50,'50+']].reverse().forEach(([t,lbl])=>{
+      const lr=rad(t);
+      lxOff-=lr+2;
+      sizeLegend+=`<circle cx="${lxOff.toFixed(1)}" cy="${(legY+16+lr).toFixed(1)}" r="${lr}" fill="none" stroke="var(--text3)" stroke-width="1" opacity=".35"/><text x="${lxOff.toFixed(1)}" y="${(legY+16+lr*2+10).toFixed(1)}" text-anchor="middle" class="sc-ax" opacity=".5">${lbl}</text>`;
+      lxOff-=lr+6;
+    });
+  }
+  el.innerHTML=`<svg viewBox="0 0 ${VW} ${VH}" width="100%" style="display:block;overflow:visible">
+    <defs><clipPath id="sc-clip"><rect x="${M.l}" y="${M.t}" width="${PW}" height="${PH}"/></clipPath>
+    <style>
+      .sc-ax{font-family:var(--font-mono);font-size:${mob?'11px':'9.5px'};fill:var(--text3)}
+      .sc-ttl{font-family:var(--font-sans);font-size:${mob?'11px':'10.5px'};fill:var(--text2);font-weight:500}
+      .sc-ql{font-family:var(--font-sans);font-size:${mob?'9px':'8.5px'};font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+      .sc-lbl{font-family:var(--font-sans);font-size:${mob?'10.5px':'9px'};fill:var(--text2);pointer-events:none}
+      .sc-dot{cursor:pointer;transition:opacity .12s}
+      .sc-dot:hover{opacity:.95!important;stroke-width:2px!important}
+    </style></defs>
+    <g clip-path="url(#sc-clip)">
+      <rect x="${M.l}" y="${M.t}" width="${(txPx-M.l).toFixed(1)}" height="${PH}" fill="rgba(29,108,73,0.05)"/>
+      <rect x="${txPx.toFixed(1)}" y="${sy(50).toFixed(1)}" width="${(PW-(txPx-M.l)).toFixed(1)}" height="${(M.t+PH-sy(50)).toFixed(1)}" fill="rgba(0,105,148,0.04)"/>
+    </g>
+    ${gridLines}
+    <rect x="${M.l}" y="${M.t}" width="${PW}" height="${PH}" fill="none" stroke="var(--border)" stroke-width="1"/>
+    <line x1="${txPx.toFixed(1)}" y1="${M.t}" x2="${txPx.toFixed(1)}" y2="${M.t+PH}" stroke="var(--border2)" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="${(txPx+4).toFixed(1)}" y="${M.t+12}" class="sc-ax" style="font-size:${mob?'9px':'8px'}">$50k cap N/A</text>
+    <text x="${M.l+8}" y="${M.t+18}" class="sc-ql" fill="${GREEN}" opacity=".55">${mob?'▲ Compliant':'▲ Narrow &amp; compliant'}</text>
+    <text x="${(txPx+6).toFixed(1)}" y="${M.t+PH-10}" class="sc-ql" fill="${RED}" opacity=".55">${mob?'▼ Non-compliant':'▼ Wide &amp; non-compliant'}</text>
+    ${sizeLegend}
+    <g clip-path="url(#sc-clip)">${circles}</g>
+    ${labels}
+    <line x1="${M.l}" y1="${M.t+PH}" x2="${M.l+PW}" y2="${M.t+PH}" stroke="var(--border2)" stroke-width="1"/>
+    ${xAxis}
+    <text x="${(M.l+PW/2).toFixed(1)}" y="${VH-8}" text-anchor="middle" class="sc-ttl">${mob?'Salary range width %':'Median salary range width % · narrower = more precise disclosure'}</text>
+    <line x1="${M.l}" y1="${M.t}" x2="${M.l}" y2="${M.t+PH}" stroke="var(--border2)" stroke-width="1"/>
+    ${yAxis}
+    <text transform="rotate(-90)" x="${-(M.t+PH/2).toFixed(1)}" y="${mob?'13':'14'}" text-anchor="middle" class="sc-ttl">${mob?'Compliance %':'Compliance rate % (regulated postings)'}</text>
+  </svg>`;
+  el.querySelectorAll('.sc-dot').forEach(dot=>{
+    dot.addEventListener('pointerenter',()=>{
+      const cls=dot.dataset.c;
+      const cc=cls==='compliant'?getCSSVar('--green'):cls==='noncompliant'?getCSSVar('--amber'):getCSSVar('--text3');
+      const cl=cls==='compliant'?'Mostly compliant':cls==='noncompliant'?'Non-compliant jobs present':'Majority exempt (>$200k)';
+      const nc=parseInt(dot.dataset.nc)||0;
+      tt.innerHTML=`<div class="ctt-name">${dot.dataset.n}</div>
+        <div class="ctt-cls" style="color:${cc}">${cl}</div>
+        <div class="ctt-grid">
+          <span class="ctt-lbl">Postings</span><span class="ctt-val">${dot.dataset.t}</span>
+          <span class="ctt-lbl">Median width</span><span class="ctt-val">${dot.dataset.m}%</span>
+          <span class="ctt-lbl">Compliance rate</span><span class="ctt-val">${dot.dataset.r}</span>
+          ${nc>0?`<span class="ctt-lbl">Non-compliant</span><span class="ctt-val" style="color:${getCSSVar('--amber')}">${nc} jobs</span>`:''}
+        </div>`;
+      tt.style.display='block';
+    });
+    dot.addEventListener('pointermove',ev=>{
+      const w=tt.offsetWidth,h=tt.offsetHeight;
+      let lx=ev.clientX+16,ly=ev.clientY-10;
+      if(lx+w>window.innerWidth-8)lx=ev.clientX-w-16;
+      if(ly+h>window.innerHeight-8)ly=ev.clientY-h-10;
+      tt.style.left=lx+'px';tt.style.top=ly+'px';
+    });
+    dot.addEventListener('pointerleave',()=>{tt.style.display='none';});
+  });
+}
+
+main();
+</script>
+</body>
+</html>
