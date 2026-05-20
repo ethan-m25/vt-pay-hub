@@ -1,1 +1,9 @@
-{"name": "vt-payhub", "vars": {"APP_BASE_URL": "https://vt.payhub.fyi"}}
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vt-payhub",
+  "compatibility_date": "2026-03-13",
+  "pages_build_output_dir": ".",
+  "vars": {
+    "APP_BASE_URL": "https://vt.payhub.fyi"
+  }
+}

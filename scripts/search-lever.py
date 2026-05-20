@@ -49,9 +49,9 @@ DISCOVERY_QUERIES = [
 
 
 SALARY_RE = [
-    re.compile(r'\$\s*([\\d,]+)(?:\.\d+)?\s*(?:USD|CAD|usd|cad)?\s*[-–—to]+\s*\$\s*([\\d,]+)', re.IGNORECASE),
-    re.compile(r'\$([\\d]+(?:\.\d+)?)[kK]\s*[-–—]\s*\$([\\d]+(?:\.\d+)?)[kK]', re.IGNORECASE),
-    re.compile(r'(?:pay|salary|compensation|base|wage|range)[^$\n]{0,50}\$?([\\d,]{5,})\s*[-–—to]+\s*\$?([\\d,]{5,})', re.IGNORECASE),
+    re.compile(r'\$\s*([\d,]+)(?:\.\d+)?\s*(?:USD|CAD|usd|cad)?\s*[-–—to]+\s*\$\s*([\d,]+)', re.IGNORECASE),
+    re.compile(r'\$([\d]+(?:\.\d+)?)[kK]\s*[-–—]\s*\$([\d]+(?:\.\d+)?)[kK]', re.IGNORECASE),
+    re.compile(r'(?:pay|salary|compensation|base|wage|range)[^$\n]{0,50}\$?([\d,]{5,})\s*[-–—to]+\s*\$?([\d,]{5,})', re.IGNORECASE),
 ]
 
 LEVER_SLUG_RE = re.compile(r'https?://jobs\.lever\.co/([a-zA-Z0-9._-]+)', re.IGNORECASE)

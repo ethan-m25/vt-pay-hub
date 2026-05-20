@@ -49,6 +49,21 @@ def classify_job(job: dict) -> dict:
     job["_federal"] = False
     if "category" not in job or not job["category"]:
         job["category"] = classify_category(job.get("role", ""))
+    # Infer work_mode from title + location keywords
+    role_loc = (job.get("role", "") + " " + job.get("location", "")).lower()
+    if any(t in role_loc for t in ("remote", "work from home", "wfh", "distributed", " anywhere")):
+        job.setdefault("work_mode", "remote")
+    elif "hybrid" in role_loc:
+        job.setdefault("work_mode", "hybrid")
+    elif any(t in role_loc for t in ("on-site", "onsite", "in-person", "in office", "in-office")):
+        job.setdefault("work_mode", "onsite")
+    else:
+        job.setdefault("work_mode", "unknown")
+
+    # Infer salary_type: hourly if min < 500, else annual
+    vmin = job.get("min", 0) or 0
+    job.setdefault("salary_type", "hourly" if 0 < vmin < 500 else "annual")
+
     return job
 
 
@@ -127,6 +142,8 @@ def main():
                              str(int(time.time() * 1000))[-8:]
                 job["status"] = "active"
                 job["date_added"] = TODAY
+                job.setdefault("scraped", TODAY)
+                job.setdefault("last_seen", TODAY)
                 if "posted" not in job:
                     job["posted"] = TODAY
 

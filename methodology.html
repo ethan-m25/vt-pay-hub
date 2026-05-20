@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vermont Pay Hub - Methodology</title>
+<meta name="description" content="Vermont Pay Hub methodology for 112 public postings with disclosed pay.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://vt.payhub.fyi/methodology.html">
+<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#070a0f;color:#f3f7fb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit}nav{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:18px 28px;border-bottom:1px solid rgba(255,255,255,.1);background:rgba(7,10,15,.86);position:sticky;top:0;backdrop-filter:blur(16px)}.brand{font-weight:800;text-decoration:none}.links{display:flex;gap:10px;flex-wrap:wrap}.links a{font-size:13px;color:#b7c3d0;text-decoration:none}main{max-width:940px;margin:0 auto;padding:64px 24px}.eyebrow{color:#ff5a70;text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:800}h1{font-size:clamp(36px,6vw,64px);line-height:1;margin:12px 0 18px;letter-spacing:-.04em}.lede{font-size:18px;color:#b7c3d0;max-width:760px}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:32px 0}.fact,.panel{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.045);border-radius:14px}.fact{padding:16px}.fact strong{display:block;font-size:22px}.fact span{font-size:12px;color:#8d9bad;text-transform:uppercase;letter-spacing:.08em}.panel{padding:24px;margin:16px 0}h2{margin:0 0 10px;font-size:22px}p{margin:0 0 12px;color:#c4ceda}code{background:rgba(255,255,255,.08);padding:2px 5px;border-radius:5px}footer{max-width:940px;margin:0 auto;padding:28px 24px;color:#8d9bad;border-top:1px solid rgba(255,255,255,.1);font-size:13px}@media(max-width:720px){nav{align-items:flex-start;flex-direction:column}.facts{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<nav><a class="brand" href="/">VT Pay Hub</a><div class="links"><a href="/">Insights</a><a href="/jobs.html">Jobs</a><a href="/methodology.html">Methodology</a><a href="/disclaimer.html">Disclaimer</a><a href="https://payhub.fyi">Network</a></div></nav>
+<main>
+<div class="eyebrow">VT salary transparency</div>
+<h1>Methodology</h1>
+<p class="lede">This page explains what Vermont Pay Hub counts, how the rule is labeled, and where the numbers come from. Counts use the same source snapshot as the hub front end.</p>
+<section class="facts"><div class="fact"><strong>112</strong><span>Tracked postings</span></div><div class="fact"><strong>112</strong><span>Active postings</span></div><div class="fact"><strong>7</strong><span>Employers</span></div><div class="fact"><strong>USD</strong><span>Currency</span></div></section>
+
+<section class="panel">
+  <h2>How to Read This Hub</h2>
+  <p><strong>Mandatory posting disclosure.</strong> Covered job advertisements must include a compensation range. Threshold: 5+ employees.</p>
+  <p>Regional law/source context: <strong>Vermont Act 155 / H.704</strong> · Effective July 1, 2025.</p>
+</section>
+<section class="panel">
+  <h2>What We Count</h2>
+  <p>Vermont Pay Hub tracks public job postings where salary or wage information is visible. The current static snapshot contains <strong>112</strong> tracked postings, including <strong>112</strong> active postings across <strong>7</strong> employers.</p>
+  <p>The hub uses public employer career pages and public posting feeds collected by PayHub scrapers. Front-end count language is synchronized from <code>data/jobs.json</code>, using the dataset metadata count when present and the job list length as a fallback.</p>
+</section>
+<section class="panel">
+  <h2>How We Clean It</h2>
+  <p>Salary ranges are normalized into USD. Annual, hourly, and range-style disclosures may appear differently in original postings, so PayHub keeps original-source context where available and treats very wide ranges as lower-quality signals.</p>
+  <p>Archived or unavailable links may remain in the historical dataset for continuity, while active counts are reported separately when scraper metadata provides them.</p>
+</section>
+<section class="panel">
+  <h2>Keeping Counts Aligned</h2>
+  <p>Regional hub pages, search pages, and the main PayHub portal are designed to read from the same local dataset snapshot. Publish scripts run front-end synchronization before deployment so headings, metadata, structured data, and regional cards stay aligned.</p>
+</section>
+</main>
+<footer>Vermont Pay Hub - Methodology - Last dataset marker: 2026-05-20T13:24:48Z</footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -10,7 +10,7 @@
 <link rel="icon" type="image/png" href="/favicon.png?v=2">
 <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
 <link rel="shortcut icon" href="/favicon.ico?v=2">
-<link rel="canonical" href="https://vt.payhub.fyi/">
+<link rel="canonical" href="https://vt.payhub.fyi/jobs.html">
 <!-- google-site-verification pending for vt.payhub.fyi -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Vermont Pay Hub — Real Salary Ranges for Vermont Jobs 2026">
 <meta property="og:description" content="Real salary ranges from Vermont employers under pay transparency law. Updated daily by AI agents.">
-<meta property="og:url" content="https://vt.payhub.fyi/">
+<meta property="og:url" content="https://vt.payhub.fyi/jobs.html">
 <meta property="og:image" content="https://vt.payhub.fyi/og-preview.png">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
@@ -30,19 +30,32 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Vermont Pay Transparency Salary Dataset",
-  "description": "Aggregated salary ranges from publicly advertised Vermont job postings.",
-  "url": "https://vt.payhub.fyi/",
+  "name": "Vermont Pay Hub Salary Dataset",
+  "description": "Aggregated salary ranges from public Vermont job postings.",
+  "url": "https://vt.payhub.fyi/jobs.html",
   "license": "https://opensource.org/licenses/MIT",
-  "creator": { "@type": "Organization", "name": "Vermont Pay Hub" },
-  "temporalCoverage": "2023-11-01/..",
-  "spatialCoverage": { "@type": "Place", "name": "Vermont" },
-  "keywords": ["salary range", "pay transparency", "Vermont", "VT", "compensation", "2025"],
-  "distribution": [{
-    "@type": "DataDownload",
-    "encodingFormat": "application/json",
-    "contentUrl": "https://vt.payhub.fyi/data/jobs.json"
-  }]
+  "creator": {
+    "@type": "Organization",
+    "name": "Vermont Pay Hub"
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Vermont"
+  },
+  "keywords": [
+    "salary range",
+    "pay transparency",
+    "Vermont",
+    "USD",
+    "compensation"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://vt.payhub.fyi/data/jobs.json"
+    }
+  ]
 }
 </script>
 <style>
@@ -83,7 +96,7 @@
   --text: #14202B;
   --text2: #445364;
   --text3: #748294;
-  --accent: #D4AF37;
+  --accent: #e8445a;
   --accent-dim: rgba(212,130,10,.06);
   --accent-border: rgba(212,130,10,.18);
   --green: #1D6C49;
@@ -99,7 +112,7 @@
   --modal-overlay: rgba(20,32,43,.42);
   --input-bg: #F8FAFC;
   --dot-color: rgba(212,130,10,.05);
-  --rule-accent: #D4AF37;
+  --rule-accent: #e8445a;
   --masthead-bg: #003D20;
   --masthead-text: #F5F7FA;
 }
@@ -114,9 +127,9 @@
   --border: #30363D;
   --border2: #484F58;
   --text: #E6EDF3;
-  --text2: #8D96A0;
-  --text3: #545D68;
-  --accent: #D4AF37;
+  --text2: #b1c0d2;
+  --text3: #7f91a6;
+  --accent: #e8445a;
   --accent-dim: rgba(212,130,10,.10);
   --accent-border: rgba(212,130,10,.28);
   --green: #3FB950;
@@ -133,8 +146,8 @@
   --input-bg: #22272E;
   --dot-color: rgba(63,185,80,.08);
   --rule-accent: #E8445A;
-  --masthead-bg: #E6EDF3;
-  --masthead-text: #0D1117;
+  --masthead-bg: #11161d;
+  --masthead-text: #E6EDF3;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -325,6 +338,7 @@ nav {
   color: var(--text2); position: relative;
 }
 .btn-icon:hover { background: var(--surface); border-color: var(--text3); }
+#themeBtn{display:none!important}
 #themeBtn svg{
   width:18px;
   height:18px;
@@ -1300,19 +1314,19 @@ footer a:hover { color: var(--accent); }
 .masthead h2 em { font-style: normal; color: var(--accent); }
 [data-theme="dark"] .masthead h2 em { color: #E8445A; }
 .masthead p {
-  font-size: var(--fs-base); color: rgba(255,255,255,.6); line-height: 1.55;
+  font-size: var(--fs-base); color: rgba(255,255,255,.78); line-height: 1.55;
 }
-[data-theme="dark"] .masthead p { color: rgba(0,0,0,.6); }
+[data-theme="dark"] .masthead p { color: rgba(255,255,255,.78); }
 .masthead .hero-kicker { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.12); color: rgba(255,255,255,.8); }
-[data-theme="dark"] .masthead .hero-kicker { background: rgba(0,0,0,.08); border-color: rgba(0,0,0,.12); color: rgba(0,0,0,.7); }
+[data-theme="dark"] .masthead .hero-kicker { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.12); color: rgba(255,255,255,.84); }
 .masthead .btn-secondary { color: rgba(255,255,255,.75); border-color: rgba(255,255,255,.2); }
 .masthead .btn-secondary:hover { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.35); color: #fff; }
-[data-theme="dark"] .masthead .btn-secondary { color: rgba(0,0,0,.65); border-color: rgba(0,0,0,.2); }
-[data-theme="dark"] .masthead .btn-secondary:hover { background: rgba(0,0,0,.08); border-color: rgba(0,0,0,.35); }
-.masthead .hero-stat { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); color: rgba(255,255,255,.6); }
+[data-theme="dark"] .masthead .btn-secondary { color: rgba(255,255,255,.78); border-color: rgba(255,255,255,.24); }
+[data-theme="dark"] .masthead .btn-secondary:hover { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.35); }
+.masthead .hero-stat { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); color: rgba(255,255,255,.78); }
 .masthead .hero-stat strong { color: rgba(255,255,255,.9); }
-[data-theme="dark"] .masthead .hero-stat { background: rgba(0,0,0,.06); border-color: rgba(0,0,0,.12); color: rgba(0,0,0,.55); }
-[data-theme="dark"] .masthead .hero-stat strong { color: rgba(0,0,0,.8); }
+[data-theme="dark"] .masthead .hero-stat { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); color: rgba(255,255,255,.72); }
+[data-theme="dark"] .masthead .hero-stat strong { color: rgba(255,255,255,.8); }
 /* Brand moment — CO Copper CTA in hero only */
 .masthead .btn-primary {
   background: var(--accent);
@@ -2132,9 +2146,46 @@ tbody tr:hover {
 .network-back{font-size:var(--fs-xs);color:var(--text3);font-family:var(--font-mono);}
 .network-back a{color:var(--text2);text-decoration:none;border-bottom:1px dotted var(--border2);transition:color .2s;}
 .network-back a:hover{color:var(--text);}
+
+/* ===== PayHub hub design-language unification (v2) ===== */
+[data-theme="dark"]{
+  --bg:#05080c; --bg2:#0a1119;
+  --surface:#0d1824; --surface2:#131e2c;
+  --border:rgba(255,255,255,.09); --border2:rgba(255,255,255,.16);
+  --text:#f2f7fb; --text2:#b1c0d2; --text3:#7f91a6;
+  --nav-bg:rgba(6,10,15,.80); --masthead-bg:rgba(7,11,18,.42); --masthead-text:#f2f7fb; --input-bg:#0d141d;
+}
+[data-theme="dark"] body{ background:var(--bg); }
+[data-theme="dark"] nav{backdrop-filter:blur(16px) saturate(160%);-webkit-backdrop-filter:blur(16px) saturate(160%);}
+[data-theme="dark"] .masthead{color:#f2f7fb;border-bottom:1px solid rgba(255,255,255,.08);}
+[data-theme="dark"] .masthead h1,[data-theme="dark"] .masthead h2{color:#f2f7fb}
+[data-theme="dark"] .masthead-kicker{color:#ff5a70;opacity:.84;}
+[data-theme="dark"] .masthead-sub,[data-theme="dark"] .masthead p{color:var(--text2);opacity:1;}
+[data-theme="dark"] .masthead-meta,[data-theme="dark"] .hero-stat{color:rgba(255,255,255,.78);}
+[data-theme="dark"] .meta-chip{color:var(--text2);background:rgba(255,255,255,.072);border-color:rgba(255,255,255,.16);}
+#themeBtn{display:none!important}
+.hero{border-bottom:1px solid rgba(255,255,255,.08) !important}
+.salary-focus-bar{background:rgba(9,13,20,.975) !important;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+thead th,.results-header{background:#0a0e16 !important}
+.ph-sky{position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:radial-gradient(ellipse 72% 52% at 80% -8%,rgba(232,68,90,.12),transparent 60%),
+    radial-gradient(ellipse 62% 46% at 10% 3%,rgba(63,217,138,.055),transparent 58%),var(--bg);}
+:root{--ph-region-code:"VT";--ph-orb-bg-x:29.8%;--ph-orb-bg-y:25.6%;--ph-orb-pin-x:29.8%;--ph-orb-pin-y:25.6%;--ph-orb-rotate:9.1deg;--ph-orb-label-rotate:-9.1deg;}
+.ph-orb{position:fixed;z-index:-1;pointer-events:none;
+  width:128vh;height:128vh;max-width:1500px;max-height:1500px;
+  left:84%;top:48%;transform:translate(-50%,-50%) rotate(var(--ph-orb-rotate,0deg));border-radius:50%;
+  background:url(https://payhub.fyi/assets/globe-bg.svg) var(--ph-orb-bg-x,50%) var(--ph-orb-bg-y,50%)/cover no-repeat;opacity:.52;
+  -webkit-mask:radial-gradient(circle at 50% 50%,#000 58%,transparent 73%);
+          mask:radial-gradient(circle at 50% 50%,#000 58%,transparent 73%);}
+.ph-orb::before{content:"";position:absolute;inset:0;border-radius:50%;
+  border:1px solid rgba(170,212,246,.5);
+  box-shadow:inset 0 0 140px -4px rgba(128,188,238,.42),0 0 80px 5px rgba(128,188,238,.2);}
+.ph-orb::after{content:var(--ph-region-code,"");position:absolute;left:var(--ph-orb-pin-x,50%);top:var(--ph-orb-pin-y,50%);transform:translate(-50%,-50%) rotate(var(--ph-orb-label-rotate,0deg));font:700 10px/1 var(--font-mono, var(--mono, monospace));letter-spacing:.08em;color:#f2f7fb;background:rgba(232,68,90,.24);border:1px solid rgba(255,118,136,.72);border-radius:999px;padding:6px 7px;box-shadow:0 0 0 5px rgba(232,68,90,.10),0 0 24px rgba(232,68,90,.45),0 0 42px rgba(128,188,238,.20);text-shadow:0 1px 8px rgba(0,0,0,.65);}
+@media(max-width:760px){.ph-orb{left:78%;top:66%;width:104vh;height:104vh}.ph-orb::after{font-size:9px;padding:5px 6px}}
 </style>
 </head>
 <body>
+<div class="ph-sky" aria-hidden="true"></div><div class="ph-orb" data-region="VT" aria-hidden="true"></div>
 
 <!-- NAV -->
 <nav>
@@ -2359,10 +2410,10 @@ tbody tr:hover {
         </div>
       </div>
       <div class="comp-note" id="compNote">
-        <strong>What "Compensation Range" means under Illinois EPEA (effective Jan 1, 2025):</strong><br>
+        <strong>What "Compensation Range" means under VT Pay Transparency Act (effective Jul 1, 2025):</strong><br>
         ✅ <strong>Included:</strong> base wages (salary), commissions, guaranteed performance bonuses<br>
         <span class="comp-not-included">❌ <strong>Not required:</strong> discretionary bonuses, stock/equity, employer benefit contributions, vacation pay amounts</span><br>
-        <span style="font-size: var(--fs-sm);margin-top:4px;display:block">Source: <a href="https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=4241" target="_blank" rel="noopener" style="color:var(--accent)">Illinois EPEA Requirements ↗</a> — applies to ALL Illinois employers (no employee threshold)</span>
+        <span style="font-size: var(--fs-sm);margin-top:4px;display:block">Source: <a href="https://legislature.vermont.gov/bill/status/2024/S.296" target="_blank" rel="noopener" style="color:var(--accent)">VT Pay Transparency Act Requirements ↗</a> — applies to Vermont employers with 5+ employees</span>
       </div>
       <div class="table-wrap">
         <table id="jobTable" aria-rowcount="0">
@@ -2751,7 +2802,7 @@ async function loadData() {
 
 // ===== STATE =====
 const S = {
-  theme: localStorage.getItem("oph-theme") || "light",
+  theme: "dark",
   user: null,
   saved: [],
   savedMeta: {},
@@ -2945,8 +2996,8 @@ function renderCoverageCard(){
 
   const chipsHTML = noData.map(r=>{
     const tip = r.federal
-      ? 'Federal employer — IL EPEA 820 ILCS 112/10 disclosure not required'
-      : 'Not found in our dataset — may have no CO postings, may not disclose pay, or not yet scraped';
+      ? 'Federal employer — 21 V.S.A. §495h (Act 97) disclosure not required'
+      : 'Not found in our dataset — may have no VT postings, may not disclose pay, or not yet scraped';
     return `<span class="cov-chip${r.federal?' federal':''}" title="${tip}">${r.name}${r.federal?' †':''}</span>`;
   }).join('');
 
@@ -2962,7 +3013,7 @@ function renderCoverageCard(){
     <div class="cov-rows">${rowsHTML}</div>
     <div class="cov-group-label">Not in our dataset</div>
     <div class="cov-chips">${chipsHTML}</div>
-    <div class="cov-footnote">† Federal employer — may not be covered by Illinois EPEA. May operate under federal law. "Not in dataset" may mean: no active CO postings, pay not disclosed, or not yet scraped.</div>
+    <div class="cov-footnote">† Federal employer — may not be covered by VT Pay Transparency Act. May operate under federal law. "Not in dataset" may mean: no active VT postings, pay not disclosed, or not yet scraped.</div>
     ${fewNote}
   `;
   requestAnimationFrame(()=>{
@@ -3673,7 +3724,7 @@ function _setupVsObserver() {
 function _getFedBadge(company) {
   if (_fedBadgeCache.has(company)) return _fedBadgeCache.get(company);
   const m = getFederalMatch(company);
-  const b = m ? `<span class="fed-row-badge" title="${m.name} is a federally regulated employer — IL EPEA 820 ILCS 112/10 does not apply">Fed. exempt</span>` : '';
+  const b = m ? `<span class="fed-row-badge" title="${m.name} is a federally regulated employer — 21 V.S.A. §495h (Act 97) does not apply">Fed. exempt</span>` : '';
   _fedBadgeCache.set(company, b);
   return b;
 }
@@ -3945,7 +3996,7 @@ function exportCSV(){
   const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"});
   const url=URL.createObjectURL(blob);
   const a=document.createElement("a");
-  a.href=url; a.download="bc-salary-data-"+new Date().toISOString().slice(0,10)+".csv";
+  a.href=url; a.download="vt-salary-data-"+new Date().toISOString().slice(0,10)+".csv";
   a.click(); URL.revokeObjectURL(url);
 }
 
