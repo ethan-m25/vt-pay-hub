@@ -55,8 +55,11 @@ python3 "$HOME/shared-scripts/hub_pipeline_healthcheck.py" --hub "vt" >> "$LOG_F
 log "healthcheck done (exit $?)"
 
 log "--- archive-jobs ---"
-python3 "$HOME/shared-scripts/hub_archive_jobs.py" --hub "vt" --limit 50 >> "$LOG_FILE" 2>&1
+python3 "$HOME/shared-scripts/hub_archive_jobs.py" --hub "vt" --limit 100 >> "$LOG_FILE" 2>&1
 log "archive done (exit $?)"
+log "--- skill-extract ---"
+python3 "$HOME/shared-scripts/hub_skill_extract.py" --hub "vt" --limit 30 >> "$LOG_FILE" 2>&1
+log "skill-extract done (exit $?)"
 
 log "--- publish.sh ---"
 bash "$SCRIPTS_DIR/publish.sh" >> "$LOG_FILE" 2>&1
