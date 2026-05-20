@@ -34,6 +34,9 @@ fi
 
 cd "$REPO_DIR"
 git add data/jobs.json
+for f in data/skill_salary_data.json data/job_enrichment.json; do
+  [[ -f "$f" ]] && git add "$f"
+done
 for f in index.html insights.html skills.html compliance.html methodology.html disclaimer.html; do
   [[ -f "$f" ]] && git add "$f"
 done
