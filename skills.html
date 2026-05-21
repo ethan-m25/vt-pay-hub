@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Skill Salary Signal — VT Pay Hub</title>
+<meta name="description" content="Which skills command a salary premium in Vermont? Data from VT voluntary pay transparency (Act 155) disclosures shows which listed skills correlate with above- or below-median pay.">
+<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+<link rel="shortcut icon" href="/favicon.ico?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --radius: 12px; --radius-sm: 8px; --radius-xs: 6px; --radius-lg: 16px;
+  --transition: .18s ease;
+  --shadow: 0 1px 4px rgba(0,0,0,.06);
+  --shadow-lg: 0 4px 16px rgba(0,0,0,.10);
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-sans: 'Sora', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SF Mono', monospace;
+  --fs-xs: 0.625rem; --fs-sm: 0.75rem; --fs-md: 0.8125rem; --fs-base: 0.875rem;
+  --fs-lg: 1rem; --fs-xl: 1.125rem; --fs-2xl: 1.25rem; --fs-3xl: 1.5rem;
+  --fs-4xl: 1.75rem; --fs-5xl: 2rem; --fs-6xl: 2.5rem; --fs-7xl: 3.25rem;
+}
+[data-theme="light"] {
+  --bg: #EEF1F4; --bg2: #E4E8ED; --surface: #F8FAFC; --surface2: #EEF2F6;
+  --border: #D5DCE5; --border2: #B8C4D1;
+  --text: #14202B; --text2: #445364; --text3: #748294;
+  --accent: #006994; --accent-dim: rgba(0,105,148,.06); --accent-border: rgba(0,105,148,.18);
+  --green: #1D6C49; --green-dim: rgba(29,108,73,.08); --green-mid: rgba(29,108,73,.18);
+  --amber: #9A6A14; --amber-dim: rgba(154,106,20,.10);
+  --red: #006994; --red-dim: rgba(0,105,148,.08);
+  --nav-bg: #F8FAFC; --masthead-bg: #18222D; --masthead-text: #F5F7FA;
+  --chart-grid: rgba(213,220,229,.9); --rule: #D5DCE5;
+}
+[data-theme="dark"] {
+  --bg: #0D1117; --bg2: #161B22; --surface: #1C2128; --surface2: #22272E;
+  --border: #30363D; --border2: #484F58;
+  --text: #E6EDF3; --text2: #b1c0d2; --text3: #7f91a6;
+  --accent: #E8445A; --accent-dim: rgba(232,68,90,.10); --accent-border: rgba(232,68,90,.28);
+  --green: #3FB950; --green-dim: rgba(63,185,80,.10); --green-mid: rgba(63,185,80,.22);
+  --amber: #D29922; --amber-dim: rgba(210,153,34,.10);
+  --red: #E8445A; --red-dim: rgba(232,68,90,.10);
+  --nav-bg: #0D1117; --masthead-bg: #E6EDF3; --masthead-text: #f2f7fb;
+  --chart-grid: rgba(48,54,61,.9); --rule: #30363D;
+}
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--font-sans); background:var(--bg); color:var(--text); min-height:100vh; line-height:1.55; transition:background var(--transition),color var(--transition); }
+@media(prefers-reduced-motion:reduce){ *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; } }
+
+/* NAV */
+nav { position:sticky; top:0; z-index:200; background:var(--nav-bg); border-bottom:1px solid var(--border2); padding:0 28px; height:56px; display:flex; align-items:center; gap:16px; }
+.logo { display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; }
+.logo-icon { width:34px; height:34px; background:var(--accent); border-radius:9px; display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:transform var(--transition); }
+.logo:hover .logo-icon { transform:scale(1.06); }
+[data-theme="dark"] .logo-icon { background:#1a2f42; box-shadow:0 0 0 1px rgba(255,255,255,.07); }
+.logo-name { font-family:var(--font-display); font-size:var(--fs-lg); font-weight:800; color:var(--text); letter-spacing:-.02em; line-height:1; }
+.logo-badge { font-family:var(--font-mono); font-size:var(--fs-xs); background:var(--accent); color:var(--bg); padding:2px 6px; font-weight:600; letter-spacing:.05em; }
+@media(max-width:540px){ .logo-badge{display:none;} .logo-name{font-size:var(--fs-base);} }
+.nav-pill { font-size:var(--fs-sm); font-weight:600; color:var(--text2); background:var(--surface2); border:1px solid var(--border); border-radius:20px; padding:4px 12px; text-decoration:none; transition:all var(--transition); white-space:nowrap; }
+.nav-pill:hover { color:var(--text); border-color:var(--border2); }
+.nav-pill.active { background:var(--accent); color:#fff; border-color:transparent; }
+.section-nav { display:flex; align-items:center; gap:6px; padding:0 24px; height:44px; background:var(--nav-bg); border-bottom:1px solid var(--border); position:sticky; top:56px; z-index:99; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+.section-nav::-webkit-scrollbar { display:none; }
+@media(max-width:600px){ .section-nav { padding:0 16px; top:56px; } }
+.snav-pill { font-size:var(--fs-sm); font-weight:600; color:var(--text3); padding:4px 12px; border-radius:20px; text-decoration:none; transition:all var(--transition); white-space:nowrap; border:1px solid transparent; }
+.snav-pill:hover { color:var(--text); background:var(--surface2); }
+.snav-pill.active { background:var(--accent); color:#fff; }
+.nav-spacer { flex:1; }
+.btn-icon-nav { width:34px; height:34px; border:none; background:transparent; border-radius:8px; cursor:pointer; color:var(--text2); display:flex; align-items:center; justify-content:center; font-size:16px; transition:background var(--transition),color var(--transition); }
+.btn-icon-nav:hover { background:var(--surface2); color:var(--text); }
+
+/* MASTHEAD */
+.masthead { background:var(--masthead-bg); color:var(--masthead-text); padding:64px 0 56px; position:relative; overflow:hidden; }
+.masthead::before { content:''; position:absolute; inset:0; background:repeating-linear-gradient(90deg,transparent,transparent calc(100%/12 - 1px),rgba(255,255,255,.03) calc(100%/12 - 1px),rgba(255,255,255,.03) calc(100%/12)); pointer-events:none; }
+[data-theme="dark"] .masthead::before { background:repeating-linear-gradient(90deg,transparent,transparent calc(100%/12 - 1px),rgba(255,255,255,.02) calc(100%/12 - 1px),rgba(255,255,255,.02) calc(100%/12)); }
+.masthead-inner { max-width:1200px; margin:0 auto; padding:0 28px; position:relative; }
+.masthead-kicker { font-size:var(--fs-xs); font-weight:700; letter-spacing:.12em; text-transform:uppercase; opacity:.5; margin-bottom:16px; display:flex; align-items:center; gap:10px; }
+.masthead-kicker::before { content:''; display:block; width:24px; height:1px; background:currentColor; opacity:.6; }
+.masthead h1 { font-family:var(--font-display); font-size:clamp(2rem,5vw,3.5rem); font-weight:800; letter-spacing:-.03em; line-height:1.08; margin-bottom:16px; max-width:680px; }
+.masthead h1 em { font-style:normal; color:var(--accent); }
+[data-theme="dark"] .masthead h1 em { color:#E8445A; }
+.masthead-sub { font-size:var(--fs-lg); opacity:.7; max-width:520px; line-height:1.6; }
+.masthead-meta { display:flex; gap:24px; margin-top:28px; flex-wrap:wrap; }
+.meta-chip { font-family:var(--font-mono); font-size:var(--fs-xs); background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.12); border-radius:6px; padding:4px 10px; white-space:nowrap; }
+
+/* PAGE */
+.page { max-width:1200px; margin:0 auto; padding:0 28px 80px; }
+
+/* CATEGORY TABS */
+.cat-tabs-wrap { margin-top:36px; margin-bottom:0; }
+.cat-tabs-label { font-size:var(--fs-xs); font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text3); margin-bottom:12px; }
+.cat-tabs { display:flex; gap:8px; flex-wrap:wrap; }
+.cat-tab { font-size:var(--fs-sm); font-weight:600; padding:6px 16px; border-radius:20px; border:1.5px solid var(--border); background:var(--surface); color:var(--text2); cursor:pointer; transition:all var(--transition); white-space:nowrap; font-family:var(--font-sans); }
+.cat-tab:hover { border-color:var(--border2); color:var(--text); }
+.cat-tab.active { background:var(--accent); border-color:transparent; color:#fff; }
+
+/* SKILL CHART SECTION */
+.skill-section { margin-top:32px; }
+.skill-section-header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:24px; flex-wrap:wrap; }
+.skill-section-title { font-size:var(--fs-2xl); font-weight:800; letter-spacing:-.02em; color:var(--text); }
+.skill-section-sub { font-size:var(--fs-base); color:var(--text2); margin-top:4px; }
+.stat-chips { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; }
+.stat-chip { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; text-align:center; }
+.stat-chip-num { font-family:var(--font-mono); font-size:var(--fs-xl); font-weight:600; color:var(--text); }
+.stat-chip-label { font-size:var(--fs-xs); color:var(--text3); text-transform:uppercase; letter-spacing:.08em; margin-top:2px; }
+
+/* CHART CARD */
+.chart-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:28px; box-shadow:var(--shadow); }
+.chart-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:12px; }
+.chart-title { font-size:var(--fs-lg); font-weight:700; color:var(--text); }
+.chart-legend { display:flex; gap:16px; font-size:var(--fs-xs); color:var(--text3); align-items:center; }
+.legend-dot { width:10px; height:10px; border-radius:3px; }
+
+/* SKILL BARS */
+.skill-bars { display:flex; flex-direction:column; gap:6px; }
+.skill-row { display:grid; grid-template-columns: 180px 1fr 80px; align-items:center; gap:12px; min-height:34px; }
+@media(max-width:640px){ .skill-row { grid-template-columns: 140px 1fr 64px; gap:8px; } }
+.skill-name { font-size:var(--fs-sm); font-weight:500; color:var(--text2); text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.skill-bar-wrap { position:relative; height:28px; display:flex; align-items:center; }
+.bar-zero { position:absolute; top:0; bottom:0; width:1.5px; background:var(--border2); }
+.bar-fill { position:absolute; top:4px; bottom:4px; border-radius:3px; transition:width .4s cubic-bezier(.4,0,.2,1); }
+.bar-fill.premium { background:var(--green); opacity:.85; }
+.bar-fill.discount { background:var(--accent); opacity:.80; }
+.skill-dev { font-family:var(--font-mono); font-size:var(--fs-sm); font-weight:600; white-space:nowrap; }
+.skill-dev.premium { color:var(--green); }
+.skill-dev.discount { color:var(--accent); }
+.skill-n { font-size:var(--fs-xs); color:var(--text3); }
+
+/* SKILL SPLIT CARDS */
+.split-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:20px; }
+@media(max-width:680px){ .split-grid { grid-template-columns:1fr; } }
+.split-card { border-radius:var(--radius); padding:20px; border:1px solid; }
+.split-card.premium-card { background:var(--green-dim); border-color:var(--green-mid); }
+.split-card.discount-card { background:var(--accent-dim); border-color:var(--accent-border); }
+.split-card-header { display:flex; align-items:center; gap:10px; margin-bottom:16px; }
+.split-badge { font-size:var(--fs-xs); font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding:3px 8px; border-radius:4px; }
+.split-badge.premium { background:var(--green); color:#fff; }
+.split-badge.discount { background:var(--accent); color:#fff; }
+.split-card-title { font-size:var(--fs-base); font-weight:700; color:var(--text); }
+.skill-pill-list { display:flex; flex-direction:column; gap:8px; }
+.skill-pill { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.skill-pill-name { font-size:var(--fs-sm); font-weight:600; color:var(--text); }
+.skill-pill-meta { font-family:var(--font-mono); font-size:var(--fs-xs); color:var(--text3); white-space:nowrap; }
+.skill-pill-dev { font-family:var(--font-mono); font-size:var(--fs-sm); font-weight:700; }
+.skill-pill-dev.premium { color:var(--green); }
+.skill-pill-dev.discount { color:var(--accent); }
+
+/* METHODOLOGY CALLOUT */
+.method-callout { background:var(--surface2); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; margin-top:24px; font-size:var(--fs-sm); color:var(--text2); line-height:1.7; }
+.method-callout strong { color:var(--text); }
+
+/* KEY FINDINGS */
+.findings-section { margin-top:48px; padding-top:40px; border-top:2px solid var(--border); }
+.findings-header { margin-bottom:28px; }
+.findings-kicker { font-size:var(--fs-xs); font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--text3); margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+.findings-kicker::before { content:''; width:18px; height:2px; background:var(--accent); }
+.findings-title { font-size:var(--fs-3xl); font-weight:800; letter-spacing:-.025em; color:var(--text); line-height:1.15; }
+.findings-sub { font-size:var(--fs-base); color:var(--text2); margin-top:8px; max-width:640px; line-height:1.65; }
+.insight-callout { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px 28px; margin-bottom:24px; box-shadow:var(--shadow); }
+.ic-tag { font-size:var(--fs-xs); font-weight:700; text-transform:uppercase; letter-spacing:.1em; padding:3px 8px; border-radius:4px; display:inline-block; margin-bottom:12px; }
+.ic-tag.pattern { background:var(--amber-dim); color:var(--amber); border:1px solid var(--amber-mid); }
+.ic-tag.finding { background:var(--accent-dim); color:var(--accent); border:1px solid var(--accent-border); }
+.ic-tag.premium-tag { background:var(--green-dim); color:var(--green); border:1px solid var(--green-mid); }
+.ic-headline { font-size:var(--fs-xl); font-weight:700; color:var(--text); margin-bottom:8px; line-height:1.3; }
+.ic-body { font-size:var(--fs-sm); color:var(--text2); line-height:1.7; }
+.ic-body strong { color:var(--text); }
+.cross-cat-chart { margin-top:16px; display:flex; flex-direction:column; gap:4px; }
+.cc-row { display:grid; grid-template-columns:160px 1fr 64px; align-items:center; gap:10px; padding:4px 0; }
+@media(max-width:560px){ .cc-row { grid-template-columns:120px 1fr 56px; gap:6px; } }
+.cc-skill { font-size:var(--fs-sm); font-weight:600; color:var(--text); }
+.cc-cat-tag { font-size:var(--fs-xs); color:var(--text3); margin-top:1px; }
+.cc-bar-wrap { position:relative; height:24px; display:flex; align-items:center; }
+.cc-bar-zero { position:absolute; top:0; bottom:0; width:1.5px; background:var(--border2); left:50%; }
+.cc-bar { position:absolute; top:4px; bottom:4px; border-radius:3px; }
+.cc-dev { font-family:var(--font-mono); font-size:var(--fs-sm); font-weight:700; text-align:right; }
+.findings-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+@media(max-width:700px){ .findings-grid { grid-template-columns:1fr; } }
+.caveats { background:var(--surface2); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; margin-top:24px; font-size:var(--fs-sm); color:var(--text2); line-height:1.7; }
+.caveats strong { color:var(--text); }
+.caveats ul { margin:8px 0 0 16px; display:flex; flex-direction:column; gap:4px; }
+
+/* FOOTER */
+footer { border-top:1px solid var(--rule); padding:32px 28px; max-width:1200px; margin:0 auto; display:flex; flex-direction:column; gap:8px; }
+.footer-note { font-size:var(--fs-sm); color:var(--text3); line-height:1.6; }
+.footer-note a { color:var(--text2); text-decoration:none; border-bottom:1px solid var(--border2); }
+.footer-note a:hover { color:var(--text); }
+
+/* LOADING */
+#loadingOverlay { position:fixed; inset:0; background:var(--bg); z-index:9999; display:flex; align-items:center; justify-content:center; font-size:var(--fs-sm); color:var(--text3); font-family:var(--font-mono); letter-spacing:.04em; transition:opacity .3s; }
+
+.network-back{font-size:var(--fs-xs);color:var(--text3);font-family:var(--font-mono);}
+.network-back a{color:var(--text2);text-decoration:none;border-bottom:1px dotted var(--border2);transition:color .2s;}
+.network-back a:hover{color:var(--text);}
+/* ===== PayHub hub design-language unification (v2) ===== */
+[data-theme="dark"]{
+  --bg:#05080c; --bg2:#0a1119;
+  --surface:rgba(255,255,255,.042); --surface2:rgba(255,255,255,.072);
+  --border:rgba(255,255,255,.09); --border2:rgba(255,255,255,.16);
+  --text:#f2f7fb; --text2:#b1c0d2; --text3:#7f91a6;
+  --nav-bg:rgba(6,10,15,.80); --masthead-bg:rgba(7,11,18,.42); --masthead-text:#f2f7fb; --input-bg:#0d141d;
+}
+[data-theme="dark"] body{ background:var(--bg); }
+[data-theme="dark"] nav{backdrop-filter:blur(16px) saturate(160%);-webkit-backdrop-filter:blur(16px) saturate(160%);}
+[data-theme="dark"] .masthead{color:#f2f7fb;border-bottom:1px solid rgba(255,255,255,.08);}
+[data-theme="dark"] .masthead h1,[data-theme="dark"] .masthead h2{color:#f2f7fb}
+[data-theme="dark"] .masthead-kicker{color:#ff5a70;opacity:.84;}
+[data-theme="dark"] .masthead-sub,[data-theme="dark"] .masthead p{color:var(--text2);opacity:1;}
+[data-theme="dark"] .masthead-meta,[data-theme="dark"] .hero-stat{color:rgba(255,255,255,.78);}
+[data-theme="dark"] .meta-chip{color:var(--text2);background:rgba(255,255,255,.072);border-color:rgba(255,255,255,.16);}
+#themeBtn{display:none!important}
+.hero{border-bottom:1px solid rgba(255,255,255,.08) !important}
+.salary-focus-bar{background:rgba(9,13,20,.975) !important;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+thead th,.results-header{background:#0a0e16 !important}
+.ph-sky{position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:radial-gradient(ellipse 72% 52% at 80% -8%,rgba(232,68,90,.12),transparent 60%),
+    radial-gradient(ellipse 62% 46% at 10% 3%,rgba(63,217,138,.055),transparent 58%),var(--bg);}
+:root{--ph-region-code:"VT";--ph-orb-bg-x:29.8%;--ph-orb-bg-y:25.6%;--ph-orb-pin-x:29.8%;--ph-orb-pin-y:25.6%;--ph-orb-rotate:9.1deg;--ph-orb-label-rotate:-9.1deg;}
+.ph-orb{position:fixed;z-index:-1;pointer-events:none;
+  width:128vh;height:128vh;max-width:1500px;max-height:1500px;
+  left:84%;top:48%;transform:translate(-50%,-50%) rotate(var(--ph-orb-rotate,0deg));border-radius:50%;
+  background:url(https://payhub.fyi/assets/globe-bg.svg) var(--ph-orb-bg-x,50%) var(--ph-orb-bg-y,50%)/cover no-repeat;opacity:.52;
+  -webkit-mask:radial-gradient(circle at 50% 50%,#000 58%,transparent 73%);
+          mask:radial-gradient(circle at 50% 50%,#000 58%,transparent 73%);}
+.ph-orb::before{content:"";position:absolute;inset:0;border-radius:50%;
+  border:1px solid rgba(170,212,246,.5);
+  box-shadow:inset 0 0 140px -4px rgba(128,188,238,.42),0 0 80px 5px rgba(128,188,238,.2);}
+.ph-orb::after{content:var(--ph-region-code,"");position:absolute;left:var(--ph-orb-pin-x,50%);top:var(--ph-orb-pin-y,50%);transform:translate(-50%,-50%) rotate(var(--ph-orb-label-rotate,0deg));font:700 10px/1 var(--font-mono, var(--mono, monospace));letter-spacing:.08em;color:#f2f7fb;background:rgba(232,68,90,.24);border:1px solid rgba(255,118,136,.72);border-radius:999px;padding:6px 7px;box-shadow:0 0 0 5px rgba(232,68,90,.10),0 0 24px rgba(232,68,90,.45),0 0 42px rgba(128,188,238,.20);text-shadow:0 1px 8px rgba(0,0,0,.65);}
+@media(max-width:760px){.ph-orb{left:78%;top:66%;width:104vh;height:104vh}.ph-orb::after{font-size:9px;padding:5px 6px}}
+</style>
+</head>
+<body>
+<div class="ph-sky" aria-hidden="true"></div><div class="ph-orb" data-region="VT" aria-hidden="true"></div>
+<div id="loadingOverlay">Loading salary data…</div>
+
+<nav>
+  <a class="logo" href="/">
+    <div class="logo-icon">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="6" height="6" fill="white" opacity=".9"/><rect x="10" y="2" width="6" height="6" fill="white" opacity=".55"/><rect x="2" y="10" width="6" height="6" fill="white" opacity=".55"/><rect x="10" y="10" width="6" height="6" fill="white" opacity=".9"/></svg>
+    </div>
+    <span class="logo-name">VT<strong>Pay</strong></span>
+    <span class="logo-badge">HUB</span>
+  </a>
+  <span style="flex:1"></span>
+  <a class="nav-pill" href="/">Insights</a>
+  <a class="nav-pill" href="/jobs.html">Browse Jobs</a>
+  <button class="btn-icon-nav" id="themeBtn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">◐</button>
+</nav>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-kicker">Skill × Salary Analysis</div>
+    <h1>Which skills <em>actually</em> pay more?</h1>
+    <p class="masthead-sub">Comparing median salaries for jobs that list each skill against the category median — sourced from Vermont's VT voluntary pay transparency (Act 155) disclosures.</p>
+    <div class="masthead-meta">
+      <span class="meta-chip" id="metaTotalJobs">— postings</span>
+      <span class="meta-chip" id="metaCategories">— categories</span>
+      <span class="meta-chip" id="metaGenerated">—</span>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="cat-tabs-wrap">
+    <div class="cat-tabs-label">Select category</div>
+    <div class="cat-tabs" id="catTabs"></div>
+  </div>
+
+  <div class="skill-section" id="skillSection">
+    <!-- populated by JS -->
+  </div>
+
+  <!-- KEY FINDINGS -->
+  <div class="findings-section" id="keyFindings">
+    <div class="findings-header">
+      <div class="findings-kicker">Cross-Category Patterns</div>
+      <div class="findings-title">The soft skills trap</div>
+      <div class="findings-sub">The same skills appear as premium or discount signals across <em>multiple</em> unrelated job categories — suggesting a structural pattern, not category-specific noise.</div>
+    </div>
+
+    <div class="findings-grid">
+
+      <!-- DISCOUNT PATTERN -->
+      <div class="insight-callout">
+        <div class="ic-tag finding">Consistent discount signal</div>
+        <div class="ic-headline">Generic skills mark entry-level roles — not skill value</div>
+        <div class="ic-body">
+          <strong>Customer Service, Communication, Problem Solving</strong> consistently appear 27–41% below the median salary in every category where they show up with enough data. This isn't because these skills are worthless — it's because they're listed by employers filling <strong>frontline and junior positions</strong>, regardless of industry.
+          <br><br>
+          A Finance job listing "Customer Service" is likely a bank teller role ($59k), not an analyst ($100k+). The skill is a proxy for the role tier, not the skill itself.
+        </div>
+        <div class="cross-cat-chart" id="discountCrossChart"></div>
+      </div>
+
+      <!-- PREMIUM PATTERN -->
+      <div class="insight-callout">
+        <div class="ic-tag premium-tag">Consistent premium signal</div>
+        <div class="ic-headline">Specific and cross-functional skills signal senior roles</div>
+        <div class="ic-body">
+          <strong>Technical Leadership, Cross-Functional Collaboration, Product/Project Management</strong> command 24–39% above median across every category they appear in. These skills require domain expertise and are harder to fake in a job description — employers can only list them when the role genuinely demands them.
+          <br><br>
+          "Technical Leadership" in IT pays 39% above IT median. In Engineering, 27% above. The signal is consistent because <strong>the specialization is real</strong>.
+        </div>
+        <div class="cross-cat-chart" id="premiumCrossChart"></div>
+      </div>
+
+    </div>
+
+    <!-- INTERPRETATION -->
+    <div class="insight-callout" style="margin-top:20px">
+      <div class="ic-tag pattern">How to read a job posting</div>
+      <div class="ic-headline">A job's skill list is a seniority signal in disguise</div>
+      <div class="ic-body">
+        The data suggests a simple heuristic: <strong>count the generic skills vs. specific skills</strong> in any job description.
+        <br><br>
+        If the "required skills" section is dominated by <em>Communication, Customer Service, Problem Solving, Teamwork</em> — the employer is likely filling a commodity role that competes on volume, not expertise. Salary will reflect that.
+        <br><br>
+        If the required skills include <em>Technical Leadership, Cross-Functional Collaboration, specific tools or methodologies</em> — the employer is describing something harder to find, and the salary follows.
+        <br><br>
+        This pattern holds across Finance, Engineering, IT, Operations, Sales, and Product — it isn't a category quirk.
+      </div>
+    </div>
+
+    <div class="caveats">
+      <strong>Important caveats:</strong>
+      <ul>
+        <li><strong>Correlation, not causation.</strong> These skills co-occur with seniority — we can't isolate the skill's independent effect without controlling for job level and firm size.</li>
+        <li><strong>Extraction quality varies.</strong> Skills were extracted from raw job descriptions. Generic phrases like "problem solving" may be extracted inconsistently across postings.</li>
+        <li><strong>Minimum 15 jobs per skill.</strong> Low-sample findings are excluded, but sample sizes still vary widely — higher-n findings carry more weight.</li>
+        <li><strong>Vermont only.</strong> VT Act 155 salary disclosures. Results reflect Vermont job market conditions.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-note">
+    Data sourced from publicly advertised Vermont job postings under the VT Act 155 (effective July 1, 2024).
+    Skills extracted from job descriptions. Minimum 15 jobs per skill. Deviation from category median — not adjusted for seniority or firm size.
+    · <a href="/">Browse all jobs →</a>
+  </div>
+  <div class="network-back">ny.payhub.fyi &middot; Part of <a href="https://payhub.fyi">PayHub</a> &mdash; 5 jurisdictions</div>
+</footer>
+
+<script>
+/* ===== THEME ===== */
+function toggleTheme(){
+  const t = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', t === 'dark' ? 'light' : 'dark');
+  localStorage.setItem('oph-theme', document.documentElement.getAttribute('data-theme'));
+}
+(function(){
+  document.documentElement.setAttribute('data-theme', 'dark');
+})();
+
+const $ = id => document.getElementById(id);
+
+/* ===== RENDER SKILL CHART ===== */
+function renderSkillSection(catName, catData) {
+  const skills = catData.skills;
+  const catMedian = catData.cat_median;
+  const maxAbs = Math.max(...skills.map(s => Math.abs(s.dev)), 1);
+
+  // Select top 8 premium + top 8 discount (no overlap)
+  const sorted = [...skills].sort((a,b) => b.dev - a.dev);
+  const half = Math.min(8, Math.floor(sorted.length / 2));
+  const premium = sorted.slice(0, half);
+  const discountRaw = sorted.slice(sorted.length - half);
+  const premiumSet = new Set(premium.map(s => s.skill));
+  const discount = discountRaw.filter(s => !premiumSet.has(s.skill));
+  // Chart order: premium high→low, then discount low→high
+  const chartSkills = [...premium, ...[...discount].reverse()];
+
+  const fmt = n => '$' + n.toLocaleString('en-US', {maximumFractionDigits:0});
+  const cap = s => s.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  const html = `
+    <div class="skill-section-header">
+      <div>
+        <div class="skill-section-title">${catName}</div>
+        <div class="skill-section-sub">Category median: <strong>${fmt(catMedian)}</strong> · ${catData.n_jobs.toLocaleString()} jobs · ${skills.length} skills with 15+ sample</div>
+      </div>
+      <div class="stat-chips">
+        <div class="stat-chip">
+          <div class="stat-chip-num" style="color:var(--green)">${premium.length > 0 ? '+' + premium[0].dev.toFixed(0) + '%' : '—'}</div>
+          <div class="stat-chip-label">Top Premium</div>
+        </div>
+        <div class="stat-chip">
+          <div class="stat-chip-num" style="color:var(--accent)">${discount.length > 0 ? discount[0].dev.toFixed(0) + '%' : '—'}</div>
+          <div class="stat-chip-label">Biggest Discount</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">Skill salary deviation from ${catName} median</div>
+        <div class="chart-legend">
+          <span class="legend-dot" style="background:var(--green)"></span><span>Premium</span>
+          <span class="legend-dot" style="background:var(--accent)"></span><span>Below median</span>
+        </div>
+      </div>
+      <div class="skill-bars">
+        ${chartSkills.map(s => {
+          const isPremium = s.dev >= 0;
+          const barPct = Math.abs(s.dev) / maxAbs * 48; // max 48% of half-width
+          const zeroLeft = 50; // % of bar-wrap
+          const barLeft = isPremium ? zeroLeft : (zeroLeft - barPct);
+          return `<div class="skill-row">
+            <div class="skill-name" title="${cap(s.skill)}">${cap(s.skill)}</div>
+            <div class="skill-bar-wrap">
+              <div class="bar-zero" style="left:${zeroLeft}%"></div>
+              <div class="bar-fill ${isPremium ? 'premium' : 'discount'}" style="left:${barLeft.toFixed(1)}%;width:${barPct.toFixed(1)}%"></div>
+            </div>
+            <div>
+              <div class="skill-dev ${isPremium ? 'premium' : 'discount'}">${s.dev >= 0 ? '+' : ''}${s.dev.toFixed(0)}%</div>
+              <div class="skill-n">n=${s.n}</div>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="split-grid">
+      <div class="split-card premium-card">
+        <div class="split-card-header">
+          <span class="split-badge premium">Premium</span>
+          <span class="split-card-title">Skills above the median</span>
+        </div>
+        <div class="skill-pill-list">
+          ${premium.slice(0,6).map(s => `<div class="skill-pill">
+            <span class="skill-pill-name">${cap(s.skill)}</span>
+            <span class="skill-pill-meta">${fmt(s.median)} · n=${s.n}</span>
+            <span class="skill-pill-dev premium">+${s.dev.toFixed(0)}%</span>
+          </div>`).join('')}
+        </div>
+      </div>
+      <div class="split-card discount-card">
+        <div class="split-card-header">
+          <span class="split-badge discount">Below Median</span>
+          <span class="split-card-title">Skills below the median</span>
+        </div>
+        <div class="skill-pill-list">
+          ${discount.slice(-6).reverse().map(s => `<div class="skill-pill">
+            <span class="skill-pill-name">${cap(s.skill)}</span>
+            <span class="skill-pill-meta">${fmt(s.median)} · n=${s.n}</span>
+            <span class="skill-pill-dev discount">${s.dev.toFixed(0)}%</span>
+          </div>`).join('')}
+        </div>
+      </div>
+    </div>
+
+    <div class="method-callout">
+      <strong>How to read this:</strong> Each skill's bar shows the % difference between the median salary of jobs listing that skill and the overall ${catName} median (${fmt(catMedian)}).
+      This is a correlation, not a causal claim — premium skills often co-occur with seniority or specialization.
+      Minimum 15 jobs per skill. Skills extracted from full job descriptions.
+    </div>
+  `;
+
+  $('skillSection').innerHTML = html;
+}
+
+/* ===== MAIN ===== */
+async function main() {
+  let data;
+  try {
+    const r = await fetch('./data/skill_salary_data.json');
+    data = await r.json();
+  } catch(e) {
+    $('loadingOverlay').innerHTML = '<div style="color:var(--text3);font-size:var(--fs-sm);font-family:var(--font-mono)">Could not load skill data</div>';
+    return;
+  }
+
+  const cats = Object.keys(data.categories || {});
+
+  if (cats.length === 0) {
+    $('loadingOverlay').innerHTML = '<div style="color:var(--text3);font-size:var(--fs-sm);font-family:var(--font-mono);text-align:center">Skill data is being rebuilt — check back in a few hours.</div>';
+    return;
+  }
+
+  const totalJobs = cats.reduce((sum, c) => sum + data.categories[c].n_jobs, 0);
+
+  $('metaTotalJobs').textContent = totalJobs.toLocaleString() + ' postings with skill data';
+  $('metaCategories').textContent = cats.length + ' categories';
+  $('metaGenerated').textContent = 'Updated ' + data.generated;
+
+  // Build category tabs — sorted by n_jobs desc
+  const sortedCats = cats.sort((a,b) => data.categories[b].n_jobs - data.categories[a].n_jobs);
+
+  $('catTabs').innerHTML = sortedCats.map((cat, i) =>
+    `<button class="cat-tab${i === 0 ? ' active' : ''}" data-cat="${cat}" onclick="selectCat(this, '${cat}')">${cat}</button>`
+  ).join('');
+
+  // Render first category
+  renderSkillSection(sortedCats[0], data.categories[sortedCats[0]]);
+
+  // Store data globally
+  window._skillData = data;
+
+  // Render cross-category charts
+  renderCrossCatChart(data);
+
+  $('loadingOverlay').style.opacity = '0';
+  setTimeout(() => $('loadingOverlay').style.display = 'none', 300);
+}
+
+/* ===== CROSS-CATEGORY CHART ===== */
+function renderCrossCatChart(data) {
+  // Hard-coded findings from approved insights (cross-category consistent signals)
+  // Each entry: skill name, array of {cat, dev, n}
+  const discountFindings = [
+    { skill: 'Customer Service',  entries: [
+        { cat: 'Finance',     dev: -41.2, n: 47 },
+        { cat: 'Operations',  dev: -35.0, n: 65 },
+    ]},
+    { skill: 'Communication', entries: [
+        { cat: 'Sales & Mktg', dev: -34.0, n: 34 },
+        { cat: 'Operations',   dev: -31.0, n: 50 },
+    ]},
+    { skill: 'Problem Solving', entries: [
+        { cat: 'Finance',    dev: -35.0, n: 42 },
+        { cat: 'Operations', dev: -30.0, n: 50 },
+    ]},
+    { skill: 'Team Collaboration', entries: [
+        { cat: 'Finance',    dev: -27.0, n: 55 },
+    ]},
+  ];
+
+  const premiumFindings = [
+    { skill: 'Technical Leadership', entries: [
+        { cat: 'IT & Infra',   dev: 39.0, n: 34 },
+        { cat: 'Engineering',  dev: 27.0, n: 54 },
+    ]},
+    { skill: 'Cross-Functional Collab.', entries: [
+        { cat: 'Engineering',      dev: 31.0, n: 30 },
+        { cat: 'Product & Project', dev: 24.0, n: 62 },
+    ]},
+    { skill: 'Product Management', entries: [
+        { cat: 'Product & Project', dev: 29.0, n: 86 },
+    ]},
+    { skill: 'Project Management', entries: [
+        { cat: 'Operations', dev: 25.0, n: 74 },
+    ]},
+  ];
+
+  function buildRows(findings, type) {
+    const maxAbs = 45;
+    return findings.map(f => {
+      const rows = f.entries.map(e => {
+        const isPremium = e.dev >= 0;
+        const pct = Math.abs(e.dev) / maxAbs * 46;
+        const zeroLeft = 50;
+        const barLeft = isPremium ? zeroLeft : (zeroLeft - pct);
+        const color = isPremium ? 'var(--green)' : 'var(--accent)';
+        const devStr = (e.dev >= 0 ? '+' : '') + e.dev.toFixed(0) + '%';
+        return `<div class="cc-row">
+          <div>
+            <div class="cc-skill">${f.skill}</div>
+            <div class="cc-cat-tag">${e.cat} · n=${e.n}</div>
+          </div>
+          <div class="cc-bar-wrap">
+            <div class="cc-bar-zero"></div>
+            <div class="cc-bar" style="left:${barLeft.toFixed(1)}%;width:${pct.toFixed(1)}%;background:${color};opacity:.85"></div>
+          </div>
+          <div class="cc-dev" style="color:${color}">${devStr}</div>
+        </div>`;
+      }).join('');
+      return rows;
+    }).join('');
+  }
+
+  const dc = $('discountCrossChart');
+  const pc = $('premiumCrossChart');
+  if (dc) dc.innerHTML = buildRows(discountFindings, 'discount');
+  if (pc) pc.innerHTML = buildRows(premiumFindings, 'premium');
+}
+
+function selectCat(btn, catName) {
+  document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSkillSection(catName, window._skillData.categories[catName]);
+  $('skillSection').scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+main();
+</script>
+</body>
+</html>
