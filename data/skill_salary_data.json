@@ -1,0 +1,260 @@
+{
+  "generated": "2026-05-21",
+  "categories": {
+    "Engineering": {
+      "cat_median": 223092,
+      "n_jobs": 32,
+      "skills": [
+        {
+          "skill": "githubactions",
+          "median": 234500,
+          "n": 4,
+          "dev": 5.1
+        },
+        {
+          "skill": "cloud infrastructure",
+          "median": 234500,
+          "n": 4,
+          "dev": 5.1
+        },
+        {
+          "skill": "mongodb",
+          "median": 234500,
+          "n": 4,
+          "dev": 5.1
+        },
+        {
+          "skill": "product capabilities",
+          "median": 225500,
+          "n": 4,
+          "dev": 1.1
+        },
+        {
+          "skill": "technical discussion",
+          "median": 225500,
+          "n": 4,
+          "dev": 1.1
+        },
+        {
+          "skill": "project management",
+          "median": 225500,
+          "n": 4,
+          "dev": 1.1
+        },
+        {
+          "skill": "solutions engineering",
+          "median": 225500,
+          "n": 4,
+          "dev": 1.1
+        },
+        {
+          "skill": "customer relationship",
+          "median": 225500,
+          "n": 4,
+          "dev": 1.1
+        },
+        {
+          "skill": "technical leadership",
+          "median": 218750,
+          "n": 6,
+          "dev": -1.9
+        },
+        {
+          "skill": "nodejs",
+          "median": 218750,
+          "n": 6,
+          "dev": -1.9
+        },
+        {
+          "skill": "react",
+          "median": 218750,
+          "n": 6,
+          "dev": -1.9
+        },
+        {
+          "skill": "typescript",
+          "median": 212000,
+          "n": 2,
+          "dev": -5.0
+        },
+        {
+          "skill": "complex project delivery",
+          "median": 212000,
+          "n": 2,
+          "dev": -5.0
+        },
+        {
+          "skill": "cloud platforms",
+          "median": 207000,
+          "n": 5,
+          "dev": -7.2
+        }
+      ]
+    },
+    "Other": {
+      "cat_median": 160750,
+      "n_jobs": 24,
+      "skills": [
+        {
+          "skill": "chart review",
+          "median": 173750,
+          "n": 2,
+          "dev": 8.1
+        },
+        {
+          "skill": "clinical quality",
+          "median": 173750,
+          "n": 2,
+          "dev": 8.1
+        },
+        {
+          "skill": "behavioral health",
+          "median": 173750,
+          "n": 2,
+          "dev": 8.1
+        }
+      ]
+    },
+    "Marketing": {
+      "cat_median": 143750,
+      "n_jobs": 4,
+      "skills": [
+        {
+          "skill": "product marketing",
+          "median": 143750,
+          "n": 2,
+          "dev": 0.0
+        }
+      ]
+    },
+    "Data & Analytics": {
+      "cat_median": 131750,
+      "n_jobs": 6,
+      "skills": []
+    },
+    "People & HR": {
+      "cat_median": 166000,
+      "n_jobs": 4,
+      "skills": [
+        {
+          "skill": "scheduling",
+          "median": 120000,
+          "n": 2,
+          "dev": -27.7
+        },
+        {
+          "skill": "candidate_experience",
+          "median": 120000,
+          "n": 2,
+          "dev": -27.7
+        }
+      ]
+    },
+    "Management": {
+      "cat_median": 215500,
+      "n_jobs": 17,
+      "skills": []
+    },
+    "Product": {
+      "cat_median": 225500,
+      "n_jobs": 14,
+      "skills": [
+        {
+          "skill": "systemic_thinking",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "design_system",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "design_strategy",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "product_design",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "ai_centric",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "mentorship",
+          "median": 257000,
+          "n": 2,
+          "dev": 14.0
+        },
+        {
+          "skill": "product_management",
+          "median": 225500,
+          "n": 3,
+          "dev": 0.0
+        },
+        {
+          "skill": "data_infrastructure",
+          "median": 225500,
+          "n": 3,
+          "dev": 0.0
+        },
+        {
+          "skill": "hris",
+          "median": 225500,
+          "n": 3,
+          "dev": 0.0
+        },
+        {
+          "skill": "technical_fluency",
+          "median": 225500,
+          "n": 3,
+          "dev": 0.0
+        },
+        {
+          "skill": "customer_discovery",
+          "median": 225500,
+          "n": 3,
+          "dev": 0.0
+        },
+        {
+          "skill": "accessibility",
+          "median": 206750,
+          "n": 2,
+          "dev": -8.3
+        },
+        {
+          "skill": "system thinking",
+          "median": 206750,
+          "n": 2,
+          "dev": -8.3
+        },
+        {
+          "skill": "ui/ux",
+          "median": 206750,
+          "n": 2,
+          "dev": -8.3
+        },
+        {
+          "skill": "figma",
+          "median": 206750,
+          "n": 2,
+          "dev": -8.3
+        }
+      ]
+    },
+    "Operations": {
+      "cat_median": 155800,
+      "n_jobs": 7,
+      "skills": []
+    }
+  }
+}
