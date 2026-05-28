@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-27T10:34:50.019688+00:00",
-    "total_jobs": 124,
-    "enriched": 103
+    "built_at": "2026-05-28T11:24:48.213606+00:00",
+    "total_jobs": 304,
+    "enriched": 132
   },
   "jobs": {
     "enterprise-account-e-submittable-28696205": {
@@ -2337,6 +2337,653 @@
         "strategic_partnerships"
       ],
       "seniority_signal": "associate_principal",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "deal-desk-manager-amplitude-67218435": {
+      "summary": "Deal Desk Manager owns deal strategy for complex opportunities by advising Sales on pricing, packaging, contract terms, and negotiation strategy while driving end-to-end deal execution across Sales, Legal, Finance, and Revenue Accounting teams.",
+      "key_skills": [
+        "ai",
+        "analytics",
+        "product",
+        "data",
+        "marketing",
+        "deal",
+        "strategy",
+        "pricing"
+      ],
+      "core_skills": [
+        "deal desk",
+        "sales operations",
+        "contract negotiations",
+        "revenue recognition"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-customer-supp-lattice-67218436": {
+      "summary": "Lattice is hiring for a role that requires quick registration to secure seats for Lattiverse 2026",
+      "key_skills": [
+        "lattice",
+        "lattice"
+      ],
+      "core_skills": [
+        "lattice"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-software-engi-lattice-67218436": {
+      "summary": "Lattice is hiring for a role that requires quick registration to secure seats for Lattiverse 2026",
+      "key_skills": [
+        "lattice",
+        "lattice"
+      ],
+      "core_skills": [
+        "lattice"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "business-development-affirm-67218436": {
+      "summary": "Drives new business by identifying and developing partnership opportunities through outbound sales strategies, collaborating with the Sales & Business Development team to strategize outreach campaigns and nurture leads via phone, email, and social channels.",
+      "key_skills": [
+        "business development",
+        "sales",
+        "outbound sales",
+        "partner development",
+        "e-commerce",
+        "cold outreach",
+        "lead nurturing",
+        "quota management"
+      ],
+      "core_skills": [
+        "sales",
+        "outbound sales",
+        "e-commerce",
+        "cold outreach"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "compliance-analyst-i-affirm-67218436": {
+      "summary": "Compliance Analyst II reviews consumer complaints, investigates operational issues, and ensures adherence to federal and state regulations through proactive risk mitigation and process improvements.",
+      "key_skills": [
+        "compliance",
+        "regulatory",
+        "risk",
+        "consumer",
+        "credit",
+        "fraud",
+        "financial",
+        "fintech"
+      ],
+      "core_skills": [
+        "compliance",
+        "regulatory",
+        "risk",
+        "consumer"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "key-accounts-account-affirm-67218436": {
+      "summary": "Key Account Executive drives growth by leading high-impact sales efforts with Fortune 500 retailers, managing complex deals, and shaping buy now, pay later partnerships.",
+      "key_skills": [
+        "sales",
+        "enterprise",
+        "fintech",
+        "retail",
+        "bnpl",
+        "strategic",
+        "partnerships",
+        "negotiation"
+      ],
+      "core_skills": [
+        "sales",
+        "enterprise",
+        "fintech",
+        "retail"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "quality-assurance-sp-affirm-67218436": {
+      "summary": "Designs and owns QA programs for defined areas, identifies systemic quality issues through data analysis, and drives improvements to enhance customer experience and reduce recontacts.",
+      "key_skills": [
+        "quality assurance",
+        "data analysis",
+        "audit",
+        "systems thinking",
+        "customer experience",
+        "process improvement",
+        "root cause analysis",
+        "strategic planning"
+      ],
+      "core_skills": [
+        "program design",
+        "analytical fluency",
+        "audit & calibration",
+        "influence without authority"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-ciam-software-affirm-67218436": {
+      "summary": "Builds and operates backend services for customer registration, authentication, authorization, and account lifecycle flows across B2C and B2B platforms with strong security fundamentals.",
+      "key_skills": [
+        "ciam",
+        "oauth",
+        "oidc",
+        "saml",
+        "scim",
+        "python",
+        "kotlin",
+        "infrastructure-as-code",
+        "ci/cd",
+        "cloud-native",
+        "mfa",
+        "authentication",
+        "authorization",
+        "account-lifecycle"
+      ],
+      "core_skills": [
+        "ciam",
+        "oauth",
+        "oidc",
+        "saml"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-director--tec-affirm-67218436": {
+      "summary": "Senior Director leads technical program management to enhance financial products through strategic planning, cross-functional alignment, and operational maturity.",
+      "key_skills": [
+        "technical program management",
+        "planning",
+        "cross-functional collaboration",
+        "strategic alignment",
+        "okr development",
+        "process improvement",
+        "change management",
+        "operational maturity"
+      ],
+      "core_skills": [
+        "technical program management",
+        "planning",
+        "cross-functional collaboration",
+        "strategic alignment"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-machine-learn-affirm-67218436": {
+      "summary": "Builds and improves machine learning systems for real-time fraud transaction decisions while balancing fraud loss, customer experience, and conversion.",
+      "key_skills": [
+        "machine learning",
+        "fraud detection",
+        "real-time processing",
+        "data pipelines",
+        "feature engineering",
+        "model productionization",
+        "model monitoring",
+        "model retraining"
+      ],
+      "core_skills": [
+        "python",
+        "pytorch",
+        "spark",
+        "mlflow"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-manager--affi-affirm-67218436": {
+      "summary": "The BSA Officer develops, implements, and administers the Bank’s BSA/AML/CFT and OFAC Compliance Program to ensure adherence to financial crime regulations and regulatory requirements.",
+      "key_skills": [
+        "bsa",
+        "aml",
+        "cft",
+        "ofac",
+        "compliance",
+        "regulatory"
+      ],
+      "core_skills": [
+        "regulatory",
+        "compliance",
+        "risk_management",
+        "training"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-product-manag-affirm-67218436": {
+      "summary": "Senior Product Manager leads foundational platform capabilities for financial systems, driving scalability and reliability while enabling cross-functional integrations.",
+      "key_skills": [
+        "product management",
+        "platform strategy",
+        "api design",
+        "data systems",
+        "scalable systems",
+        "financial workflows",
+        "system reliability",
+        "cross-functional collaboration"
+      ],
+      "core_skills": [
+        "platform product thinking",
+        "technical fluency",
+        "strategic execution",
+        "cross-functional leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-product-secur-affirm-67218436": {
+      "summary": "Senior Product Security Engineer works with product and engineering teams to ensure security is integrated into every phase of product development, conducting threat modeling, code reviews, and vulnerability assessments to protect Affirm's financial products.",
+      "key_skills": [
+        "python",
+        "kotlin",
+        "java",
+        "aws",
+        "azure",
+        "saml",
+        "oauth2",
+        "threat modeling"
+      ],
+      "core_skills": [
+        "threat modeling",
+        "security vulnerabilities",
+        "pci compliance",
+        "continuous integration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-software-engi-affirm-67218436": {
+      "summary": "Engineer on ZT1 works in a small, highly empowered AI-native team to rapidly prototype and test AI-powered solutions through hypothesis-driven experiments and rapid sprint cycles.",
+      "key_skills": [
+        "ai",
+        "python",
+        "kotlin",
+        "aws",
+        "mysql",
+        "kubernetes",
+        "react",
+        "vue"
+      ],
+      "core_skills": [
+        "ai-first",
+        "hypothesis-driven",
+        "rapid prototyping",
+        "agentic workflows"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer-ii-affirm-67218436": {
+      "summary": "Engineer who designs, develops, and launches backend systems to support ML feature platforms and data infrastructure for decisioning teams.",
+      "key_skills": [
+        "python",
+        "kotlin",
+        "aws",
+        "mysql",
+        "kubernetes"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "backend systems"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-product-design-affirm-67218436": {
+      "summary": "Owns and drives design initiatives for Affirm’s App and Card experience, delivering customer-centric solutions that align with business objectives while collaborating cross-functionally to innovate and deliver seamless user experiences.",
+      "key_skills": [
+        "product design",
+        "user experience",
+        "interaction design",
+        "design systems",
+        "data-driven",
+        "agile",
+        "cross-functional collaboration",
+        "test-and-learn"
+      ],
+      "core_skills": [
+        "product sense",
+        "data-informed",
+        "risk-taking",
+        "collaborative mindset"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-software-engin-affirm-67218436": {
+      "summary": "The Staff Engineer designs, scales, and optimizes CI/CD pipelines to ensure reliable, fast feedback cycles for developers while mentoring teams and evangelizing best practices across engineering.",
+      "key_skills": [
+        "continuous integration",
+        "build systems",
+        "ci/cd",
+        "cloud-native",
+        "infrastructure-as-code",
+        "python",
+        "kubernetes",
+        "bazel"
+      ],
+      "core_skills": [
+        "systems and operations",
+        "collaboration and enablement",
+        "leadership and strategy"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-finance-an-affirm-67218436": {
+      "summary": "Partners with cross-functional leaders to drive business outcomes through strategic and analytic support, builds financial models for forecasting and variance analysis, and delivers scalable automated dashboards for executive consumption.",
+      "key_skills": [
+        "financial modeling",
+        "forecasting",
+        "revenue analytics",
+        "data visualization",
+        "sql",
+        "excel",
+        "python",
+        "machine learning"
+      ],
+      "core_skills": [
+        "financial analysis",
+        "strategic planning",
+        "cross-functional collaboration",
+        "executive communication"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-finance-ma-affirm-67218436": {
+      "summary": "Serves as a strategic finance leader who owns consolidated top line forecasting across users and loan portfolio, partners with Credit, Capital, Product, and Investor Relations to drive alignment on performance and priorities, and provides executive-ready insights for decision-making.",
+      "key_skills": [
+        "strategic finance",
+        "financial modeling",
+        "cross-functional partnership",
+        "financial analysis",
+        "data visualization",
+        "sql",
+        "financial planning",
+        "portfolio forecasting"
+      ],
+      "core_skills": [
+        "financial modeling",
+        "cross-functional partnership",
+        "financial analysis",
+        "data visualization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "credit-risk-senior-a-marqeta-67218436": {
+      "summary": "Lead underwriting strategy for credit programs, develop data-driven credit strategies, and manage consumer and SMB credit card portfolios to minimize losses and enhance profitability.",
+      "key_skills": [
+        "credit risk analysis",
+        "statistical modeling",
+        "sql",
+        "machine learning",
+        "data analysis",
+        "portfolio management",
+        "regulatory compliance",
+        "risk segmentation"
+      ],
+      "core_skills": [
+        "credit risk analysis",
+        "statistical modeling",
+        "sql",
+        "machine learning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "sales-enablement-ass-marqeta-67218436": {
+      "summary": "The Sales Enablement Associate creates high-quality content to help sellers, partner managers, and solution consultants articulate Marqeta’s value with clarity and confidence.",
+      "key_skills": [
+        "sales enablement",
+        "content creation",
+        "technical translation",
+        "fintech",
+        "api",
+        "card issuing",
+        "fraud controls",
+        "embedded finance"
+      ],
+      "core_skills": [
+        "content creation",
+        "technical translation",
+        "fintech",
+        "sales enablement"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-manager--comm-marqeta-67218436": {
+      "summary": "Owns Marqeta's commercialization efforts across product suite, collaborating with cross-functional teams to develop go-to-market strategies, launch products, and achieve business metrics.",
+      "key_skills": [
+        "embedded finance",
+        "payments",
+        "go-to-market",
+        "product commercialization",
+        "financial services",
+        "b2b saas",
+        "revenue operations",
+        "data analysis"
+      ],
+      "core_skills": [
+        "go-to-market strategy",
+        "pricing strategy",
+        "competitive analysis",
+        "cross-functional leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sr--director--networ-marqeta-67218436": {
+      "summary": "Senior Director of Network Partnerships leads the development, management, and optimization of key relationships with network partners to drive growth, maximize incentives, and ensure favorable terms for the company.",
+      "key_skills": [
+        "network partnerships",
+        "contract management",
+        "financial optimization",
+        "strategic planning",
+        "regulatory compliance",
+        "card payments",
+        "payment processing",
+        "fintech"
+      ],
+      "core_skills": [
+        "strategic negotiation",
+        "analytical skills",
+        "cross-functional collaboration",
+        "visionary leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-product-desig-vercel-67218436": {
+      "summary": "Senior Product Designer works across the product to design thoughtful, system-based solutions for complex customer problems and build remarkable software interfaces.",
+      "key_skills": [
+        "product design",
+        "ui",
+        "interaction design",
+        "design system",
+        "financial infrastructure",
+        "web development",
+        "javascript",
+        "git"
+      ],
+      "core_skills": [
+        "design process",
+        "collaboration",
+        "communication",
+        "problem solving"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "site-engineer-vercel-67218436": {
+      "summary": "Fullstack Engineer responsible for building high-performing web experiences to drive user acquisition, conversion, and retention through A/B testing and optimization of conversion funnels.",
+      "key_skills": [
+        "react",
+        "javascript",
+        "nextjs",
+        "tailwindcss",
+        "abtesting",
+        "conversionoptimization",
+        "seo",
+        "ux"
+      ],
+      "core_skills": [
+        "nextjs",
+        "javascript",
+        "react",
+        "abtesting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "field-marketing-spec-webflow-67218436": {
+      "summary": "Supports planning, coordination, and execution of Webflow's field marketing programs including sponsorships, roadshows, and partner events while collaborating with sales teams and vendors to ensure program success and budget adherence.",
+      "key_skills": [
+        "field marketing",
+        "event marketing",
+        "sales-led growth",
+        "program execution",
+        "vendor coordination",
+        "budget tracking",
+        "performance metrics",
+        "event logistics"
+      ],
+      "core_skills": [
+        "event marketing",
+        "sales-led growth",
+        "program execution",
+        "vendor coordination"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-business-syst-webflow-67218436": {
+      "summary": "Owns day-to-day administration, governance, and user support for Webflow's enterprise AI tool stack, including provisioning access, managing seats, monitoring usage and cost, and translating business problems into shippable AI agents.",
+      "key_skills": [
+        "business systems analysis",
+        "ai tool stack administration",
+        "enterprise ai operations",
+        "generative ai tools",
+        "requirements gathering",
+        "workflow optimization",
+        "enablement programs",
+        "ai governance"
+      ],
+      "core_skills": [
+        "requirements gathering",
+        "ai tool administration",
+        "workflow optimization",
+        "enablement programs"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-staff-softwar-webflow-67218436": {
+      "summary": "Senior Staff Software Engineer leads technical vision and architecture for backend systems powering experimentation, personalization, and conversion optimization across Webflow's Convert platform.",
+      "key_skills": [
+        "distributed systems",
+        "ai-native",
+        "real-time data",
+        "experimentation platforms",
+        "personalization",
+        "conversion optimization",
+        "ml engineering",
+        "api design"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "system architecture",
+        "cross-functional collaboration",
+        "strategic planning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "head-of-customer-ai--asana-67218436": {
+      "summary": "Operational leader for Asana’s AI Transformation Factory, evolving post-sales organization into an AI-activation model by redesigning customer success, renewal, and services teams to drive AI product adoption and revenue growth.",
+      "key_skills": [
+        "ai",
+        "customer",
+        "transformation",
+        "product",
+        "engineering",
+        "revenue",
+        "customer_success",
+        "renewal"
+      ],
+      "core_skills": [
+        "strategic",
+        "operational",
+        "cross_functional",
+        "leadership"
+      ],
+      "seniority_signal": "senior",
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "remote"
