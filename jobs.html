@@ -2201,7 +2201,7 @@ thead th,.results-header{background:#0a0e16 !important}
   </div>
   <div class="nav-actions">
     <a class="nav-pill" href="/">Insights</a>
-    <a class="nav-pill active" href="/jobs.html">Browse Jobs</a>
+    <a class="nav-pill active" href="/jobs">Browse Jobs</a>
     <button class="btn-icon" id="savedBtn" onclick="toggleSaved()" title="Saved jobs" aria-label="Saved jobs">
       <svg width="13" height="16" viewBox="0 0 13 16" fill="none" aria-hidden="true"><path d="M1.5 1.5h10a.5.5 0 0 1 .5.5v12l-5.5-3.5L1 14V2a.5.5 0 0 1 .5-.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><span class="save-badge" id="savedBadge" style="display:none">0</span>
     </button>
@@ -4963,5 +4963,53 @@ function presetFilter(opts = {}) {
 })();
 </script>
 <script src="/assets/pretext.min.js"></script>
+
+<script>window.PHUB_HUB_ID = 'vt';</script>
+<script src="/phub-auth.js"></script>
+<script>
+(function () {
+  var AUTH_BASE = 'https://auth.payhub.fyi';
+  var HUB = window.PHUB_HUB_ID;
+
+  // Intercept api() — route auth/user calls to central service with JWT
+  var _origApi = window.api;
+  window.api = async function (path, options) {
+    options = options || {};
+    if (path === '/api/auth/logout') {
+      phub.signOut();
+      return {};
+    }
+    if (path === '/api/auth/me' || path.startsWith('/api/user/')) {
+      var sep = path.includes('?') ? '&' : '?';
+      var url = AUTH_BASE + path + sep + 'hub=' + HUB;
+      var token = await phub.getToken();
+      var hdrs = Object.assign({}, options.headers || {});
+      if (token) hdrs['Authorization'] = 'Bearer ' + token;
+      return _origApi(url, Object.assign({}, options, { headers: hdrs, credentials: 'omit' }));
+    }
+    return _origApi(path, options);
+  };
+
+  // Redirect to central auth sign-in page
+  window.openAuth = function () { phub.signIn(); };
+
+  // Replace initAuth with phub-aware version
+  window.initAuth = async function () {
+    await new Promise(function (resolve) {
+      phub.onReady(async function (user) {
+        S.user = user;
+        if (user) {
+          try {
+            var payload = await window.api('/api/auth/me');
+            normaliseSavedPayload(payload);
+            S.preferences = payload.preferences || { cat: '', region: '', salMin: 0, showArchived: true };
+          } catch (e) { console.warn('phub auth data:', e.message); }
+        }
+        resolve();
+      });
+    });
+  };
+})();
+</script>
 </body>
 </html>

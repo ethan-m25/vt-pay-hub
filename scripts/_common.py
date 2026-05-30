@@ -317,6 +317,15 @@ def load_existing_keys():
         return set()
 
 
+
+def load_existing_urls():
+    try:
+        with open(DATA_FILE) as f:
+            db = json.load(f)
+        return {j.get("source_url", "") for j in db.get("jobs", []) if j.get("source_url")}
+    except Exception:
+        return set()
+
 def collect_candidates(queries, num_results, log, start_date=None, skip=None):
     if skip is None:
         skip = SKIP_PATTERNS

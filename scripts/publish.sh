@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_DIR="$HOME/vt-pay-hub"
 DATA_FILE="$REPO_DIR/data/jobs.json"
 TODAY="${TODAY:-$(date +%Y-%m-%d)}"
-SKIP_NOTIFY="${SKIP_NOTIFY:-0}"
+SKIP_NOTIFY="${SKIP_NOTIFY:-1}"
 DISCORD_WEBHOOK="https://discord.com/api/webhooks/1496112180704051259/bGcHy1oDkDWgQVKClowYdaZCxcI4L0GoPVd4Rtqcfmp4FV2l15cLQLWrVD8ga4QmOL1A"
 
 notify_discord() {
