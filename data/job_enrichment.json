@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-29T12:16:50.516138+00:00",
+    "built_at": "2026-05-30T12:54:45.260369+00:00",
     "total_jobs": 359,
-    "enriched": 242
+    "enriched": 300
   },
   "jobs": {
     "enterprise-account-e-submittable-28696205": {
@@ -598,6 +598,32 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "revenue-enablement-c-vanta-83488499": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "salesforce-product-m-vanta-83488499": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "salesforce-quality-e-vanta-83488499": {
       "summary": "Builds and owns the Business Systems Quality Assurance program for Vanta's internal GTM and Finance systems, ensuring revenue-critical workflows are protected through end-to-end quality gates, automation frameworks, and observability infrastructure.",
       "key_skills": [
@@ -1064,6 +1090,19 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "senior-salesforce-ad-vanta-83488499": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "senior-software-engi-vanta-83488499": {
       "summary": "Designs and builds scalable infrastructure to support rapid growth while ensuring security and reliability for Vanta's core systems.",
       "key_skills": [
@@ -1155,6 +1194,19 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "software-engineer--i-vanta-83488499": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "solutions-engineer---vanta-83488499": {
       "summary": "Solutions Engineer leads technical discussions with customers to ensure seamless adoption of Vanta's security solutions, develops deep product understanding, and drives technical evaluations for pre-sales engagements.",
@@ -1742,6 +1794,19 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "manager--operations-headway-83488499": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "manager--revenue-acc-headway-83488499": {
       "summary": "Owns operational execution of revenue accounting, leads senior revenue accountants, drives month-end close, and ensures compliance with ASC 606 while scaling processes through automation and cross-functional partnerships.",
@@ -2340,6 +2405,29 @@
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "head-of-claims-lyft-67218435": {
+      "summary": "Head of Claims leads the claims strategy and operations for Lyft's rideshare services, managing third-party administrators and carriers while driving cost-mitigation and predictive risk intelligence.",
+      "key_skills": [
+        "claims",
+        "risk_management",
+        "liability",
+        "casualty",
+        "litigation",
+        "reserving",
+        "actuarial",
+        "predictive_analytics"
+      ],
+      "core_skills": [
+        "claims_strategy",
+        "tpa_management",
+        "severe_casualty",
+        "predictive_intelligence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "ai-tech-partner-lead-amplitude-67218435": {
       "summary": "Owns the full partnership lifecycle for strategic AI technology partners, designing repeatable GTM motions and driving product integration roadmaps to scale AI ecosystem partnerships.",
@@ -4541,6 +4629,28 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "renewal-manager-asana-67218436": {
+      "summary": "Manages human-agent workflows using Asana AI to streamline project management and automation tasks.",
+      "key_skills": [
+        "asana",
+        "ai",
+        "workflow",
+        "automation",
+        "goals",
+        "reporting",
+        "resource",
+        "management"
+      ],
+      "core_skills": [
+        "ai",
+        "workflow",
+        "automation"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "inside-account-execu-toast-67218436": {
       "summary": "Generates list of prospective restaurants, manages sales cycle from initial call to close, conducts demos, develops customized solutions, and partners with cross-functional teams to ensure delivery.",
       "key_skills": [
@@ -5318,6 +5428,121 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "-usa--associate-opto-walmart-inc--67218436": {
+      "summary": "Associate Optometrist provides evidence-based vision care to ensure patient health and well-being by recommending and prescribing medications and treatment options, while educating patients and store associates on eye health.",
+      "key_skills": [
+        "optometry",
+        "vision care",
+        "eyecare",
+        "prescribing",
+        "medications",
+        "treatment options",
+        "digital phoropters",
+        "emr"
+      ],
+      "core_skills": [
+        "optometry",
+        "vision care",
+        "eyecare",
+        "prescribing"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-product-manag-vanta-67218436": {
+      "summary": "Owns the Test Experience roadmap, focuses on helping customers surface compliance gaps fast, resolve issues through automated and agentic means, and generate audit-ready evidence.",
+      "key_skills": [
+        "product management",
+        "compliance",
+        "security",
+        "ai",
+        "agentic",
+        "automation",
+        "customer experience",
+        "workflow tools"
+      ],
+      "core_skills": [
+        "product management",
+        "customer experience",
+        "ai",
+        "automation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-software-engi-vanta-67218436": {
+      "summary": "Builds and ships internal tools to accelerate Vanta's go-to-market efforts by collaborating with Sales, Customer Success, and Revenue Operations to improve pipeline generation and win rates through AI-powered workflows and automation.",
+      "key_skills": [
+        "python",
+        "typescript",
+        "sql",
+        "ai",
+        "web",
+        "full-stack",
+        "ai-driven",
+        "automation"
+      ],
+      "core_skills": [
+        "full-stack",
+        "ai",
+        "python",
+        "typescript"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "technical-support-sp-vanta-67218436": {
+      "summary": "Provides technical support to customers through email, screen sharing, and chat, resolving inquiries within SLAs while mastering Vanta's product and explaining complex solutions in simplified terms.",
+      "key_skills": [
+        "technical support",
+        "troubleshooting",
+        "cloud infrastructure",
+        "api integration",
+        "networking",
+        "datadog",
+        "database",
+        "empathy"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "cloud infrastructure",
+        "api integration",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "mid-market-account-e-brisk-teaching-67218436": {
+      "summary": "Identifies and closes new school and district partnerships through targeted outreach and sales process management, focusing on expanding Brisk's footprint in K-12 education.",
+      "key_skills": [
+        "ai",
+        "education",
+        "sales",
+        "edtech",
+        "prospecting",
+        "outreach",
+        "sales_process",
+        "collaboration"
+      ],
+      "core_skills": [
+        "sales",
+        "edtech",
+        "prospecting",
+        "outreach"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-field-and-exp-brisk-teaching-67218436": {
       "summary": "Senior Field and Experiential Marketing Manager leads field and experiential marketing initiatives to drive brand engagement and customer acquisition.",
       "key_skills": [
@@ -5421,6 +5646,1054 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "unknown"
+    },
+    "senior-device-engine-globalfoundries-53821393": {
+      "summary": "Develops ESD and Latch-up protection device/circuit solutions for GlobalFoundries advanced technology nodes and enables ESD/LU technology milestones through collaboration with cross-functional teams.",
+      "key_skills": [
+        "esd",
+        "latch-up",
+        "protection_circuits",
+        "semiconductor",
+        "device_engineering",
+        "physical_design",
+        "eda_tools",
+        "cadence_virtuoso"
+      ],
+      "core_skills": [
+        "semiconductor_process_fabrication",
+        "nanofabrication",
+        "solid_state_physics",
+        "device_physics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "process-engineer--co-gf-us2-llc-53821393": {
+      "summary": "Process Engineer focuses on formulating inline inspection strategies, defect characterization, and continuous improvement in contamination-free manufacturing environments.",
+      "key_skills": [
+        "process engineering",
+        "contamination control",
+        "defect characterization",
+        "inline inspection",
+        "cfm recipes optimization",
+        "defect monitoring",
+        "continuous improvement",
+        "cleanroom environment"
+      ],
+      "core_skills": [
+        "process engineering",
+        "defect characterization",
+        "inline inspection",
+        "cleanroom environment"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "mts-packaging-integr-globalfoundries-53821393": {
+      "summary": "This hands-on assembly integration engineer delivers industry-leading electro-optical transceivers using GF’s Photonix platform and advanced packaging 2.5D and 3D co-packaged optics form factors, focusing on tool process interactions, product reliability, and compatibility of photonic interconnects with electrical interconnect solutions.",
+      "key_skills": [
+        "photonic",
+        "electro-optical",
+        "transceivers",
+        "advanced",
+        "packaging",
+        "2.5d",
+        "3d",
+        "co-packaged"
+      ],
+      "core_skills": [
+        "process_integration",
+        "reliability",
+        "design_rules",
+        "materials_selection"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "pmts-silicon-photoni-globalfoundries-53821393": {
+      "summary": "Photonic Packaging Engineer develops and sustains advanced optical packaging solutions for silicon photonics and co-packaged optics platforms.",
+      "key_skills": [
+        "photonic",
+        "packaging",
+        "silicon",
+        "optics",
+        "integration",
+        "co-packaged",
+        "heterogeneous",
+        "copper"
+      ],
+      "core_skills": [
+        "photonic",
+        "packaging",
+        "silicon",
+        "optics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "smts-photonics-advan-globalfoundries-53821393": {
+      "summary": "Photonic Packaging Engineer leads the development and sustainment of advanced optical packaging solutions for silicon photonics and co-packaged optics platforms, collaborating across photonics, electrical, mechanical, and manufacturing teams to deliver scalable, low-loss, and cost-effective packaging architectures.",
+      "key_skills": [
+        "photonic packaging",
+        "optical coupling",
+        "silicon photonics",
+        "co-packaged optics",
+        "heterogeneous integration",
+        "thermal/mechanical integration",
+        "fiber attach",
+        "photonic alignment"
+      ],
+      "core_skills": [
+        "photonic packaging",
+        "optical coupling",
+        "silicon photonics",
+        "co-packaged optics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "pmts-photonics-packa-globalfoundries-53821393": {
+      "summary": "Photonic Packaging Design Integration Engineer leads the development and sustainment of advanced optical packaging solutions for silicon photonics and co-packaged optics platforms, collaborating across photonics, electrical, mechanical, and manufacturing teams to deliver scalable, low-loss, and cost-effective packaging architectures.",
+      "key_skills": [
+        "photonic",
+        "packaging",
+        "design",
+        "integration",
+        "si_ph",
+        "co_packaged_optics",
+        "thermal",
+        "mechanical"
+      ],
+      "core_skills": [
+        "photonic_packaging",
+        "design_integration",
+        "advanced_packaging",
+        "thermal_analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "mts-3d-heterogenous--globalfoundries-53821393": {
+      "summary": "Leads advanced 3D Heterogeneous Integration initiatives including wafer-to-wafer and die-to-wafer hybrid bonding, TSV/TOV, and interposer development for GlobalFoundries product lines.",
+      "key_skills": [
+        "3d heterogenous integration",
+        "wafer-to-wafer hybrid bonding",
+        "die-to-wafer hybrid bonding",
+        "tsv/tov",
+        "interposer development",
+        "advanced packaging"
+      ],
+      "core_skills": [
+        "process development",
+        "collaboration",
+        "problem solving",
+        "technical troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "associate-maintenanc-gf-us2-llc-53821393": {
+      "summary": "Performs preventive and first call maintenance on semiconductor equipment while working in a cleanroom environment.",
+      "key_skills": [
+        "preventive maintenance",
+        "first call maintenance",
+        "semiconductor equipment",
+        "quality standard work",
+        "continuous improvement",
+        "cleanroom environment",
+        "equipment productivity",
+        "flexibility"
+      ],
+      "core_skills": [
+        "preventive maintenance",
+        "semiconductor equipment",
+        "cleanroom environment",
+        "quality standard work"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--technician-globa-gf-us2-llc-53821393": {
+      "summary": "Logistics technician supports manufacturing teams by assisting with part repairs, maintaining records, managing inventory, and updating repair statuses within the MES system to improve equipment availability and reduce downtime.",
+      "key_skills": [
+        "logistics",
+        "inventory",
+        "repair",
+        "mes",
+        "procurement",
+        "workflow",
+        "packaging",
+        "safety"
+      ],
+      "core_skills": [
+        "logistics",
+        "inventory",
+        "repair",
+        "mes"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "quantum-advanced-pac-gf-us2-llc-53821393": {
+      "summary": "Quantum Advanced Packaging Manager leads the Quantum advanced packaging team to develop cryogenic and superconducting capabilities including wafer-to-wafer hybrid/fusion bonding, die-to-wafer hybrid bonding, and interposers.",
+      "key_skills": [
+        "quantum",
+        "advanced",
+        "packaging",
+        "cryogenic",
+        "superconducting",
+        "wafer-to-wafer",
+        "hybrid",
+        "fusion",
+        "bonding",
+        "die-to-wafer",
+        "interposers"
+      ],
+      "core_skills": [
+        "management",
+        "technical",
+        "leadership",
+        "project",
+        "planning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "electrician-technici-gf-us2-llc-53821393": {
+      "summary": "Electrician Technician Facilities - Medium to High Voltage works on electrical systems maintenance, repair, and troubleshooting in a semiconductor manufacturing environment.",
+      "key_skills": [
+        "electrician",
+        "facilities",
+        "medium_high_voltage",
+        "maintenance",
+        "schematics",
+        "troubleshooting",
+        "preventative_maintenance",
+        "cleanroom"
+      ],
+      "core_skills": [
+        "electrician",
+        "maintenance",
+        "schematics",
+        "troubleshooting"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principle-product-te-mips-holding-in-53821393": {
+      "summary": "Defines, develops, and debugs Burn-In test software and hardware for semiconductor product qualification through temperature and voltage stressing.",
+      "key_skills": [
+        "burn-in",
+        "test",
+        "software",
+        "hardware",
+        "debug",
+        "semiconductor",
+        "product",
+        "qualification"
+      ],
+      "core_skills": [
+        "burn-in",
+        "test",
+        "debug",
+        "semiconductor"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-electronics-r-gf-us2-llc-53821393": {
+      "summary": "Senior Electronics Repair Technician repairs electronic systems including PCBs, controllers, robots, and power supplies at GlobalFoundries' Essex Junction facility.",
+      "key_skills": [
+        "electronics",
+        "repair",
+        "soldering",
+        "oscilloscope",
+        "multimeter",
+        "diagnostic",
+        "component-level",
+        "pcb"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "repair",
+        "diagnostic_tools",
+        "component_level"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--technician---mic-gf-us2-llc-53821393": {
+      "summary": "Sr. Technician - Microelectronics Failure Analysis performs SEM-based failure analysis to support semiconductor manufacturing yield, reliability, and root cause investigations through device and process-level analysis.",
+      "key_skills": [
+        "scanning electron microscopy",
+        "failure analysis",
+        "semiconductor manufacturing",
+        "microelectronics",
+        "device analysis",
+        "process optimization",
+        "root cause determination",
+        "yield learning"
+      ],
+      "core_skills": [
+        "semiconductor failure analysis",
+        "semiconductor manufacturing",
+        "scanning electron microscopy",
+        "sample preparation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--technician---fai-gf-us2-llc-53821393": {
+      "summary": "Sr. Technician performs SEM-based failure analysis to support yield, reliability, and manufacturing investigations in GlobalFoundries' advanced analytical laboratory.",
+      "key_skills": [
+        "scanning electron microscopy",
+        "failure analysis",
+        "microelectronics",
+        "semiconductor manufacturing",
+        "sample preparation",
+        "focused ion beam",
+        "wet and dry chemical etching",
+        "polishing"
+      ],
+      "core_skills": [
+        "problem solving",
+        "attention to detail",
+        "technical laboratory experience",
+        "cleanroom environment"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-technician-equ-gf-us2-llc-53821393": {
+      "summary": "Maintenance Technician monitors and sustains semiconductor equipment, performs preventative and corrective maintenance, and troubleshoots issues while working in a cleanroom environment.",
+      "key_skills": [
+        "semiconductor equipment maintenance",
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment troubleshooting",
+        "mechanical skills",
+        "electronic skills",
+        "software skills",
+        "process control"
+      ],
+      "core_skills": [
+        "semiconductor manufacturing",
+        "cleanroom environment",
+        "shift work"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-equipment-tech-gf-us2-llc-53821393": {
+      "summary": "Staff Equipment Technician supports state-of-the-art 200mm semiconductor manufacturing by monitoring equipment performance, conducting quality inspections, and implementing process improvements.",
+      "key_skills": [
+        "photolithography",
+        "semiconductor",
+        "equipment",
+        "maintenance",
+        "process",
+        "control",
+        "quality",
+        "inspection"
+      ],
+      "core_skills": [
+        "semiconductor manufacturing",
+        "process integration",
+        "statistical process control",
+        "lean processes"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "fab-9-technology-dev-gf-us2-llc-53821393": {
+      "summary": "Lead Epitaxy development engineer designs and develops GaN Epitaxy processes for semiconductor manufacturing, ensuring performance, reliability, yield, and cost objectives.",
+      "key_skills": [
+        "garn",
+        "mocvd",
+        "epitaxy",
+        "semiconductor",
+        "process",
+        "development",
+        "engineer",
+        "fab"
+      ],
+      "core_skills": [
+        "mocvd",
+        "epitaxy",
+        "semiconductor",
+        "process"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technician---emergen-gf-us2-llc-53821393": {
+      "summary": "Technician responds to medical emergencies, hazmat incidents, fires, and other emergencies to protect life, environment, property, and support manufacturing operations.",
+      "key_skills": [
+        "emergency response",
+        "hazmat",
+        "firefighting",
+        "medical emergencies",
+        "fire system",
+        "equipment maintenance",
+        "incident response",
+        "safety technician"
+      ],
+      "core_skills": [
+        "emergency response",
+        "hazmat",
+        "firefighting",
+        "safety technician"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "experienced-rf-gan-t-gf-us2-llc-53821393": {
+      "summary": "Develops innovative RF GaN technologies and leads technical projects for process integration and device performance demonstration.",
+      "key_skills": [
+        "rf",
+        "garn",
+        "smt",
+        "process",
+        "integration",
+        "engineer",
+        "technology",
+        "development"
+      ],
+      "core_skills": [
+        "process_integration",
+        "technical_leadership",
+        "doe_analysis",
+        "device_characterization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-equipment--gf-us2-llc-53821393": {
+      "summary": "This person works with data to build machine learning models and analyze data to solve business problems.",
+      "key_skills": [
+        "python",
+        "data",
+        "science",
+        "machine",
+        "learning"
+      ],
+      "core_skills": [
+        "python",
+        "data",
+        "science"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-equipment-engi-gf-us2-llc-53821393": {
+      "summary": "Maintains and improves semiconductor manufacturing equipment through preventative and corrective maintenance, troubleshooting, and collaboration with production teams in a cleanroom environment.",
+      "key_skills": [
+        "maintenance",
+        "equipment",
+        "semiconductor",
+        "fabrication",
+        "cleanroom",
+        "preventative",
+        "corrective",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "semiconductor",
+        "maintenance",
+        "equipment",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-equipment-eng-gf-us2-llc-53821393": {
+      "summary": "Senior Equipment Engineering Technician monitors and maintains semiconductor manufacturing equipment at GlobalFoundries' Essex Junction site, performing preventative and corrective maintenance, troubleshooting, and ensuring equipment readiness while working in cleanroom environments.",
+      "key_skills": [
+        "equipment",
+        "maintenance",
+        "semiconductor",
+        "fabrication",
+        "cleanroom",
+        "electronic",
+        "mechanical",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment monitoring",
+        "process troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-equipment-tec-gf-us2-llc-53821393": {
+      "summary": "Senior Equipment Technician monitors and sustains photolithography equipment at a 200mm semiconductor manufacturing facility, performing preventative and corrective maintenance, troubleshooting, and ensuring equipment readiness across shifts.",
+      "key_skills": [
+        "photolithography",
+        "equipment",
+        "maintenance",
+        "semiconductor",
+        "cleanroom",
+        "preventative",
+        "corrective",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment troubleshooting",
+        "cleanroom protocols"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-etch-and-p-gf-us2-llc-53821393": {
+      "summary": "Maintains and improves semiconductor equipment in a 200mm manufacturing facility through preventative and corrective maintenance, troubleshooting, and collaboration with production teams.",
+      "key_skills": [
+        "etch",
+        "pvd",
+        "maintenance",
+        "electrical",
+        "mechanical",
+        "cleanroom",
+        "semiconductor",
+        "equipment"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment troubleshooting",
+        "cleanroom protocols"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-technician-et-gf-us2-llc-53821393": {
+      "summary": "Senior Technician monitors and maintains etch/PVD equipment in semiconductor fabrication facilities, performing preventative and corrective maintenance, troubleshooting, and ensuring equipment readiness while adhering to cleanroom protocols.",
+      "key_skills": [
+        "etch",
+        "pvd",
+        "equipment",
+        "engineering",
+        "maintenance",
+        "technician",
+        "semiconductor",
+        "fabrication"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment troubleshooting",
+        "cleanroom compliance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-technician-gf-us2-llc-53821393": {
+      "summary": "Maintains and improves semiconductor equipment through monitoring, sustaining, and performing preventative and corrective maintenance on assigned tool sets while collaborating with production teams.",
+      "key_skills": [
+        "cvd equipment engineering",
+        "maintenance",
+        "preventative maintenance",
+        "corrective maintenance",
+        "electronic",
+        "mechanical",
+        "troubleshooting",
+        "semiconductor manufacturing"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "troubleshooting",
+        "semiconductor manufacturing"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-technician-di-gf-us2-llc-53821393": {
+      "summary": "Senior Technician monitors and maintains semiconductor equipment at GlobalFoundries' Essex Junction Fab 9 facility, performing preventative and corrective maintenance, troubleshooting issues, and ensuring equipment readiness in a cleanroom environment.",
+      "key_skills": [
+        "maintenance",
+        "equipment",
+        "semiconductor",
+        "fabrication",
+        "cleanroom",
+        "preventative",
+        "corrective",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "preventative maintenance",
+        "corrective maintenance",
+        "equipment troubleshooting",
+        "cleanroom protocols"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-maintenance-t-gf-us2-llc-53821393": {
+      "summary": "Senior Maintenance Technician resolves equipment and process issues in photolithography equipment at GlobalFoundries.",
+      "key_skills": [
+        "photolithography",
+        "maintenance",
+        "equipment",
+        "process",
+        "quality",
+        "inspection",
+        "recovery",
+        "optimization"
+      ],
+      "core_skills": [
+        "electrical",
+        "mechanical",
+        "pneumatic",
+        "troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-technician-cv-gf-us2-llc-53821393": {
+      "summary": "Senior Technician responsible for monitoring, controlling, and qualifying 200 mm semiconductor equipment, performing preventive maintenance, resolving equipment issues, conducting quality inspections, and troubleshooting process problems in a 24/7 manufacturing environment.",
+      "key_skills": [
+        "cvd",
+        "equipment",
+        "maintenance",
+        "semiconductor",
+        "process",
+        "quality",
+        "inspection",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "semiconductor",
+        "process",
+        "quality",
+        "troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "surface-prep---princ-gf-us2-llc-53821393": {
+      "summary": "Resolves equipment and process issues for semiconductor manufacturing equipment in a 24/7 facility.",
+      "key_skills": [
+        "surface prep",
+        "equipment maintenance",
+        "semiconductor equipment",
+        "preventive maintenance",
+        "process wafers",
+        "visual inspections",
+        "recovery process",
+        "continuous improvement"
+      ],
+      "core_skills": [
+        "semiconductor equipment",
+        "preventive maintenance",
+        "process wafers",
+        "visual inspections"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technician-facilitie-gf-us2-llc-53821393": {
+      "summary": "Operates and performs planned and corrective maintenance on heating and cooling systems for a semiconductor manufacturing facility.",
+      "key_skills": [
+        "mechanical systems",
+        "electrical systems",
+        "boiler",
+        "chillers",
+        "compressed air",
+        "troubleshooting",
+        "preventative maintenance",
+        "corrective maintenance"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "mechanical systems",
+        "electrical systems",
+        "preventative maintenance"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "smts---3d-heterogeno-gf-us2-llc-53821393": {
+      "summary": "This senior engineer leads end-to-end integration of 2.5D/3D heterogeneous integration technologies including silicon, glass, and mold interposers, and embedded silicon bridges.",
+      "key_skills": [
+        "3d heterogeneous integration",
+        "2.5d interposer",
+        "bridge",
+        "drc",
+        "silicon bridge",
+        "wafer thinning",
+        "backside processing",
+        "rdl/ubm metallization"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "process integration",
+        "reliability strategy",
+        "failure analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "advanced-packaging-p-gf-us2-llc-53821393": {
+      "summary": "This advanced packaging process integration engineer leads post-fab process development to meet customer requirements, focusing on wafer finishing and assembly processes for silicon photonics and other product lines.",
+      "key_skills": [
+        "advanced packaging",
+        "process integration",
+        "wafer finishing",
+        "assembly processes",
+        "silicon photonics",
+        "cmp",
+        "wafer thinning",
+        "dicing"
+      ],
+      "core_skills": [
+        "process development",
+        "cross-functional collaboration",
+        "failure mode analysis",
+        "design for cost"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--technician---fac-gf-us2-llc-53821393": {
+      "summary": "Sr. Technician resolves equipment and system issues for factory automation and robotics systems in a 24/7 manufacturing facility.",
+      "key_skills": [
+        "factory automation",
+        "robotics",
+        "preventive maintenance",
+        "wafer processing",
+        "quality checks",
+        "system troubleshooting",
+        "clean room environment",
+        "safety compliance"
+      ],
+      "core_skills": [
+        "factory automation",
+        "robotics",
+        "preventive maintenance",
+        "system troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--equipment-engine-gf-us2-llc-53821393": {
+      "summary": "Sr. Equipment Engineer supports Diffusion equipment on site at Fab 9 in Essex, VT, troubleshooting equipment downs and assisting maintenance with recoveries in a cleanroom environment.",
+      "key_skills": [
+        "equipment engineering",
+        "diffusion",
+        "cleanroom",
+        "semiconductor",
+        "maintenance",
+        "troubleshooting",
+        "tool availability",
+        "cost improvements"
+      ],
+      "core_skills": [
+        "equipment engineering",
+        "diffusion",
+        "cleanroom"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-engineer---gf-us2-llc-53821393": {
+      "summary": "This Principal Equipment Engineer owns the daily performance of semiconductor implant equipment and sets strategic plans for improvements and new equipment at a 200mm waferfab foundry facility.",
+      "key_skills": [
+        "ion implant",
+        "semiconductor equipment",
+        "equipment engineering",
+        "maintenance",
+        "tool support",
+        "process engineering",
+        "clean room",
+        "vacuum systems"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "problem solving",
+        "project management",
+        "team leadership"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "rf-technology-develo-globalfoundries-53821393": {
+      "summary": "Develops and optimizes semiconductor devices and processes to meet performance, cost, and yield goals while collaborating with cross-functional teams to improve device performance and manufacturing robustness.",
+      "key_skills": [
+        "semiconductor",
+        "feol",
+        "beol",
+        "process",
+        "optimization",
+        "qualification",
+        "device",
+        "characterization"
+      ],
+      "core_skills": [
+        "doe",
+        "root-cause",
+        "problem-solving",
+        "process-optimization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "rf-technology-develo-gf-us2-llc-53821393": {
+      "summary": "Device and TCAD engineer responsible for simulating, designing, and characterizing SiGe HBTs and RF CMOS devices to optimize performance and ensure compatibility with fabrication processes.",
+      "key_skills": [
+        "tcad",
+        "rf",
+        "semiconductor",
+        "device",
+        "characterization",
+        "analysis",
+        "silicon",
+        "cmos"
+      ],
+      "core_skills": [
+        "tcad simulation",
+        "device design",
+        "electrical characterization",
+        "rf characterization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "silicon-photonic--si-gf-us2-llc-53821393": {
+      "summary": "Develops leading-edge test solutions for high-speed electro-optic silicon photonic integrated circuits in data center and high-performance computing markets using GF proprietary technologies.",
+      "key_skills": [
+        "silicon photonics",
+        "test engineering",
+        "high-speed",
+        "electro-optic",
+        "photonic integrated circuits",
+        "rf",
+        "mm-wave",
+        "optical"
+      ],
+      "core_skills": [
+        "java",
+        "c++",
+        "linux",
+        "shell scripting"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "member-of-technical--gf-us2-llc-53821393": {
+      "summary": "Manages BEOL part of integrated CMOS process flow to enhance reliability, yield, and manufacturability in semiconductor manufacturing.",
+      "key_skills": [
+        "semiconductor",
+        "integration",
+        "process",
+        "engineering",
+        "beol",
+        "fabrication",
+        "manufacturing",
+        "yield"
+      ],
+      "core_skills": [
+        "process_integration",
+        "project_management",
+        "statistical_process_control",
+        "design_of_experiments"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manufacturing-operat-gf-us2-llc-53821393": {
+      "summary": "Manufacturing Operators work in clean room environments to sustain and run manufacturing equipment for producing microelectronic chips.",
+      "key_skills": [
+        "manufacturing",
+        "operators",
+        "clean room",
+        "equipment"
+      ],
+      "core_skills": [
+        "clean room environment",
+        "sustain and run manufacturing floor"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-engineer---se-gf-us2-llc-53821393": {
+      "summary": "The individual leads manufacturing and operations engineering projects, including automation of operational processes and systems to complement robotics deployment in semiconductor fabrication.",
+      "key_skills": [
+        "problem solving",
+        "continuous improvement",
+        "project management",
+        "teamwork",
+        "automation",
+        "robotics",
+        "robotic equipment",
+        "process optimization"
+      ],
+      "core_skills": [
+        "automation",
+        "robotics",
+        "process optimization",
+        "project management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "semiconductor-fab-au-gf-us2-llc-53821393": {
+      "summary": "Develops, tests, deploys, and supports Fab9 automation solutions by integrating hardware and software for robotics and automation applications in semiconductor manufacturing.",
+      "key_skills": [
+        "semiconductor",
+        "automation",
+        "robotics",
+        "fab",
+        "mechanical",
+        "electrical",
+        "software",
+        "robotic"
+      ],
+      "core_skills": [
+        "automation",
+        "robotics",
+        "mechanical",
+        "electrical"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "quantum-assembly-eng-globalfoundries-53821393": {
+      "summary": "Quantum Assembly Engineer develops cryogenic and superconducting assembly processes for quantum hardware packaging, including 2D/2.5D/3D quantum platforms, to enable scalable quantum systems.",
+      "key_skills": [
+        "quantum assembly",
+        "cryogenic",
+        "superconducting",
+        "process integration",
+        "package development",
+        "interconnects",
+        "wafer bonding",
+        "die-to-wa:wafer"
+      ],
+      "core_skills": [
+        "process integration",
+        "cryogenic engineering",
+        "superconducting materials",
+        "quantum packaging"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "quantum-bump-integra-globalfoundries-53821393": {
+      "summary": "Owns development and integration of cryogenic, superconducting bumping processes for scalable quantum hardware packaging.",
+      "key_skills": [
+        "quantum",
+        "bump",
+        "integration",
+        "cryogenic",
+        "superconducting",
+        "interconnect",
+        "process",
+        "engineering"
+      ],
+      "core_skills": [
+        "cryogenic",
+        "superconducting",
+        "interconnect",
+        "process"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     }
   }
 }
