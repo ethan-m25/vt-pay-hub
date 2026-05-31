@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-30T12:54:45.260369+00:00",
-    "total_jobs": 359,
-    "enriched": 300
+    "built_at": "2026-05-31T11:14:06.829551+00:00",
+    "total_jobs": 369,
+    "enriched": 302
   },
   "jobs": {
     "enterprise-account-e-submittable-28696205": {
@@ -5520,6 +5520,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "growth-marketing-lea-brisk-teaching-67218436": {
+      "summary": "Owns Brisk's teacher growth engine end-to-end, designing experiments and building scalable systems to acquire, retain, and advocate teachers through B2C funnel optimization.",
+      "key_skills": [
+        "growth marketing",
+        "experimentation",
+        "data analysis",
+        "user retention",
+        "behavioral psychology",
+        "viral loops",
+        "referral marketing",
+        "conversion optimization"
+      ],
+      "core_skills": [
+        "experimentation",
+        "data analysis",
+        "user retention",
+        "behavioral psychology"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "mid-market-account-e-brisk-teaching-67218436": {
       "summary": "Identifies and closes new school and district partnerships through targeted outreach and sales process management, focusing on expanding Brisk's footprint in K-12 education.",
       "key_skills": [
@@ -5758,6 +5781,29 @@
         "co-packaged optics"
       ],
       "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "photonics-packaging--globalfoundries-53821393": {
+      "summary": "Develops and leads advanced inspection & characterization workflows for photonics packaging, including AOI, warpage analysis, and metrology across assembly stages.",
+      "key_skills": [
+        "photonics",
+        "packaging",
+        "characterization",
+        "electro-optical",
+        "transceivers",
+        "2.5d",
+        "3d",
+        "co-packaged"
+      ],
+      "core_skills": [
+        "aoi",
+        "metrology",
+        "quality",
+        "fmea"
+      ],
+      "seniority_signal": "entry",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
