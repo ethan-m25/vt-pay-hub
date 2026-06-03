@@ -4,6 +4,8 @@
 
 set -uo pipefail
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+# Source user env so launchd agents get EXA_API_KEY etc.
+[[ -f "$HOME/.zshenv" ]] && source "$HOME/.zshenv"
 
 SCRIPTS_DIR="$HOME/vt-pay-hub/scripts"
 LOG_FILE="$SCRIPTS_DIR/pipeline.log"

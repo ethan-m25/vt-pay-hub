@@ -31,48 +31,6 @@
       "meta": {}
     },
     {
-      "name": "Submittable",
-      "ats": "lever",
-      "slug_or_url": "submittable",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Caseiq",
-      "ats": "lever",
-      "slug_or_url": "caseiq",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Torc Robotics",
-      "ats": "lever",
-      "slug_or_url": "torc-robotics",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Uvm Health Network",
-      "ats": "lever",
-      "slug_or_url": "uvm-health-network",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Globalfoundries",
-      "ats": "lever",
-      "slug_or_url": "globalfoundries",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Kindhealth",
-      "ats": "lever",
-      "slug_or_url": "kindhealth",
-      "monitored": true,
-      "meta": {}
-    },
-    {
       "name": "Ramp",
       "ats": "ashby",
       "slug_or_url": "ramp",
@@ -516,174 +474,6 @@
       "meta": {}
     },
     {
-      "name": "Hubspot",
-      "ats": "lever",
-      "slug_or_url": "hubspot",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Zendesk",
-      "ats": "lever",
-      "slug_or_url": "zendesk",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Cloudflare",
-      "ats": "lever",
-      "slug_or_url": "cloudflare",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Coursera",
-      "ats": "lever",
-      "slug_or_url": "coursera",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Pagerduty",
-      "ats": "lever",
-      "slug_or_url": "pagerduty",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Loom",
-      "ats": "lever",
-      "slug_or_url": "loom",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Calendly",
-      "ats": "lever",
-      "slug_or_url": "calendly",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Miro",
-      "ats": "lever",
-      "slug_or_url": "miro",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Thoughtspot",
-      "ats": "lever",
-      "slug_or_url": "thoughtspot",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Sumo Logic",
-      "ats": "lever",
-      "slug_or_url": "sumo-logic",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Fivetran",
-      "ats": "lever",
-      "slug_or_url": "fivetran",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Productboard",
-      "ats": "lever",
-      "slug_or_url": "productboard",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Launchdarkly",
-      "ats": "lever",
-      "slug_or_url": "launchdarkly",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Segment",
-      "ats": "lever",
-      "slug_or_url": "segment",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Twilio",
-      "ats": "lever",
-      "slug_or_url": "twilio",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Sendgrid",
-      "ats": "lever",
-      "slug_or_url": "sendgrid",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Elastic",
-      "ats": "lever",
-      "slug_or_url": "elastic",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Hashicorp",
-      "ats": "lever",
-      "slug_or_url": "hashicorp",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Terraform",
-      "ats": "lever",
-      "slug_or_url": "terraform",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Cockroachlabs",
-      "ats": "lever",
-      "slug_or_url": "cockroachlabs",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Collibra",
-      "ats": "lever",
-      "slug_or_url": "collibra",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Contentful",
-      "ats": "lever",
-      "slug_or_url": "contentful",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "High Radius",
-      "ats": "lever",
-      "slug_or_url": "high-radius",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Sprinklr",
-      "ats": "lever",
-      "slug_or_url": "sprinklr",
-      "monitored": true,
-      "meta": {}
-    },
-    {
       "name": "Bazaarvoice",
       "ats": "lever",
       "slug_or_url": "bazaarvoice",
@@ -698,27 +488,6 @@
       "meta": {}
     },
     {
-      "name": "Harness",
-      "ats": "lever",
-      "slug_or_url": "harness",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Chronosphere",
-      "ats": "lever",
-      "slug_or_url": "chronosphere",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Starburst",
-      "ats": "lever",
-      "slug_or_url": "starburst",
-      "monitored": true,
-      "meta": {}
-    },
-    {
       "name": "Immuta",
       "ats": "lever",
       "slug_or_url": "immuta",
@@ -726,44 +495,9 @@
       "meta": {}
     },
     {
-      "name": "Alation",
-      "ats": "lever",
-      "slug_or_url": "alation",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Atlan",
-      "ats": "lever",
-      "slug_or_url": "atlan",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Montecarlo Data",
-      "ats": "lever",
-      "slug_or_url": "montecarlo-data",
-      "monitored": true,
-      "meta": {}
-    },
-    {
       "name": "Acceldata",
       "ats": "lever",
       "slug_or_url": "acceldata",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Fiddler Ai",
-      "ats": "lever",
-      "slug_or_url": "fiddler-ai",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Arize Ai",
-      "ats": "lever",
-      "slug_or_url": "arize-ai",
       "monitored": true,
       "meta": {}
     },
@@ -1315,34 +1049,6 @@
       "meta": {}
     },
     {
-      "name": "1Password",
-      "ats": "lever",
-      "slug_or_url": "1password",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Remote",
-      "ats": "lever",
-      "slug_or_url": "remote",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Mercury",
-      "ats": "lever",
-      "slug_or_url": "mercury",
-      "monitored": true,
-      "meta": {}
-    },
-    {
-      "name": "Glean",
-      "ats": "lever",
-      "slug_or_url": "glean",
-      "monitored": true,
-      "meta": {}
-    },
-    {
       "name": "Veterinarypracticepartners",
       "ats": "greenhouse",
       "slug_or_url": "veterinarypracticepartners",
@@ -1385,21 +1091,6 @@
       }
     },
     {
-      "name": "Heritagevt",
-      "ats": "lever",
-      "slug_or_url": "heritagevt",
-      "monitored": true,
-      "meta": {
-        "promoted_at": "2026-05-28",
-        "promotion_tier": "trial",
-        "discovery_source": "phase7_ats_sweep",
-        "discovery_hub": "vt",
-        "ats_local_jobs": 3,
-        "ats_local_salary": 0,
-        "trial_until": "2026-06-04"
-      }
-    },
-    {
       "name": "Max Ssm",
       "ats": "lever",
       "slug_or_url": "max-ssm",
@@ -1412,20 +1103,6 @@
         "ats_local_jobs": 2,
         "ats_local_salary": 1,
         "trial_until": "2026-06-04"
-      }
-    },
-    {
-      "name": "Insomniacookies",
-      "ats": "lever",
-      "slug_or_url": "insomniacookies",
-      "monitored": true,
-      "meta": {
-        "promoted_at": "2026-05-28",
-        "promotion_tier": "strong",
-        "discovery_source": "phase7_ats_sweep",
-        "discovery_hub": "vt",
-        "ats_local_jobs": 9,
-        "ats_local_salary": 1
       }
     },
     {
@@ -1609,6 +1286,104 @@
         "short_slug": "burlington",
         "job_type": "BurlingtonCareers"
       }
+    },
+    {
+      "name": "Cloudflare",
+      "ats": "greenhouse",
+      "slug_or_url": "cloudflare",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Elastic",
+      "ats": "greenhouse",
+      "slug_or_url": "elastic",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Twilio",
+      "ats": "greenhouse",
+      "slug_or_url": "twilio",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Fivetran",
+      "ats": "greenhouse",
+      "slug_or_url": "fivetran",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Contentful",
+      "ats": "greenhouse",
+      "slug_or_url": "contentful",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Mercury",
+      "ats": "greenhouse",
+      "slug_or_url": "mercury",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Launchdarkly",
+      "ats": "greenhouse",
+      "slug_or_url": "launchdarkly",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Pagerduty",
+      "ats": "greenhouse",
+      "slug_or_url": "pagerduty",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Collibra",
+      "ats": "greenhouse",
+      "slug_or_url": "collibra",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Cockroachlabs",
+      "ats": "greenhouse",
+      "slug_or_url": "cockroachlabs",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Starburst",
+      "ats": "greenhouse",
+      "slug_or_url": "starburst",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Calendly",
+      "ats": "greenhouse",
+      "slug_or_url": "calendly",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Coursera",
+      "ats": "greenhouse",
+      "slug_or_url": "coursera",
+      "tier": 2,
+      "note": "migrated from lever"
+    },
+    {
+      "name": "Remote",
+      "ats": "greenhouse",
+      "slug_or_url": "remote",
+      "tier": 2,
+      "note": "migrated from lever"
     }
   ],
   "expanded_at": "2026-05-27"
