@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-03T11:00:32.265980+00:00",
+    "built_at": "2026-06-04T10:40:03.735441+00:00",
     "total_jobs": 373,
-    "enriched": 297
+    "enriched": 303
   },
   "jobs": {
     "enterprise-account-e-submittable-28696205": {
@@ -6628,6 +6628,137 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "channel-sales-develo-finquery-83328771": {
+      "summary": "Channel Sales Development Representative identifies and recruits new partners, manages partner leads, co-sells with partners, and generates revenue through channel ecosystem to drive growth in lease accounting solutions.",
+      "key_skills": [
+        "ai",
+        "accounting",
+        "contract",
+        "automation",
+        "sales",
+        "channel",
+        "partner",
+        "outbound"
+      ],
+      "core_skills": [
+        "sales",
+        "channel",
+        "outbound",
+        "partner"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "hybrid",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sales-development-ma-finquery-83328771": {
+      "summary": "The Sales Development Manager leads a global team of Sales Development Representatives to generate outbound pipeline and achieve revenue goals through data-driven coaching, strategic prospecting, and cross-functional collaboration.",
+      "key_skills": [
+        "ai",
+        "sales",
+        "outbound",
+        "pipeline",
+        "prospecting",
+        "coaching",
+        "crm",
+        "hubspot"
+      ],
+      "core_skills": [
+        "sales",
+        "coaching",
+        "pipeline",
+        "outbound"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sr--product-accounti-finquery-83328771": {
+      "summary": "Senior Product Accounting Manager designs and ships accounting features that translate complex accounting standards into software, ensuring accurate financial reporting and solving edge cases for controllers and finance teams.",
+      "key_skills": [
+        "accounting",
+        "product",
+        "ai",
+        "software",
+        "finance",
+        "controllers",
+        "leases",
+        "prepaids"
+      ],
+      "core_skills": [
+        "accounting",
+        "product",
+        "ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "business-development-openx-83328771": {
+      "summary": "Business Development Senior Director identifies and secures strategic CTV partnerships with premium publishers and streaming platforms to drive value through OpenX's exchange and product suite.",
+      "key_skills": [
+        "programmatic",
+        "ctv",
+        "publisher",
+        "adtech",
+        "identity",
+        "data",
+        "ai",
+        "privacy"
+      ],
+      "core_skills": [
+        "programmatic sales",
+        "ctv partnerships",
+        "publisher development",
+        "strategic thinking"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "business-intelligenc-openx-83328771": {
+      "summary": "Designs and operates high-scale ad marketplaces while applying market design, technical innovation, operational excellence, and empathetic partner service to digital advertising.",
+      "key_skills": [
+        "market design",
+        "technical innovation",
+        "operational excellence",
+        "partner service"
+      ],
+      "core_skills": [
+        "market design",
+        "technical innovation"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "financial-reporting--openx-83328771": {
+      "summary": "The Financial Reporting & Tax Director (LATAM) leads financial reporting, tax compliance, global expansion, entity structuring, equity administration, and internal controls for Latin American operations, ensuring accurate financial statements and regulatory adherence across international jurisdictions.",
+      "key_skills": [
+        "technical accounting",
+        "tax compliance",
+        "financial reporting",
+        "equity administration",
+        "global expansion",
+        "entity structuring",
+        "internal controls",
+        "consolidated financial statements"
+      ],
+      "core_skills": [
+        "technical accounting",
+        "tax compliance",
+        "financial reporting",
+        "equ: internal controls"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     }
   }
 }
