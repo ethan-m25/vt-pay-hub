@@ -2719,6 +2719,7 @@ function normalizeJob(j, i) {
   const domain = fullUrl.replace(/^https?:\/\//,"").split("/")[0] || "—";
   return {
     id: parseInt(j.id) || i+1,
+    enrichId: String(j.id),
     role: j.role,
     category: j.category || "",
     tag: j.category_tag || getTag(j, j.company, j.location),
@@ -4104,7 +4105,7 @@ function openJobDetail(id){
   else                pctLabel="Bottom 25% in "+catLabel;
 
   // Enrichment data for this job
-  const enr = ENRICHMENT[String(j.id)] || {};
+  const enr = ENRICHMENT[j.enrichId] || ENRICHMENT[String(j.id)] || {};
   const hasCluster = !!(enr.cluster_id);
   const hasL1 = !!(enr.key_skills && enr.key_skills.length);
   const coreSkillSet = new Set(enr.core_skills || []);
