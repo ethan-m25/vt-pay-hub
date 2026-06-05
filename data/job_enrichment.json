@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-04T10:40:03.735441+00:00",
+    "built_at": "2026-06-05T10:37:59.185961+00:00",
     "total_jobs": 373,
-    "enriched": 303
+    "enriched": 304
   },
   "jobs": {
     "enterprise-account-e-submittable-28696205": {
@@ -4936,6 +4936,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "senior-risk-manageme-grafanalabs-67218436": {
+      "summary": "Builds and maintains observability tools for monitoring and alerting systems",
+      "key_skills": [
+        "golang",
+        "kubernetes",
+        "prometheus",
+        "grafana",
+        "cloud",
+        "data",
+        "metrics",
+        "observability"
+      ],
+      "core_skills": [
+        "golang",
+        "kubernetes",
+        "prometheus",
+        "grafana"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "senior-solutions-eng-grafanalabs-67218436": {
       "summary": "Enterprise Solutions Engineers partner with sales teams to educate customers on Grafana's value proposition, deliver technical presentations, and close high-velocity opportunities through advanced competitive knowledge and technical credibility.",
       "key_skills": [
@@ -4978,6 +5001,29 @@
         "observability"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-cloud-part-grafanalabs-67218436": {
+      "summary": "Builds and maintains observability tools for monitoring and alerting systems",
+      "key_skills": [
+        "golang",
+        "kubernetes",
+        "prometheus",
+        "grafana",
+        "cloud",
+        "data",
+        "metrics",
+        "observability"
+      ],
+      "core_skills": [
+        "golang",
+        "kubernetes",
+        "prometheus",
+        "grafana"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
@@ -6731,29 +6777,6 @@
       "core_skills": [
         "market design",
         "technical innovation"
-      ],
-      "seniority_signal": "executive",
-      "role_type": "executive",
-      "red_flags": [],
-      "work_mode_derived": "unknown"
-    },
-    "financial-reporting--openx-83328771": {
-      "summary": "The Financial Reporting & Tax Director (LATAM) leads financial reporting, tax compliance, global expansion, entity structuring, equity administration, and internal controls for Latin American operations, ensuring accurate financial statements and regulatory adherence across international jurisdictions.",
-      "key_skills": [
-        "technical accounting",
-        "tax compliance",
-        "financial reporting",
-        "equity administration",
-        "global expansion",
-        "entity structuring",
-        "internal controls",
-        "consolidated financial statements"
-      ],
-      "core_skills": [
-        "technical accounting",
-        "tax compliance",
-        "financial reporting",
-        "equ: internal controls"
       ],
       "seniority_signal": "executive",
       "role_type": "executive",
