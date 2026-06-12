@@ -1499,6 +1499,11 @@ footer a:hover { color: var(--accent); }
   font-size: var(--fs-xs); text-transform: uppercase;
   letter-spacing: .1em; color: var(--text3);
 }
+.sstat-sub {
+  display: block; margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs); color: var(--text3); opacity: .75;
+}
 /* Live pulse dot */
 .live-dot {
   display: inline-block;
@@ -2266,6 +2271,7 @@ thead th,.results-header{background:#0a0e16 !important}
         <div class="sstat">
           <span class="sstat-num" id="statTotal">—</span>
           <span class="sstat-label">Active Postings</span>
+          <span class="sstat-sub" id="statTracked"></span>
         </div>
         <div class="sstat featured">
           <span class="sstat-num" id="statMedian">—</span>
@@ -3875,6 +3881,9 @@ function updateStats(){
   const maxSal=Math.max(...base.map(j=>j.max));
   const spread=Math.round(base.reduce((a,j)=>a+(j.max-j.min),0)/base.length);
   _animateCount(document.getElementById("statTotal"), base.length);
+  const stTracked=document.getElementById("statTracked");
+  if(stTracked) stTracked.textContent = JOBS.length>base.length
+    ? `of ${JOBS.length.toLocaleString()} tracked incl. archived` : "";
   document.getElementById("statMedian").textContent=fmt(median);
   document.getElementById("statTop").textContent=topCo();
   _animateCount(document.getElementById("statSpread"), spread, fmt);
