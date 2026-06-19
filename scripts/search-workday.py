@@ -241,7 +241,8 @@ def wd_list_jobs(host, company_id, tenant, offset=0, limit=50, search_text=""):
             return [], 0
         data = json.loads(result.stdout)
         if "total" not in data:
-            log(f"  API {host}: unexpected response: {result.stdout[:80]}")
+            error_code = data.get("errorCode", "?")
+            log(f"  API HTTP error ({host}): errorCode={error_code}")
             return [], 0
         return data.get("jobPostings", []), data.get("total", 0)
     except Exception as e:
@@ -593,6 +594,7 @@ def main():
         # total=0 we still continue until we hit max_pages or get an empty postings list.
         known_total = 0
         use_search_text = ""
+        consecutive_no_match = 0
         while offset // limit < max_pages:
             postings, total = wd_list_jobs(host, company_id, tenant, offset, limit, use_search_text)
             if not postings:
@@ -612,9 +614,19 @@ def main():
                 if total > 0:
                     known_total = total
             log(f"  API offset={offset}: {len(postings)} postings (total={total})")
+            page_matches = 0
             for p in postings:
                 if is_vermont(p.get("locationsText", ""), p.get("externalPath", "")):
                     vt_jobs.append(p)
+                    page_matches += 1
+            if use_search_text:
+                if page_matches > 0:
+                    consecutive_no_match = 0
+                else:
+                    consecutive_no_match += 1
+                    if consecutive_no_match >= 3:
+                        log(f"  3 consecutive pages with no region matches — stopping early (offset={offset})")
+                        break
             offset += limit
             if known_total > 0 and offset >= known_total:
                 break
