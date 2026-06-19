@@ -101,8 +101,14 @@ log "--- archive-jobs ---"
 python3 "$HOME/shared-scripts/hub_archive_jobs.py" --hub "vt" --limit 100 >> "$LOG_FILE" 2>&1
 log "archive done (exit $?)"
 log "--- skill-extract ---"
-python3 "$HOME/shared-scripts/hub_skill_extract.py" --hub "vt" --limit 200 >> "$LOG_FILE" 2>&1
+python3 "$HOME/shared-scripts/run_locked.py" /tmp/ollama-model.lock \
+    python3 "$HOME/shared-scripts/hub_skill_extract.py" --hub "vt" --limit 200 >> "$LOG_FILE" 2>&1
 log "skill-extract done (exit $?)"
+log "--- classify-new-jobs ---"
+python3 "$HOME/shared-scripts/run_locked.py" /tmp/ollama-model.lock \
+    python3 "$HOME/shared-scripts/hub_classify_new_jobs.py" --hub "vt" >> "$LOG_FILE" 2>&1 || true
+log "classify-new-jobs done (exit $?)"
+
 
 log "--- publish.sh ---"
 bash "$SCRIPTS_DIR/publish.sh" >> "$LOG_FILE" 2>&1
