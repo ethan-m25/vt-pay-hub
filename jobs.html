@@ -2852,6 +2852,18 @@ function mid(j){ return Math.round((j.min+j.max)/2); }
 function normalizeSearchText(text){
   return String(text || "").toLowerCase().normalize("NFKD").replace(/[^\w\s]+/g, " ").replace(/\s+/g, " ").trim();
 }
+// Query expansion — loaded async from query_expansion.json
+let QUERY_EXPANSION = {};
+let _expansionReady = false;
+(function loadQueryExpansion(){
+  fetch("./query_expansion.json?_=" + (window._buildTs||"1"))
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{ if(d){ QUERY_EXPANSION=d; _expansionReady=true; } })
+    .catch(()=>{});
+})();
+function _normExp(s){
+  return String(s||"").toLowerCase().normalize("NFKD").replace(/[^a-z0-9& ]/g," ").replace(/\s+/g," ").trim();
+}
 function searchScore(job, query){
   if(!query) return 0;
   const q = normalizeSearchText(query);
@@ -2865,24 +2877,45 @@ function searchScore(job, query){
   const tokenHit = (field, token) => {
     if(!field.includes(token)) return false;
     if(token.length >= 4) return true;
-    return new RegExp('(^|\\s)' + token.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).test(field);
+    return new RegExp('(^|\\s)' + token.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&')).test(field);
   };
 
-  // Tier 1: full query as substring (with word awareness)
+  // Tier 1: full query as substring
   if(tokenHit(company, q)) return 110;
   if(tokenHit(role, q))    return 100;
   if(tokenHit(loc, q) || tokenHit(cat, q)) return 80;
 
   // Tier 2: multi-token — every token must word-hit somewhere meaningful
   const tokens = q.split(' ').filter(t => t.length >= 2);
-  if(tokens.length < 2) return 0; // single short token that didn't hit tier 1 → no match
+  if(tokens.length >= 2){
+    if(tokens.every(t => tokenHit(company, t))) return 75;
+    if(tokens.every(t => tokenHit(role, t)))    return 70;
+    if(tokens.every(t => tokenHit(company, t) || tokenHit(role, t) || tokenHit(loc, t) || tokenHit(cat, t))) return 55;
+  }
 
-  if(tokens.every(t => tokenHit(company, t))) return 75;
-  if(tokens.every(t => tokenHit(role, t)))    return 70;
-  if(tokens.every(t => tokenHit(company, t) || tokenHit(role, t) || tokenHit(loc, t) || tokenHit(cat, t))) return 55;
-
-  return 0;
+  // Tier 3: semantic expansion (best-effort, scores stay below tier 2 floor)
+  if(!_expansionReady) return 0;
+  const expansions = QUERY_EXPANSION[_normExp(query)] || [];
+  let best = 0;
+  for(const {term, weight} of expansions){
+    const et = normalizeSearchText(term);
+    if(!et) continue;
+    let base = 0;
+    if(tokenHit(role, et))    base = 100;
+    else if(tokenHit(company, et)) base = 110;
+    else if(tokenHit(loc, et) || tokenHit(cat, et)) base = 80;
+    else {
+      const et2 = et.split(' ').filter(t=>t.length>=2);
+      if(et2.length >= 2){
+        if(et2.every(t=>tokenHit(role,t))) base = 70;
+        else if(et2.every(t=>tokenHit(company,t)||tokenHit(role,t)||tokenHit(loc,t)||tokenHit(cat,t))) base = 55;
+      }
+    }
+    if(base > 0){ const s=Math.round(base*weight*0.65); if(s>best) best=s; }
+  }
+  return best;
 }
+
 function relDate(s){
   const d=new Date(s), now=new Date();
   if(!s||isNaN(d))return"—";
