@@ -2902,8 +2902,8 @@ function searchScore(job, query){
     if(!et) continue;
     let base = 0;
     if(tokenHit(role, et))    base = 100;
-    else if(tokenHit(company, et)) base = 110;
     else if(tokenHit(loc, et) || tokenHit(cat, et)) base = 80;
+    else if(tokenHit(company, et)) base = 65;
     else {
       const et2 = et.split(' ').filter(t=>t.length>=2);
       if(et2.length >= 2){
@@ -4205,7 +4205,7 @@ function openJobDetail(id){
           <div class="jd-cluster-dot" style="left:${pct}%"></div>
         </div>
         <div class="jd-pos-labels"><span>Lowest-paid peer</span><span>Highest-paid peer</span></div>
-        <div class="jd-pct-label">${posLabel} <span style="color:var(--text3);font-weight:400">· pays more than ${pct}% of similar roles</span></div>
+        <div class="jd-pct-label">${posLabel} <span style="color:var(--text3);font-weight:400">· ${pct>=100?"top of the similar-role pay range":pct<=0?"lowest-paid among these similar roles":`pays more than ${pct}% of similar roles`}</span></div>
       </div>`;
     }
   }
