@@ -1237,6 +1237,54 @@ tr.selected-row { background: var(--accent-dim) !important; border-left: 3px sol
 .role-link { cursor:pointer; transition:opacity var(--transition); }
 .role-link:hover { opacity:.72; }
 
+
+/* ===== MCP promo block in sidebar ===== */
+.mcp-promo {
+  margin-top: 4px;
+  border: 1px solid rgba(var(--accent-rgb,192,57,43),.22);
+  border-radius: 6px;
+  padding: 12px 14px;
+  background: rgba(var(--accent-rgb,192,57,43),.04);
+}
+.mcp-promo-head {
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.mcp-promo-body {
+  font-size: var(--fs-xs);
+  color: var(--text2);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.mcp-promo-url {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text3);
+  word-break: break-all;
+  background: var(--surface2,rgba(255,255,255,.04));
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: block;
+  margin-bottom: 8px;
+  user-select: all;
+  cursor: text;
+}
+.mcp-promo-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.mcp-promo-links a {
+  font-size: 10px;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: .85;
+}
+.mcp-promo-links a:hover { opacity: 1; text-decoration: underline; }
+
 /* ===== FOOTER — fixed slim bar ===== */
 footer {
   position: fixed;
@@ -2374,6 +2422,20 @@ thead th,.results-header{background:#0a0e16 !important}
         <div class="chip-group" id="archiveChips">
           <button class="chip active" onclick="setChip('archiveFilter','',this)">Show</button>
           <button class="chip" onclick="setChip('archiveFilter','hide',this)">Hide</button>
+        </div>
+      </div>
+
+      <!-- MCP promo — connect AI assistants directly to this data -->
+      <div class="sidebar-section mcp-promo">
+        <div class="mcp-promo-head">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          Use with AI
+        </div>
+        <div class="mcp-promo-body">Query this salary data directly from Claude, Cursor, or any MCP-compatible AI assistant.</div>
+        <code class="mcp-promo-url">https://payhub-mcp.ethan-m25.workers.dev</code>
+        <div class="mcp-promo-links">
+          <a href="https://payhub-mcp.ethan-m25.workers.dev" target="_blank" rel="noopener">MCP server ↗</a>
+          <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">What is MCP? ↗</a>
         </div>
       </div>
     </div>
