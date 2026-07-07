@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 573,
-    "active": 320,
-    "new_today": 2,
+    "count": 575,
+    "active": 322,
+    "new_today": 3,
     "links_newly_archived": 0,
-    "updated": "2026-07-06T14:53:16Z",
+    "updated": "2026-07-07T14:54:11Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -13112,7 +13112,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": "Finance",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Engineering Manager, Platform",
@@ -13139,7 +13145,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "GTM Analytics Manager",
@@ -13166,7 +13178,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Manager, Customer Account Management, SMB",
@@ -13193,7 +13211,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Revenue Operations Manager",
@@ -13220,7 +13244,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Accounting Lead",
@@ -13247,7 +13277,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Analyst II, Full Stack (Credit Analytics)",
@@ -13274,7 +13310,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": "Data & Analytics",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Analytics Lead, Full Stack (Credit Analytics)",
@@ -13301,7 +13343,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Data & Analytics",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Finance",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Capital Operations Analyst",
@@ -13328,7 +13376,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Finance",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Client Success Lead",
@@ -13355,7 +13409,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Director, Learning",
@@ -13382,7 +13442,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Director, People Business Partner",
@@ -13409,7 +13475,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Group Product Management Manager, Consumer Servicing",
@@ -13436,7 +13508,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "GTM Strategy & Operations Manager",
@@ -13463,7 +13541,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Lead, Customer Advocacy",
@@ -13490,7 +13574,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Customer Service & Hospitality",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Machine Learning Engineer II (Servicing ML)",
@@ -13517,7 +13607,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Manager, Software Engineering (Account Management)",
@@ -13544,7 +13640,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Manager, Software Engineering (Card Platform)",
@@ -13571,7 +13673,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Product Support Specialist I",
@@ -13598,7 +13706,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Customer Service & Hospitality",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Security Risk Management Lead",
@@ -13625,7 +13739,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Legal & Compliance",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Director, Enterprise Risk Management",
@@ -13652,7 +13772,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Legal & Compliance",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Manager, Accounting Policy & Reporting",
@@ -13679,7 +13805,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Software Engineer, Backend (Infrastructure)",
@@ -13706,7 +13838,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Staff Software Engineer, Frontend (Web Infra)",
@@ -13733,7 +13871,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Software Engineer (Continuous Integration)",
@@ -13760,7 +13904,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Director Marketing Analytics",
@@ -13787,7 +13937,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Data & Analytics",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "FP&A Manager, GTM Finance - Credit Products",
@@ -13814,7 +13970,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Lead Product Manager, Enterprise AI & Automation",
@@ -13841,7 +14003,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "VP, Total Rewards",
@@ -13868,7 +14036,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Growth Account Executive - East",
@@ -13895,7 +14069,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Lead Solutions Engineer - West",
@@ -13922,7 +14102,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Business Development Manager, Technology Partnerships",
@@ -13949,7 +14135,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Director, Customer Success",
@@ -13976,7 +14168,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior GTM Engineer, Marketing Operations",
@@ -14003,7 +14201,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Manager, Solutions Engineering",
@@ -14030,7 +14234,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Enterprise Account Executive, SLED",
@@ -14057,7 +14267,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Commercial Account Executive, Acquisition | East | Remote",
@@ -14084,7 +14300,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Executive Assistant, Global Customer Solutions | United States | PST or MST | Remote",
@@ -14111,7 +14333,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Manager, Analytics & Insights | United States | Remote",
@@ -14138,7 +14366,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Data & Analytics",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Data & Analytics",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Observability Architect | West Coast | PST | Remote",
@@ -14165,7 +14399,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Backend Engineer - Grafana Enterprise | Canada | Remote",
@@ -14192,7 +14432,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Backend Engineer - Grafana Enterprise | US | Remote",
@@ -14219,7 +14465,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Strategic Finance Associate",
@@ -14246,7 +14498,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Product Marketing Manager",
@@ -14273,7 +14531,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Social Media Manager",
@@ -14300,7 +14564,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Named Account Executive, Salt Lake City",
@@ -14327,7 +14597,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Named Account Executive, SoCal",
@@ -14354,7 +14630,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Named Account Executive, Western Michigan",
@@ -14381,7 +14663,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Solutions Engineer - Arizona",
@@ -14408,7 +14696,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Solutions Engineer, Majors",
@@ -14435,7 +14729,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Engineering",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Solutions Engineer, Majors - Detroit, MI",
@@ -14462,7 +14762,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Solutions Engineer, Majors - NYC",
@@ -14489,7 +14795,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Solutions Engineer, Majors, Philadelphia or Pittsburgh",
@@ -14516,7 +14828,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Product & Project",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Solutions Engineer - New England",
@@ -14543,7 +14861,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Solutions Engineering Manager, Commercial -  West",
@@ -14570,7 +14894,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Engineering",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Corporate Telecom Compliance Strategy Manager",
@@ -14597,7 +14927,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Legal & Compliance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Developer Evangelist",
@@ -14624,7 +14960,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Director, Sales Business Partner",
@@ -14651,7 +14993,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Global Events Manager, Flagship Events",
@@ -14678,7 +15026,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": "Operations",
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Lead Product Designer",
@@ -14705,7 +15059,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Marketing Analyst, PLG & Self-Serve Analytics",
@@ -14732,7 +15092,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Data & Analytics",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Data & Analytics",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Principal Machine Learning & Data Engineer",
@@ -14759,7 +15125,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Principal, Marketing Architecture & Strategy",
@@ -14786,7 +15158,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Principal Product Manager",
@@ -14813,7 +15191,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Product Management, L2",
@@ -14840,7 +15224,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Environmental Sustainability & ESG Manager",
@@ -14867,7 +15257,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Legal & Compliance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Manager, GTMA Analysis and Compliance",
@@ -14894,7 +15290,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Legal & Compliance",
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Legal & Compliance",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Manager, Machine Learning",
@@ -14921,7 +15323,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Product Marketing Manager, Data",
@@ -14948,7 +15356,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Sales System Engineer 3",
@@ -14975,7 +15389,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Security Regulatory Strategy Manager",
@@ -15002,7 +15422,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Legal & Compliance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Software Engineer",
@@ -15029,7 +15455,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Software Engineer (L3) Data Substrate",
@@ -15056,7 +15488,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Software Engineer - Video",
@@ -15083,7 +15521,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Sr. Global Events Manager",
@@ -15110,7 +15554,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Analytics Engineer",
@@ -15137,7 +15587,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Data & Analytics",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Data & Analytics",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff, Product Manager",
@@ -15164,7 +15620,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Product Manager - Enterprise AI",
@@ -15191,7 +15653,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Solutions Architect, Contract LifeCycle Management",
@@ -15218,7 +15686,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Solutions Architect, Opportunity LifeCycle Management",
@@ -15245,7 +15719,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Strategic Account Executive 4 - ISV",
@@ -15272,7 +15752,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Strategic Account Executive 4 - Twilio.org",
@@ -15299,7 +15785,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Full Stack Engineer, AgentControl",
@@ -15326,7 +15818,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Full Stack Engineer, Experimentation",
@@ -15353,7 +15851,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Full Stack Engineer, Foundation",
@@ -15380,7 +15884,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Full Stack Engineer, Guarded Releases",
@@ -15407,7 +15917,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Full Stack Engineer, Guardian Monitoring",
@@ -15434,7 +15950,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Full Stack Engineer, Observability",
@@ -15461,7 +15983,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Infrastructure Engineer",
@@ -15488,7 +16016,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "SDK Software Engineer, AI",
@@ -15515,7 +16049,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Counsel",
@@ -15542,7 +16082,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Legal & Compliance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Legal & Compliance",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Product Designer, AgentControl",
@@ -15569,7 +16115,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Product Designer, Growth",
@@ -15596,7 +16148,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Solutions Architect, AI",
@@ -15623,7 +16181,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Engineer – Experimentation Team",
@@ -15650,7 +16214,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Data & Analytics",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Engineer, Guardian",
@@ -15677,7 +16247,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Director of Pricing & Monetization",
@@ -15704,7 +16280,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Finance",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Principal Product Designer",
@@ -15731,7 +16313,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Database Engineer, Postgres",
@@ -15758,7 +16346,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Account Executive II",
@@ -15785,7 +16379,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Account Executive II, Majors",
@@ -15812,7 +16412,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Customer Engineer",
@@ -15839,7 +16445,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Customer Engineer, North American Partners",
@@ -15866,7 +16478,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Customer Service & Hospitality",
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Manager, Sales Compensation",
@@ -15893,7 +16511,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Enterprise Account Director, Anchor",
@@ -15920,7 +16544,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Principal Account Manager, Measurement and ROI Strategy",
@@ -15947,7 +16577,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Growth Account Executive",
@@ -15974,7 +16610,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Treasury Senior Manager",
@@ -16001,7 +16643,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Finance",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Partner Channel Manager",
@@ -16028,7 +16676,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Manager, Graphic Planning & Design",
@@ -16054,7 +16708,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Compensation Manager",
@@ -16081,7 +16741,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Customer Success Manager, Growth – Bilingual (Spanish/English)",
@@ -16108,7 +16774,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Engineering Manager, Core Platform",
@@ -16135,7 +16807,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Program Manager, AI Transformation (GTM)",
@@ -16162,7 +16840,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior AI GRC Engineer",
@@ -16189,7 +16873,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Legal & Compliance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Legal & Compliance",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Enablement Experience Manager",
@@ -16216,7 +16906,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior GL Accountant",
@@ -16243,7 +16939,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Integrations Partner Manager",
@@ -16270,7 +16972,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Manager, Audit Partnerships",
@@ -16297,7 +17005,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Senior Revenue Excellence Manager",
@@ -16324,7 +17038,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Web Developer",
@@ -16351,7 +17071,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Software Engineer, AI Product (Canada)",
@@ -16378,7 +17104,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Sr. Growth Marketing Campaigns Manager",
@@ -16405,7 +17137,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Financial Analyst",
@@ -16432,7 +17170,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Finance",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Software Engineer, Network",
@@ -16459,7 +17203,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Software Engineer, Traffic",
@@ -16486,7 +17236,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Director of Procurement",
@@ -16513,7 +17269,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "IT Engineer, Endpoints",
@@ -16540,7 +17302,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "IT & Infra",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Principal Product Manager",
@@ -16567,7 +17335,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior IT Engineer (IAM)",
@@ -16594,7 +17368,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "IT & Infra",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Medical Coding Specialist",
@@ -16621,7 +17401,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Legal & Compliance",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Product Manager, Trust & Safety",
@@ -16648,7 +17434,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Account Manager",
@@ -16675,7 +17467,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Client Support Specialist (Workplaces - B2B)",
@@ -16702,7 +17500,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Customer Service & Hospitality",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Collections Account Manager",
@@ -16729,7 +17533,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Customer Success Manager",
@@ -16756,7 +17566,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Tooling Program Manager",
@@ -16783,7 +17599,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Business Recruiter - Americas",
@@ -16810,7 +17632,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "People & HR",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Customer Education Program Manager",
@@ -16837,7 +17665,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Design Engineer, Americas",
@@ -16864,7 +17698,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Director, GTM Engineering & Systems",
@@ -16891,7 +17731,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Engagement Manager - Americas",
@@ -16918,7 +17764,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Engineering Manager, Americas",
@@ -16945,7 +17797,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Enterprise Account Executive - Americas (East)",
@@ -16972,7 +17830,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Enterprise Account Executive - Americas (West)",
@@ -16999,7 +17863,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Enterprise Solutions Architect - Americas",
@@ -17026,7 +17896,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Head of HR Operations and Systems",
@@ -17053,7 +17929,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "People & HR",
+      "category_secondary": "IT & Infra",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "High Touch Implementation Specialist - Americas - PST",
@@ -17080,7 +17962,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Junior Design Engineer, Americas",
@@ -17107,7 +17995,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Manager of High Touch Customer Success",
@@ -17134,7 +18028,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Manager of Strategic Customer Success",
@@ -17161,7 +18061,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Manager, Startup Customer Success",
@@ -17188,7 +18094,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Mid Market Account Executive - Americas (West)",
@@ -17215,7 +18127,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Mid-Market Customer Success Manager - America",
@@ -17242,7 +18160,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Product Support Specialist - Americas",
@@ -17269,7 +18193,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Customer Service & Hospitality",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Renewal Manager, SMB - Americas",
@@ -17296,7 +18226,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Sales Leader, Enterprise - Americas (West)",
@@ -17323,7 +18259,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Accounting Manager",
@@ -17350,7 +18292,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Product Designer",
@@ -17377,7 +18325,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Senior Product Engineer, Americas",
@@ -17404,7 +18358,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Design Engineer, Americas",
@@ -17431,7 +18391,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Product Designer",
@@ -17458,7 +18424,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Staff Product Engineer, Americas",
@@ -17485,7 +18457,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Startup Account Executive - Americas (East)",
@@ -17512,7 +18490,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Strategic Customer Success Manager - Americas",
@@ -17539,7 +18523,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Strategic Implementation Specialist - Americas",
@@ -17566,7 +18556,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "medium",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "haiku-4-5|codex-v1.0|adj"
     },
     {
       "role": "Strategy & Operations, Customer Success",
@@ -17593,7 +18589,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Support Engineering Manager - Americas",
@@ -17620,7 +18622,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Support Workforce Management Lead - Americas",
@@ -17647,7 +18655,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Customer Service & Hospitality",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "Trust & Safety Operations Analyst",
@@ -17674,7 +18688,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Zendesk Architect",
@@ -17701,7 +18721,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-18",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Analyst, Store Reporting and BI",
@@ -17727,7 +18753,13 @@
       "scraped": "2026-06-18",
       "last_seen": "2026-06-28",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Data & Analytics",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Staff Product Manager, App Platform & Experience",
@@ -17754,7 +18786,13 @@
       "scraped": "2026-06-21",
       "last_seen": "2026-06-21",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Brand Designer",
@@ -17781,7 +18819,13 @@
       "scraped": "2026-06-21",
       "last_seen": "2026-06-21",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Manager, Channel Partnerships",
@@ -17808,7 +18852,13 @@
       "scraped": "2026-06-21",
       "last_seen": "2026-06-21",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p2"
     },
     {
       "role": "IT Systems Engineer 3",
@@ -17835,7 +18885,13 @@
       "scraped": "2026-06-21",
       "last_seen": "2026-06-21",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "IT & Infra",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "IT & Infra",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Routing Implementation Specialist",
@@ -17862,7 +18918,13 @@
       "scraped": "2026-06-25",
       "last_seen": "2026-06-25",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": "Operations",
+      "category_confidence": "high",
+      "category_provisional": true,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Sales Support Specialist",
@@ -17889,7 +18951,13 @@
       "scraped": "2026-06-25",
       "last_seen": "2026-06-25",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": true,
+      "category_title": "Customer Service & Hospitality",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Early Education & Care School Director",
@@ -17916,7 +18984,13 @@
       "scraped": "2026-06-25",
       "last_seen": "2026-07-05",
       "location_display": "Essex Junction, VT",
-      "location_city": "Essex Junction"
+      "location_city": "Essex Junction",
+      "category_codex": "Operations",
+      "category_secondary": "Education",
+      "category_confidence": "high",
+      "category_provisional": true,
+      "category_title": "Education",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Project Manager, Construction, Downsize and Remodel",
@@ -17942,7 +19016,13 @@
       "scraped": "2026-06-25",
       "last_seen": "2026-07-05",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Customer Success Manager, Enterprise -  Central or East Regions",
@@ -17969,7 +19049,13 @@
       "scraped": "2026-06-25",
       "last_seen": "2026-07-05",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Sales & Mktg",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Sales & Mktg",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Sales Operations Analyst 3",
@@ -17996,7 +19082,13 @@
       "scraped": "2026-06-27",
       "last_seen": "2026-06-27",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Director Real Estate",
@@ -18022,7 +19114,13 @@
       "scraped": "2026-06-27",
       "last_seen": "2026-07-05",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Operations",
+      "category_secondary": "Product & Project",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Revenue Enablement Program Manager",
@@ -18049,7 +19147,13 @@
       "scraped": "2026-07-01",
       "last_seen": "2026-07-01",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Product & Project",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": true,
+      "category_title": "Operations",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "AP Project Analyst",
@@ -18075,7 +19179,13 @@
       "scraped": "2026-07-01",
       "last_seen": "2026-07-01",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": true,
+      "category_title": "Finance",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Project Manager, AP Equipment & Technology",
@@ -18101,7 +19211,13 @@
       "scraped": "2026-07-01",
       "last_seen": "2026-07-01",
       "location_display": "Burlington, VT",
-      "location_city": "Burlington"
+      "location_city": "Burlington",
+      "category_codex": "Product & Project",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Product & Project",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Remote Psychiatric Nurse Practitioner (PMHNP) - Vermont",
@@ -18128,7 +19244,13 @@
       "scraped": "2026-07-01",
       "last_seen": "2026-07-01",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Healthcare & Social Services",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Healthcare & Social Services",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Remote Psychiatrist (MD/DO) - Vermont",
@@ -18155,7 +19277,13 @@
       "scraped": "2026-07-01",
       "last_seen": "2026-07-01",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Healthcare & Social Services",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Healthcare & Social Services",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "CTO",
@@ -18182,7 +19310,13 @@
       "scraped": "2026-07-03",
       "last_seen": "2026-07-03",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Leadership",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "VP of Financial Network Development",
@@ -18209,7 +19343,13 @@
       "scraped": "2026-07-03",
       "last_seen": "2026-07-03",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Finance",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Dock Coordinator, Burlington, VT - Semiconductor",
@@ -18236,7 +19376,13 @@
       "scraped": "2026-07-05",
       "last_seen": "2026-07-05",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Operations",
+      "category_secondary": null,
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": null,
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Enterprise Solutions Engineering Manager",
@@ -18263,7 +19409,13 @@
       "scraped": "2026-07-05",
       "last_seen": "2026-07-05",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Mid-Market Solutions Engineering Manager",
@@ -18290,7 +19442,13 @@
       "scraped": "2026-07-05",
       "last_seen": "2026-07-05",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "category_codex": "Engineering",
+      "category_secondary": "Sales & Mktg",
+      "category_confidence": "high",
+      "category_provisional": false,
+      "category_title": "Engineering",
+      "classifier_version": "gemma4:12b|codex-v1.0|p4"
     },
     {
       "role": "Senior Director, Sales",
@@ -18316,6 +19474,60 @@
       "date_added": "2026-07-06",
       "scraped": "2026-07-06",
       "last_seen": "2026-07-06",
+      "location_display": "Remote (VT)",
+      "location_city": ""
+    },
+    {
+      "role": "Senior Director, FP&A",
+      "company": "Vanta",
+      "min": 275000,
+      "max": 324000,
+      "location": "Remote (Vermont)",
+      "source_url": "https://jobs.ashbyhq.com/vanta/4590ebbb-b0a3-459f-843a-4087e729ef86",
+      "posted": "2026-07-07",
+      "source_platform": "ashby",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 49000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Management",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "senior-director--fp--vanta-36051008",
+      "status": "active",
+      "date_added": "2026-07-07",
+      "scraped": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "location_display": "Remote (VT)",
+      "location_city": ""
+    },
+    {
+      "role": "Senior Manager, Financial Systems",
+      "company": "Vanta",
+      "min": 215000,
+      "max": 253000,
+      "location": "Remote (Vermont)",
+      "source_url": "https://jobs.ashbyhq.com/vanta/86c9590f-9560-469d-ba55-7c0c5ebdb83b",
+      "posted": "2026-07-07",
+      "source_platform": "ashby",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 38000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Management",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "senior-manager--fina-vanta-36051008",
+      "status": "active",
+      "date_added": "2026-07-07",
+      "scraped": "2026-07-07",
+      "last_seen": "2026-07-07",
       "location_display": "Remote (VT)",
       "location_city": ""
     }
