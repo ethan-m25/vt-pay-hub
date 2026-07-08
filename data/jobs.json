@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 575,
-    "active": 322,
-    "new_today": 3,
+    "count": 576,
+    "active": 323,
+    "new_today": 2,
     "links_newly_archived": 0,
-    "updated": "2026-07-07T14:54:11Z",
+    "updated": "2026-07-08T09:16:43Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -19529,6 +19529,33 @@
       "scraped": "2026-07-07",
       "last_seen": "2026-07-07",
       "location_display": "Remote (VT)",
+      "location_city": ""
+    },
+    {
+      "role": "Senior Payroll Specialist",
+      "company": "Vipvermontinformationprocessing2",
+      "min": 70000,
+      "max": 85000,
+      "location": "Vermont, VT",
+      "source_url": "https://job-boards.greenhouse.io/vipvermontinformationprocessing2/jobs/5181785007",
+      "posted": "2026-07-07",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 15000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "hybrid",
+      "salary_type": "annual",
+      "id": "senior-payroll-speci-vipvermontinfor-02203211",
+      "status": "active",
+      "date_added": "2026-07-08",
+      "scraped": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "location_display": "Statewide (VT)",
       "location_city": ""
     }
   ]
