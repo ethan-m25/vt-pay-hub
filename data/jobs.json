@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 652,
-    "active": 178,
-    "new_today": 10,
+    "count": 653,
+    "active": 149,
+    "new_today": 5,
     "links_newly_archived": 0,
-    "updated": "2026-09-10T04:57:03Z",
+    "updated": "2026-09-12T05:04:35Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -217,7 +217,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "backend-senior-softw-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -230,7 +230,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Brand Designer",
@@ -1359,7 +1360,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-fullstack-sof-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -1372,7 +1373,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Growth Marketing Campaigns Manager",
@@ -1394,7 +1396,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-growth-market-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -1407,7 +1409,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Marketing"
+      "category_legacy": "Marketing",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior II Fullstack Software Engineer, GRC",
@@ -1429,7 +1432,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-ii-fullstack--vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -1442,7 +1445,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Manager, Enablement GTM Programs",
@@ -2087,7 +2091,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -2100,7 +2104,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Software Engineer, Developer Experience",
@@ -2122,7 +2127,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -2135,7 +2140,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Software Engineer, Enterprise Resilience",
@@ -2157,7 +2163,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-vanta-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -2170,7 +2176,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Software Engineer, Infrastructure and Security",
@@ -3004,7 +3011,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "software-engineer--e-persona-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -3017,7 +3024,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Associate Medical Director, Clinical Quality",
@@ -3112,7 +3120,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "associate-principal--headway-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -3125,7 +3133,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Business Development Lead, Care Partnerships",
@@ -3699,7 +3708,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "program-manager--tal-headway-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -3712,7 +3721,8 @@
       "category_provisional": false,
       "category_title": "People & HR",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Recruiting Coordinator",
@@ -3919,7 +3929,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-operations-as-headway-83488499",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-20",
       "scraped": "2026-05-20",
       "last_seen": "2026-08-30",
@@ -3932,7 +3942,8 @@
       "category_provisional": false,
       "category_title": "Operations",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Operations"
+      "category_legacy": "Operations",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Partner Success Associate, Care Partnerships",
@@ -4130,7 +4141,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "vp--professional-ser-vanta-59850168",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-21",
       "scraped": "2026-05-21",
       "last_seen": "2026-08-30",
@@ -4143,7 +4154,8 @@
       "category_provisional": false,
       "category_title": "Product & Project",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Quality Assurance Lead",
@@ -4424,7 +4436,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "associate-medical-di-headway-32659470",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-23",
       "scraped": "2026-05-23",
       "last_seen": "2026-08-30",
@@ -4437,7 +4449,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Associate Principal, Partner Success (Care Partnerships)",
@@ -4496,7 +4509,7 @@
       "work_mode": "unknown",
       "salary_type": "annual",
       "id": "head-of-claims-lyft-67218435",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4509,7 +4522,8 @@
       "category_provisional": false,
       "category_title": "Operations",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "AI Tech Partner Lead",
@@ -4638,7 +4652,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "product-security-eng-lattice-67218435",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4651,7 +4665,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Customer Campaigns & Advocacy Manager",
@@ -4673,7 +4688,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-customer-camp-lattice-67218435",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4686,7 +4701,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Customer Support Associate",
@@ -4708,7 +4724,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-customer-supp-lattice-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4721,7 +4737,8 @@
       "category_provisional": false,
       "category_title": "Customer Service & Hospitality",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior GTM Enablement Manager",
@@ -4743,7 +4760,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-gtm-enablemen-lattice-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4756,7 +4773,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Software Engineer, AI",
@@ -4778,7 +4796,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-lattice-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -4791,7 +4809,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Analyst I, Full Stack (Core Analytics)",
@@ -9002,7 +9021,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-application-s-brex-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -9015,7 +9034,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Director of Internal Audit | United States | Remote",
@@ -10406,7 +10426,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "sr--software-enginee-immuta-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -10419,7 +10439,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "(USA) Associate Optometrist - Walmart",
@@ -10513,7 +10534,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-vanta-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -10526,7 +10547,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Technical Support Specialist",
@@ -10622,7 +10644,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "mid-market-account-e-brisk-teaching-67218436",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-28",
       "scraped": "2026-05-28",
       "last_seen": "2026-08-30",
@@ -10635,7 +10657,8 @@
       "category_provisional": false,
       "category_title": "Sales & Mktg",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Senior Field and Experiential Marketing Manager",
@@ -10768,7 +10791,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "oral---maxillofacial-max-ssm-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -10781,7 +10804,8 @@
       "category_provisional": false,
       "category_title": "Healthcare & Social Services",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Financial Planning & Analysis Manager",
@@ -10830,7 +10854,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-device-engine-globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -10843,7 +10867,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Process Engineer, Contamination Free Manufacturing (2026 New College Graduate)",
@@ -10864,7 +10889,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "process-engineer--co-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -10877,7 +10902,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "MTS Packaging Integration Engineer",
@@ -10898,7 +10924,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "mts-packaging-integr-globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -10911,7 +10937,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "PMTS Silicon Photonics Packaging Integration",
@@ -10932,7 +10959,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "pmts-silicon-photoni-globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -10945,7 +10972,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "SMTS Photonics Advanced Packaging Integration",
@@ -11000,7 +11028,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "photonics-packaging--globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -11013,7 +11041,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "PMTS Photonics Packaging Design Integration",
@@ -11061,7 +11090,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "mts-3d-heterogenous--globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-08-30",
@@ -11074,7 +11103,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-09-11"
     },
     {
       "role": "Associate Maintenance Technician Apprenticeship (Nights)",
@@ -21858,6 +21888,32 @@
       "last_seen": "2026-09-10",
       "location_display": "Remote (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Retail Sales Consultant",
+      "company": "AT&T Mobility Services LLC",
+      "min": 47000,
+      "max": 75000,
+      "location": "Rutland, VT",
+      "source_url": "https://att.wd1.myworkdayjobs.com/en-US/ATTGeneral/job/USAVTRutland474-Holiday-DrRETRET/Retail-Sales-Consultant_R-120794-2",
+      "posted": "2026-09-11",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 28000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Sales",
+      "work_mode": "unknown",
+      "salary_type": "annual",
+      "id": "retail-sales-consult-at-t-mobility-s-03050402",
+      "status": "active",
+      "date_added": "2026-09-11",
+      "scraped": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "location_display": "Rutland, VT",
+      "location_city": "Rutland"
     }
   ]
 }
