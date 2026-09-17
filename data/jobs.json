@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 654,
-    "active": 143,
-    "new_today": 0,
+    "count": 655,
+    "active": 144,
+    "new_today": 6,
     "links_newly_archived": 0,
-    "updated": "2026-09-16T11:35:31Z",
+    "updated": "2026-09-17T05:39:37Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -21952,6 +21952,33 @@
       "last_seen": "2026-09-15",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Vice President, Legal",
+      "company": "Submittable",
+      "min": 180000,
+      "max": 215000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6195160004",
+      "posted": "2026-09-16",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 35000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Legal",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "vice-president--lega-submittable-23577245",
+      "status": "active",
+      "date_added": "2026-09-17",
+      "scraped": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "location_display": "Remote (VT)",
+      "location_city": ""
     }
   ]
 }
