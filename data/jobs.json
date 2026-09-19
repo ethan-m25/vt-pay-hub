@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 658,
-    "active": 147,
-    "new_today": 8,
+    "count": 659,
+    "active": 148,
+    "new_today": 6,
     "links_newly_archived": 0,
-    "updated": "2026-09-18T05:43:37Z",
+    "updated": "2026-09-19T05:58:40Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -22059,6 +22059,32 @@
       "last_seen": "2026-09-18",
       "location_display": "Remote (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Fixture & Capital Projects Specialist",
+      "company": "Burlington Procurement Company",
+      "min": 50000,
+      "max": 65000,
+      "location": "Burlington, VT",
+      "source_url": "https://burlington.wd5.myworkdayjobs.com/en-US/BurlingtonCareers/job/00000---Burlington-Corporate-Office/Fixture---Capital-Projects-Specialist_R104606",
+      "posted": "2026-09-19",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 15000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "fixture---capital-pr-burlington-proc-97520026",
+      "status": "active",
+      "date_added": "2026-09-19",
+      "scraped": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Burlington, VT",
+      "location_city": "Burlington"
     }
   ]
 }
