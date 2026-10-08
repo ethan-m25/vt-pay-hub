@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 729,
-    "active": 201,
+    "count": 730,
+    "active": 202,
     "new_today": 10,
     "links_newly_archived": 0,
-    "updated": "2026-10-07T06:06:44Z",
+    "updated": "2026-10-08T05:53:11Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -23830,6 +23830,33 @@
       "last_seen": "2026-10-07",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Director, Legal",
+      "company": "Submittable",
+      "min": 180000,
+      "max": 225000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6219487004",
+      "posted": "2026-10-07",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 45000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Legal",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "director--legal-submittable-38791544",
+      "status": "active",
+      "date_added": "2026-10-08",
+      "scraped": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "location_display": "Remote (VT)",
+      "location_city": ""
     }
   ]
 }
