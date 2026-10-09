@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 730,
-    "active": 202,
+    "count": 731,
+    "active": 203,
     "new_today": 10,
     "links_newly_archived": 0,
-    "updated": "2026-10-08T05:53:11Z",
+    "updated": "2026-10-09T06:07:17Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -23857,6 +23857,33 @@
       "last_seen": "2026-10-08",
       "location_display": "Remote (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Field Sales Consultant - Vermont",
+      "company": "Renuity",
+      "min": 125000,
+      "max": 250000,
+      "location": "Burlington, VT",
+      "source_url": "https://jobs.ashbyhq.com/renuity/4b8bfb67-de4f-4992-b22a-de22b5ce5b8d",
+      "posted": "2026-10-09",
+      "source_platform": "ashby",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 125000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Sales",
+      "work_mode": "onsite",
+      "salary_type": "annual",
+      "id": "field-sales-consulta-renuity-26037141",
+      "status": "active",
+      "date_added": "2026-10-09",
+      "scraped": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "location_display": "Burlington, VT",
+      "location_city": "Burlington"
     }
   ]
 }
