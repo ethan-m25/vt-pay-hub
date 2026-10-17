@@ -2,9 +2,9 @@
   "meta": {
     "count": 735,
     "active": 201,
-    "new_today": 13,
+    "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-10-16T06:59:58Z",
+    "updated": "2026-10-17T06:57:18Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -24055,6 +24055,33 @@
       "last_seen": "2026-10-16",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Start your ABA practice with Finni! (BCBAs)",
+      "company": "Finni Health",
+      "min": 90000,
+      "max": 200000,
+      "location": "Remote (Vermont)",
+      "source_url": "https://jobs.ashbyhq.com/finni-health/937511ed-652b-4bf4-8d98-b94beb889a7a",
+      "posted": "2026-10-17",
+      "source_platform": "ashby",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 110000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "start-your-aba-pract-finni-health-20238063",
+      "status": "active",
+      "date_added": "2026-10-17",
+      "scraped": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "location_display": "Remote (VT)",
+      "location_city": ""
     }
   ]
 }
