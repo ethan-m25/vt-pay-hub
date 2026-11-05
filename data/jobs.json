@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 815,
-    "active": 256,
+    "count": 816,
+    "active": 257,
     "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-04T07:51:47Z",
+    "updated": "2026-11-05T07:05:46Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26196,6 +26196,33 @@
       "last_seen": "2026-11-04",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Sales Development Representative",
+      "company": "Submittable",
+      "min": 70000,
+      "max": 90000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6247169004",
+      "posted": "2026-11-04",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 20000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Sales",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "sales-development-re-submittable-62346484",
+      "status": "active",
+      "date_added": "2026-11-05",
+      "scraped": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "location_display": "Remote (VT)",
+      "location_city": ""
     }
   ]
 }
