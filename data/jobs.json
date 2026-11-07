@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 816,
-    "active": 257,
-    "new_today": 6,
+    "count": 817,
+    "active": 258,
+    "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-06T07:05:41Z",
+    "updated": "2026-11-07T06:57:17Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26223,6 +26223,33 @@
       "last_seen": "2026-11-05",
       "location_display": "Remote (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Warehouse Operations Manager",
+      "company": "Submittable",
+      "min": 60000,
+      "max": 80000,
+      "location": "Burlington, Vt, VT",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6251940004",
+      "posted": "2026-11-06",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 20000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Operations",
+      "work_mode": "onsite",
+      "salary_type": "annual",
+      "id": "warehouse-operations-submittable-34637286",
+      "status": "active",
+      "date_added": "2026-11-07",
+      "scraped": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "location_display": "Burlington, VT",
+      "location_city": "Burlington"
     }
   ]
 }
