@@ -1,10 +1,10 @@
 {
   "meta": {
     "count": 817,
-    "active": 258,
+    "active": 256,
     "new_today": 6,
     "links_newly_archived": 0,
-    "updated": "2026-11-08T06:50:03Z",
+    "updated": "2026-11-09T06:54:00Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -21713,12 +21713,14 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "senior-software-engi-magnals-83948813",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-09-05",
       "scraped": "2026-09-05",
       "last_seen": "2026-10-25",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "archived_date": "2026-11-08",
+      "archived_reason": "deadlink_diff_v1"
     },
     {
       "role": "Senior Software Engineer, Records",
@@ -26086,12 +26088,14 @@
       "work_mode": "hybrid",
       "salary_type": "annual",
       "id": "director-of-supplier-vipvermontinfor-95071315",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-11-03",
       "scraped": "2026-11-03",
       "last_seen": "2026-11-03",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "archived_date": "2026-11-08",
+      "archived_reason": "deadlink_diff_v1"
     },
     {
       "role": "Graphics Production & Procurement Specialist",
