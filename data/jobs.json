@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 819,
-    "active": 258,
-    "new_today": 8,
+    "count": 820,
+    "active": 259,
+    "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-10T06:56:32Z",
+    "updated": "2026-11-11T06:52:39Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26307,6 +26307,33 @@
       "last_seen": "2026-11-10",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Senior DevSecOps",
+      "company": "Vipvermontinformationprocessing2",
+      "min": 170000,
+      "max": 200000,
+      "location": "Vermont, VT",
+      "source_url": "https://job-boards.greenhouse.io/vipvermontinformationprocessing2/jobs/5232712007",
+      "posted": "2026-11-10",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 30000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "onsite",
+      "salary_type": "annual",
+      "id": "senior-devsecops-vipvermontinfor-79959848",
+      "status": "active",
+      "date_added": "2026-11-11",
+      "scraped": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "location_display": "Statewide (VT)",
+      "location_city": ""
     }
   ]
 }
