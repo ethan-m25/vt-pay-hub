@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 820,
-    "active": 259,
+    "count": 821,
+    "active": 260,
     "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-11T06:52:39Z",
+    "updated": "2026-11-12T06:48:32Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26333,6 +26333,33 @@
       "scraped": "2026-11-11",
       "last_seen": "2026-11-11",
       "location_display": "Statewide (VT)",
+      "location_city": ""
+    },
+    {
+      "role": "Mid-Market Account Executive",
+      "company": "Submittable",
+      "min": 136000,
+      "max": 160000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6255585004",
+      "posted": "2026-11-11",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 24000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "mid-market-account-e-submittable-66112202",
+      "status": "active",
+      "date_added": "2026-11-12",
+      "scraped": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "location_display": "Remote (VT)",
       "location_city": ""
     }
   ]
