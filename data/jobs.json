@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 821,
-    "active": 260,
-    "new_today": 6,
-    "links_newly_archived": 0,
-    "updated": "2026-11-13T06:53:26Z",
+    "count": 822,
+    "active": 231,
+    "new_today": 7,
+    "links_newly_archived": 30,
+    "updated": "2026-11-14T05:31:49Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -11125,7 +11125,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "associate-maintenanc-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11138,7 +11138,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Sr. Technician Global Parts Solutions",
@@ -11159,7 +11160,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "sr--technician-globa-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11172,7 +11173,8 @@
       "category_provisional": false,
       "category_title": "Operations",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Quantum Advanced Packaging Manager",
@@ -11193,7 +11195,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "quantum-advanced-pac-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11206,7 +11208,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Management"
+      "category_legacy": "Management",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Electrician Technician Facilities - Medium to High Voltage",
@@ -11227,7 +11230,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "electrician-technici-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11240,7 +11243,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principle Product Test Development Engineer",
@@ -11261,7 +11265,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "principle-product-te-mips-holding-in-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11274,7 +11278,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Electronics Repair Technician",
@@ -11295,7 +11300,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-electronics-r-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11308,7 +11313,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Sr. Technician - Microelectronics Failure Analysis",
@@ -11329,7 +11335,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "sr--technician---mic-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11342,7 +11348,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Sr. Technician - Failure Analysis (Microelectronics)",
@@ -11363,7 +11370,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "sr--technician---fai-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11376,7 +11383,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Staff Technician Equipment Engineering",
@@ -11397,7 +11405,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "staff-technician-equ-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11410,7 +11418,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Staff Equipment Technician - Photolithography (Nights)",
@@ -11431,7 +11440,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "staff-equipment-tech-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11444,7 +11453,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Fab 9 Technology Development GaN Epitaxial Engineer",
@@ -11465,7 +11475,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "fab-9-technology-dev-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11478,7 +11488,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Technician - Emergency Response Team (N1 Shift)",
@@ -11499,7 +11510,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "technician---emergen-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11512,7 +11523,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Experienced RF GaN Technology Development SMTS Process Integration Engineer",
@@ -11533,7 +11545,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "experienced-rf-gan-t-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11546,7 +11558,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principal Equipment Engineering Technician",
@@ -11567,7 +11580,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "principal-equipment--gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11580,7 +11593,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Staff Equipment Engineering Technician (Day and Nights)",
@@ -11601,7 +11615,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "staff-equipment-engi-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11614,7 +11628,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Equipment Engineering Technician (Days and Nights)",
@@ -11635,7 +11650,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-equipment-eng-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11648,7 +11663,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principal Equipment Engineer - Reactive Ion Etch",
@@ -11669,7 +11685,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "principal-equipment--gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11681,7 +11697,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Equipment Technician - Photolithography (Days)",
@@ -11702,7 +11719,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-equipment-tec-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11715,7 +11732,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principal Etch and PVD Equipment Technician (Days)",
@@ -11736,7 +11754,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "principal-etch-and-p-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11749,7 +11767,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Technician Etch/PVD Equipment Engineering (Nights)",
@@ -11804,7 +11823,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "principal-technician-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11817,7 +11836,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Technician Diffusion Equipment Engineering (Days)",
@@ -11838,7 +11858,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-technician-di-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11851,7 +11871,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Maintenance Technician - Photolithography (Nights)",
@@ -11872,7 +11893,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-maintenance-t-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11885,7 +11906,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principal Equipment Technician - Photolithography (Nights)",
@@ -11906,7 +11928,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "principal-equipment--gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11919,7 +11941,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Senior Technician CVD Equipment Engineering (Nights)",
@@ -11940,7 +11963,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-technician-cv-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11953,7 +11976,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Surface Prep - Principal Technician Equipment Engineering",
@@ -11974,7 +11998,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "surface-prep---princ-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -11987,7 +12011,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "haiku-4-5|codex-v1.0|adj",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Technician Facilities - Central Utility Plant (3rd or 2nd Shift)",
@@ -12008,7 +12033,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "technician-facilitie-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -12021,7 +12046,8 @@
       "category_provisional": false,
       "category_title": "Skilled Trades & Field",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Other"
+      "category_legacy": "Other",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "SMTS - 3D Heterogenous integration Engineer - 2.5D interposer/bridge/DTC",
@@ -12042,7 +12068,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "smts---3d-heterogeno-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -12055,7 +12081,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Advanced Packaging Process Integration Engineer",
@@ -12137,7 +12164,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "sr--equipment-engine-gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -12150,7 +12177,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "Principal Engineer - Integration Engineering",
@@ -12171,7 +12199,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "principal-engineer---gf-us2-llc-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -12184,7 +12212,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "RF Technology Development Engineer - SMTS",
@@ -12205,7 +12234,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "rf-technology-develo-globalfoundries-53821393",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-05-29",
       "scraped": "2026-05-29",
       "last_seen": "2026-10-25",
@@ -12218,7 +12247,8 @@
       "category_provisional": false,
       "category_title": "Engineering",
       "classifier_version": "gemma4:12b|codex-v1.0|p2",
-      "category_legacy": "Engineering"
+      "category_legacy": "Engineering",
+      "archived_date": "2026-11-14"
     },
     {
       "role": "RF Technology Development Engineer – Principal Engineer",
@@ -26359,6 +26389,33 @@
       "date_added": "2026-11-12",
       "scraped": "2026-11-12",
       "last_seen": "2026-11-12",
+      "location_display": "Remote (VT)",
+      "location_city": ""
+    },
+    {
+      "role": "Enterprise Account Executive - State Government",
+      "company": "Submittable",
+      "min": 170000,
+      "max": 240000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/submittable/jobs/6261979004",
+      "posted": "2026-11-13",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 70000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "enterprise-account-e-submittable-34309041",
+      "status": "active",
+      "date_added": "2026-11-14",
+      "scraped": "2026-11-14",
+      "last_seen": "2026-11-14",
       "location_display": "Remote (VT)",
       "location_city": ""
     }
