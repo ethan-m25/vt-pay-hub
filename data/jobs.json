@@ -1,10 +1,10 @@
 {
   "meta": {
     "count": 822,
-    "active": 231,
-    "new_today": 7,
-    "links_newly_archived": 30,
-    "updated": "2026-11-14T05:31:49Z",
+    "active": 230,
+    "new_today": 6,
+    "links_newly_archived": 1,
+    "updated": "2026-11-15T06:50:57Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -14579,7 +14579,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "enterprise-account-e-asana-35766796",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-06-18",
       "scraped": "2026-06-18",
       "last_seen": "2026-11-01",
@@ -14590,7 +14590,8 @@
       "category_confidence": "high",
       "category_provisional": false,
       "category_title": "Sales & Mktg",
-      "classifier_version": "gemma4:12b|codex-v1.0|p2"
+      "classifier_version": "gemma4:12b|codex-v1.0|p2",
+      "archived_date": "2026-11-15"
     },
     {
       "role": "Commercial Account Executive, Acquisition | East | Remote",
