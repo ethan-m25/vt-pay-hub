@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 829,
-    "active": 232,
+    "count": 831,
+    "active": 234,
     "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-20T06:47:22Z",
+    "updated": "2026-11-21T06:46:41Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26634,6 +26634,32 @@
       "last_seen": "2026-11-20",
       "location_display": "Remote (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Facilities Specialist I, Territory",
+      "company": "Burlington Coat Factory Whse. Corp.",
+      "min": 50000,
+      "max": 65000,
+      "location": "Burlington, VT",
+      "source_url": "https://burlington.wd5.myworkdayjobs.com/en-US/BurlingtonCareers/job/00000---Burlington-Corporate-Office/Facilities-Specialist-I--Territory_R105246-1",
+      "posted": "2026-11-21",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 15000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Other",
+      "work_mode": "hybrid",
+      "salary_type": "annual",
+      "id": "facilities-specialis-burlington-coat-43601401",
+      "status": "active",
+      "date_added": "2026-11-21",
+      "scraped": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "location_display": "Burlington, VT",
+      "location_city": "Burlington"
     }
   ]
 }
