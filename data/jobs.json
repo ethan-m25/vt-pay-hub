@@ -1,10 +1,10 @@
 {
   "meta": {
     "count": 831,
-    "active": 234,
+    "active": 228,
     "new_today": 6,
     "links_newly_archived": 0,
-    "updated": "2026-11-22T06:38:43Z",
+    "updated": "2026-11-23T06:49:08Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -17465,7 +17465,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "software-engineer--a-vanta-35766796",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-06-18",
       "scraped": "2026-06-18",
       "last_seen": "2026-11-15",
@@ -17476,7 +17476,9 @@
       "category_confidence": "high",
       "category_provisional": false,
       "category_title": null,
-      "classifier_version": "gemma4:12b|codex-v1.0|p2"
+      "classifier_version": "gemma4:12b|codex-v1.0|p2",
+      "archived_date": "2026-11-22",
+      "archived_reason": "deadlink_diff_v1"
     },
     {
       "role": "Sr. Growth Marketing Campaigns Manager",
@@ -21292,12 +21294,14 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "remote-advanced-prac-proterahealth-11546839",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-09-03",
       "scraped": "2026-09-03",
       "last_seen": "2026-11-15",
       "location_display": "Statewide (VT)",
-      "location_city": ""
+      "location_city": "",
+      "archived_date": "2026-11-22",
+      "archived_reason": "deadlink_diff_v1"
     },
     {
       "role": "1099 Master Plumber",
@@ -21520,12 +21524,14 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "payroll-manager-finni-health-98438486",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-09-04",
       "scraped": "2026-09-04",
       "last_seen": "2026-11-15",
       "location_display": "Remote (VT)",
-      "location_city": ""
+      "location_city": "",
+      "archived_date": "2026-11-22",
+      "archived_reason": "deadlink_diff_v1"
     },
     {
       "role": "Senior Manager, Practice Operations",
@@ -26309,7 +26315,7 @@
       "status": "active",
       "date_added": "2026-11-10",
       "scraped": "2026-11-10",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-22",
       "location_display": "Remote (VT)",
       "location_city": ""
     },
@@ -26335,7 +26341,7 @@
       "status": "active",
       "date_added": "2026-11-10",
       "scraped": "2026-11-10",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-22",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
     },
@@ -26359,7 +26365,7 @@
       "work_mode": "onsite",
       "salary_type": "annual",
       "id": "senior-devsecops-vipvermontinfor-79959848",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-11-11",
       "scraped": "2026-11-11",
       "last_seen": "2026-11-11",
@@ -26386,7 +26392,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "mid-market-account-e-submittable-66112202",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-11-12",
       "scraped": "2026-11-12",
       "last_seen": "2026-11-12",
@@ -26413,7 +26419,7 @@
       "work_mode": "remote",
       "salary_type": "annual",
       "id": "enterprise-account-e-submittable-34309041",
-      "status": "active",
+      "status": "archived",
       "date_added": "2026-11-14",
       "scraped": "2026-11-14",
       "last_seen": "2026-11-14",
