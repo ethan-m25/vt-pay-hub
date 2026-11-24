@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 831,
-    "active": 228,
-    "new_today": 6,
+    "count": 832,
+    "active": 229,
+    "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-23T06:49:08Z",
+    "updated": "2026-11-24T06:42:33Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26666,6 +26666,33 @@
       "last_seen": "2026-11-21",
       "location_display": "Burlington, VT",
       "location_city": "Burlington"
+    },
+    {
+      "role": "Senior Software Engineer, Back-end (Fraud)",
+      "company": "Affirm",
+      "min": 32000,
+      "max": 48000,
+      "location": "Remote (VT)",
+      "source_url": "https://job-boards.greenhouse.io/affirm/jobs/8201459003",
+      "posted": "2026-11-23",
+      "source_platform": "greenhouse",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 16000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Engineering",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "senior-software-engi-affirm-02553455",
+      "status": "active",
+      "date_added": "2026-11-24",
+      "scraped": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "location_display": "Remote (VT)",
+      "location_city": ""
     }
   ]
 }
