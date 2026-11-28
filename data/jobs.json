@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 834,
-    "active": 231,
-    "new_today": 6,
+    "count": 835,
+    "active": 232,
+    "new_today": 7,
     "links_newly_archived": 0,
-    "updated": "2026-11-27T06:43:50Z",
+    "updated": "2026-11-28T06:37:04Z",
     "state": "Vermont",
     "law": "⚖️ VT Act 97 / S.296 (2025)",
     "currency": "USD",
@@ -26746,6 +26746,32 @@
       "last_seen": "2026-11-26",
       "location_display": "Statewide (VT)",
       "location_city": ""
+    },
+    {
+      "role": "Procurement Sourcing Analyst",
+      "company": "Burlington Procurement Company",
+      "min": 50000,
+      "max": 65000,
+      "location": "Burlington, VT",
+      "source_url": "https://burlington.wd5.myworkdayjobs.com/en-US/BurlingtonCareers/job/00000---Burlington-Corporate-Office/Procurement-Sourcing-Analyst_R105359",
+      "posted": "2026-11-28",
+      "currency": "USD",
+      "region": "VT",
+      "_width": 15000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Data & Analytics",
+      "work_mode": "hybrid",
+      "salary_type": "annual",
+      "id": "procurement-sourcing-burlington-proc-47824514",
+      "status": "active",
+      "date_added": "2026-11-28",
+      "scraped": "2026-11-28",
+      "last_seen": "2026-11-28",
+      "location_display": "Burlington, VT",
+      "location_city": "Burlington"
     }
   ]
 }
